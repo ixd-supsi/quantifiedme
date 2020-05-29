@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>data visualization Giorgia</title>
+	
+
+
+	<style type="text/css">
+
+
+	body{
+		width: 1200px;
+		height: 1280px;
+		font-family: Helvetica, sans-serif;
+		margin-left: 70px;
+		margin-top:70px;
+
+	
+	}
+
+
+	object {
+			width: 84%;	
+			float:left;
+			position: relative;
+			padding-right: 46px;
+
+		}
+
+	
+	
+
+
+
+
+		
+.intestazione {
+width: 1290px;
+height: 170px;
+border-bottom: solid #525252 1px;
+
+
+}
+
+	.titolo{
+	font-weight: bolder;
+	font-size: 23px;
+	line-height: 125%;
+	width: 30%;
+	float: left;
+	padding-top: 15px;
+	}
+
+	.intro {
+	font-size: 17px;
+	line-height: 125%;
+	width: 40%;
+	float: left;
+	padding-top: 15px;
+
+	}
+
+
+
+.contenitore {
+	width: 1290px;
+	height: 940px;
+	border-bottom: solid #525252 1px;
+	padding-top: 6px;
+
+
+}
+
+.legenda{		
+
+	float:left; 
+	position: absolute;
+	width: 10%;
+
+
+}
+
+.dot {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+.Gruppi {
+	font-size: 13px;
+	height: 87px;
+	padding-top: 70px;
+
+}
+
+.Gruppifinali {
+	font-size: 13px;
+	height: 65px;
+	padding-top: 70px;
+
+}
+
+#indesign:hover {
+		cursor: pointer;
+		color: #df499b;
+
+		}
+
+	#photoshop:hover {
+		cursor: pointer;
+		color: #5baed9;
+		}
+
+
+	#illustrator:hover {
+		cursor: pointer;
+		color: #f5ad4c;
+		}
+
+
+	#sublimetext:hover {
+		cursor: pointer;
+		color: #EDCA2F;
+
+		}
+
+	#terminale:hover {
+		cursor: pointer;
+		color: #7046B8;
+		}
+
+	#safari:hover {
+		cursor: pointer;
+		color: #5ECAD1;
+		}
+
+
+	#chrome:hover {
+		cursor: pointer;
+		color: #D15243;
+
+		}
+
+	#firefox:hover {
+		cursor: pointer;
+		color: #B543D1;
+		}
+
+
+	#microsoftteams:hover {
+		cursor: pointer;
+		color: #6154BF;
+
+		}
+
+	#zoom:hover {
+		cursor: pointer;
+		color: #4997EB;
+		}
+
+	#slack:hover {
+		cursor: pointer;
+		color: #57B352;
+		}
+
+
+	#skype:hover {
+		cursor: pointer;
+		color: #7CBFB0;
+
+		}
+
+	#finder:hover {
+		cursor: pointer;
+		color: #F27858;
+		}
+
+	#tapper:hover {
+		cursor: pointer;
+		color: #BF3DE3;
+
+		}
+
+	#preferenzedisistema:hover {
+		cursor: pointer;
+		color: #808080;
+		}
+
+	#mail:hover {
+		cursor: pointer;
+		color: #87C95A;
+		}
+
+
+	#librofont:hover {
+		cursor: pointer;
+		color: #FF0000;
+
+		}
+
+	#cisco:hover {
+		cursor: pointer;
+		color: blue;
+		}
+
+
+
+
+
+</style>
+
+</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+// $(document).ready(function(){
+// 	console.log("prova")
+//   $("#Indesign").hover(function(){
+  	
+//     $(".Photoshop,.Illustrator").css("opacity", "0");
+//     }, function(){
+//     $(".Indesign").css("opacity", "1");
+//   });
+// });
+</script>
+
+</head>
+
+
+
+<body>
+
+<div class=intestazione>
+	
+
+	<div class=titolo>
+	Frequenza di accessi <br>
+	da giovedi 27 febbraio <br>
+	a giovedi 9 aprile
+	</div>
+
+	<div class=intro> La seguente data visualization <br>
+	rappresenta la quantita giornaliera <br>
+	di accessi per applicazione <br>
+	nell'arco di 5 settimane.</div>
+
+</div>
+
+<div class="fix"></div>
+
+
+
+
+<div class=contenitore>
+
+
+	<object type="image/svg+xml" data="dati_grafico_aggiornato.svg" id="dataviz"></object>
+
+	<script type="text/javascript">
+
+		window.addEventListener("load", function(){
+			const svg = $("object")[0].contentDocument.documentElement;
+			// console.log(svg);
+
+			// Programmi Adobe
+			$("#indesign")
+				.mousedown(function(){
+					svg.querySelectorAll(".Photoshop, .Illustrator").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Indesign, .Photoshop, .Illustrator").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#photoshop")
+				.mousedown(function(){
+					svg.querySelectorAll(".Indesign, .Illustrator").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+					// console.log("test")
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Indesign, .Photoshop, .Illustrator").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#illustrator")
+				.mousedown(function(){
+					svg.querySelectorAll(".Photoshop, .Indesign").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Indesign, .Photoshop, .Illustrator").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			// sviluppo web
+			$("#sublimetext")
+				.mousedown(function(){
+					svg.querySelectorAll(".Terminale").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Sublimetext, .Terminale").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			$("#terminale")
+				.mousedown(function(){
+					svg.querySelectorAll(".Sublimetext").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Sublimetext, .Terminale").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			// web
+			$("#safari")
+				.mousedown(function(){
+					svg.querySelectorAll(".Firefox, .Chrome").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Safari, .Firefox, .Chrome").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#firefox")
+				.mousedown(function(){
+					svg.querySelectorAll(".Safari, .Chrome").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+					// console.log("test")
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Safari, .Firefox, .Chrome").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#chrome")
+				.mousedown(function(){
+					svg.querySelectorAll(".Safari, .Firefox").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Safari, .Firefox, .Chrome").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			// app smartworking
+			$("#microsoftteams")
+				.mousedown(function(){
+					svg.querySelectorAll(".Zoom, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#zoom")
+				.mousedown(function(){
+					svg.querySelectorAll(".Microsoftteams, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+					// console.log("test")
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#slack")
+				.mousedown(function(){
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Skype").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			$("#skype")
+				.mousedown(function(){
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Slack").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Microsoftteams, .Zoom, .Slack, .Skype").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			// tools
+			$("#finder")
+				.mousedown(function(){
+					svg.querySelectorAll(".Tapper, .Preferenzedisistema").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Finder, .Tapper, .Preferenzedisistema").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#tapper")
+				.mousedown(function(){
+					svg.querySelectorAll(".Finder, .Preferenzedisistema").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+					// console.log("test")
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Finder, .Tapper, .Preferenzedisistema").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#preferenzedisistema")
+				.mousedown(function(){
+					svg.querySelectorAll(".Finder, .Tapper").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Finder, .Tapper, .Preferenzedisistema").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+
+			// utility
+			$("#mail")
+				.mousedown(function(){
+					svg.querySelectorAll(".Librofont, .Cisco").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Mail, .Librofont, .Cisco").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#librofont")
+				.mousedown(function(){
+					svg.querySelectorAll(".Mail, .Cisco").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+					// console.log("test")
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Mail, .Librofont, .Cisco").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+
+			$("#cisco")
+				.mousedown(function(){
+					svg.querySelectorAll(".Mail, .Librofont").forEach(function(el){
+						el.style.opacity = 0.25
+					})
+				})
+				.mouseup(function() {
+					svg.querySelectorAll(".Mail, .Librofont, .Cisco").forEach(function(el){
+						el.style.opacity = 1
+					})
+				});
+				
+
+
+
+
+
+
+
+
+			
+
+
+
+		});
+
+		// window.addEventListener("load", function(){
+		// 	const svg = document.querySelector("object").contentDocument;
+
+		// 	document.addEventListener('keydown', function(e){
+		// 		if (e.key == '1'){
+		// 			svg.querySelectorAll(".Indesign").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+		// 		} else if (e.key == '2'){
+		// 			svg.querySelectorAll(".Photoshop").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+		// 		} else if (e.key == '3'){
+		// 			svg.querySelectorAll(".Illustrator").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+		// 		} else if (e.key == '4'){
+		// 			svg.querySelectorAll(".Sublimetext").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+				
+		// 		} else if (e.key == '5'){
+		// 			svg.querySelectorAll(".Terminale").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == '6'){
+		// 			svg.querySelectorAll(".Safari").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == '7'){
+		// 			svg.querySelectorAll(".Chrome").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == '8'){
+		// 			svg.querySelectorAll(".Firefox").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'q'){
+		// 			svg.querySelectorAll(".Microsoftteams").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'w'){
+		// 			svg.querySelectorAll(".Zoom").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'e'){
+		// 			svg.querySelectorAll(".Slack").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'r'){
+		// 			svg.querySelectorAll(".Skype").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 't'){
+		// 			svg.querySelectorAll(".Finder").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'z'){
+		// 			svg.querySelectorAll(".Tapper").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'u'){
+		// 			svg.querySelectorAll(".Preferenzedisistema").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'i'){
+		// 			svg.querySelectorAll(".Mail").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'o'){
+		// 			svg.querySelectorAll(".Librofont").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		} else if (e.key == 'p'){
+		// 			svg.querySelectorAll(".Cisco").forEach(function(el){
+		// 				el.style.display = el.style.display == "none" ? "" : "none"
+		// 			})
+
+
+		// 		}
+
+		// 	})
+		// })
+
+	</script>
+
+
+
+<div class=Legenda>
+	
+
+<div class="Gruppi"><strong>Programmi Adobe</strong>
+	
+	<div id="indesign" style="height: 18px; padding-top: 10px;">
+	 	<span class="dot" style="background-color: #df499b"></span>
+	 	Indesign
+	</div>
+
+	<div id="photoshop" style="height: 18px;">
+	 	<span class="dot" style="background-color: #5baed9"></span>
+	 	Photoshop
+	</div>
+
+	<div id="illustrator" style="height: 18px;">
+	 	<span class="dot" style="background-color: #f5ad4c"></span>
+	 	Illustrator
+	</div>
+</div>
+
+
+<div class="Gruppi"><strong>Sviluppo web</strong>
+	
+	<div id="sublimetext" style="height: 18px;padding-top: 10px;">
+	 	<span class="dot" style="background-color: #edca2f"></span>
+	 	Sublime text
+	</div>
+
+	<div id="terminale" style="height: 18px;padding-bottom: 100px;">
+	 	<span class="dot" style="background-color: #7046b8"></span>
+	 	Terminale
+	</div>
+</div>
+
+<div class="Gruppi"><strong>Web</strong>
+	
+<div id="safari" style="height: 18px; padding-top: 10px">
+	 	<span class="dot" style="background-color: #5ecad1"></span>
+	 	Safari
+	</div>
+
+	<div id="chrome" style="height: 18px;">
+	 	<span class="dot" style="background-color: #d15243"></span>
+	 	Chrome
+	</div>
+
+	<div id="firefox" style="height: 18px;">
+	 	<span class="dot" style="background-color: #b543d1"></span>
+	 	Firefox
+	</div>
+</div>
+
+<div class="Gruppifinali"><strong>App Smartworking</strong>
+	
+	<div id="microsoftteams" style="height: 18px;padding-top: 10px">
+	 	<span class="dot" style="background-color: #6154bf"></span>
+	 	Microsoft Teams
+	</div>
+
+	<div id="zoom" style="height: 18px;">
+	 	<span class="dot" style="background-color: #5baed9"></span>
+	 	Zoom.us
+	</div>
+
+	<div id="slack" style="height: 18px;">
+	 	<span class="dot" style="background-color: #57b352"></span>
+	 	Slack
+	</div>
+
+	<div id="skype" style="height: 18px;">
+	 	<span class="dot" style="background-color: #7cbfb0"></span>
+	 	Skype
+	</div>
+</div>
+
+<div class="Gruppifinali"><strong>Tools</strong>
+	
+	<div id="finder" style="height: 18px;padding-top: 10px">
+	 	<span class="dot" style="background-color: #f27858;"></span>
+	 	Finder
+	</div>
+
+	<div id="tapper" style="height: 18px;">
+	 	<span class="dot" style="background-color: #bf3de3"></span>
+	 	Tapper
+	</div>
+
+	<div id="preferenzedisistema" style="height: 18px;">
+	 	<span class="dot" style="background-color: grey"></span>
+	 	Preferenze di sistema
+	</div>
+</div>
+
+<div class="Gruppifinali"><strong>Utility</strong>
+	
+	<div id="mail" style="height: 18px;padding-top: 10px">
+	 	<span class="dot" style="background-color: #87c95a"></span>
+	 	Mail
+	</div>
+
+	<div id="librofont" style="height: 18px">
+	 	<span class="dot" style="background-color: red"></span>
+	 	Libro font
+	</div>
+
+	<div id="cisco" style="height: 18px">
+	 	<span class="dot" style="background-color: blue"></span>
+	 	Cisco
+	</div>
+</div>
+</div>
+
+<script src="../common/common.js" type="module"></script>
+
+</body>
+</html>
