@@ -9,13 +9,18 @@
 
 window.addEventListener("load", run)
 
+// Globali... possibile modifcarle
+window.COMMENTO_BG_COLOR = "black"
+window.COMMENTO_FG_COLOR = "white"
+
 function run() {
+
 
     // --- Output --------------------------------------------------------------
 
     const mini_audio = document.createElement("div")
     mini_audio.style.cssText = `
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 2em;
         z-index: 1000;
@@ -89,13 +94,15 @@ function run() {
 
     const ctx = canvas.getContext('2d')
     const w = 128
-    const h = 48
+    const h = 32
     canvas.width = w
     canvas.height = h
+    canvas.style.width = w + "px";
+    canvas.style.height = h + "px";
 
-    ctx.fillStyle   = 'black'
+    ctx.fillStyle   = window.COMMENTO_BG_COLOR
     ctx.fillRect(0, 0, w, h)
-    ctx.strokeStyle = 'white'
+    ctx.strokeStyle = window.COMMENTO_FG_COLOR
     ctx.lineWidth   = 1
     ctx.beginPath()
     ctx.moveTo(0, h/2)
@@ -109,7 +116,7 @@ function run() {
         analyser.getByteTimeDomainData(buffer_data)
 
         //ctx.clearRect(0, 0, w, h)
-        ctx.fillStyle   = 'black'
+        ctx.fillStyle = window.COMMENTO_BG_COLOR
         ctx.fillRect(0, 0, w, h)
         ctx.beginPath()
         for (let i=0; i<=buffer_data.length; i++){
@@ -122,7 +129,7 @@ function run() {
         const idx = Math.floor(sound.currentTime / sound.duration * (w-1)) || 0
         const y = (buffer_data[idx]-128) / 128.0 * h*2 + h/2 + 0.5
         ctx.beginPath()
-        ctx.fillStyle   = 'white'
+        ctx.fillStyle = window.COMMENTO_FG_COLOR
         ctx.ellipse(idx+rad, y, rad, rad, 0, 0, Math.PI * 2, false)
         ctx.fill()
     }
