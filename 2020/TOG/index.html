@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>data visualization Giorgia</title>
+
+<title>Le abitudini digitali di Giorgia</title>
 	
 
 
-	<style type="text/css">
+<style type="text/css">
 
 
 	body{
@@ -15,8 +16,6 @@
 		margin-left: 60px;
 		margin-right: 60px;
 		margin-top:60px;
-
-	
 	}
 
 
@@ -24,9 +23,8 @@
 			width: 84%;	
 			float:left;
 			position: relative;
-			padding-right: 40px;
-
-		}
+			padding-right: 35px;
+	}
 
 	
 	
@@ -35,12 +33,11 @@
 
 
 		
-.intestazione {
-height: 220px;
-border-bottom: solid #525252 1px;
+	.intestazione {
+	height: 220px;
+	border-bottom: solid grey 1px;
+	}
 
-
-}
 
 	.titolo{
 	font-size: 34px;
@@ -55,59 +52,51 @@ border-bottom: solid #525252 1px;
 	font-size: 18px;
 	line-height: 125%;
 	padding-top: 15px;
-
-
 	}
 
 
 
-.contenitore {
+	.contenitore {
 	height: 1000px;
 	padding-top: 6px;
+	}
 
-
-}
-
-.legenda{		
+	.legenda{		
 
 	width: 20%;
 	position: relative;
+	}
 
 
-}
-
-.dot {
-  height: 8px;
-  width: 8px;
-  border-radius: 50%;
-  display: inline-block;
-}
+	.dot {
+ 	 height: 8px;
+ 	 width: 8px;
+ 	 border-radius: 50%;
+ 	 display: inline-block;
+	}
 
 
-.Gruppi {
+	.Gruppi {
 	font-size: 13px;
 	height: 100px;
 	width: 150px;
 	float: left;
 	padding-top: 38px;
 	padding-bottom: 15px;
+	}
 
-}
 
-.Gruppifinali {
+	.Gruppifinali {
 	font-size: 13px;
 	position: block;
 	height: 100px;
 	float: left;
 	padding-top: 38px;
-		width: 150px;
+	width: 150px;
+	}
 
 
-
-
-}
-
-#indesign:hover {
+	#indesign:hover {
 		cursor: pointer;
 		color: #df499b;
 
@@ -210,26 +199,11 @@ border-bottom: solid #525252 1px;
 		color: blue;
 		}
 
-
-
-
-
 </style>
 
-</style>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script>
-// $(document).ready(function(){
-// 	console.log("prova")
-//   $("#Indesign").hover(function(){
-  	
-//     $(".Photoshop,.Illustrator").css("opacity", "0");
-//     }, function(){
-//     $(".Indesign").css("opacity", "1");
-//   });
-// });
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -237,22 +211,22 @@ border-bottom: solid #525252 1px;
 
 <body>
 
-<div class=intestazione>
+	<div class=intestazione>
 	
 
-	<div class=titolo>
-	Le abitudini digitali di Giorgia
+		<div class=titolo>
+		Le abitudini digitali di Giorgia
+		</div>
+
+
+		<div class=intro> Il grafico rappresenta la quantità giornaliera<br>
+		di accessi per applicazione nell'arco di 5 settimane,<br> 
+		da giovedì 27 febbraio a giovedì 9 aprile 2020.	
+		</div>
+
 	</div>
 
-
-	<div class=intro> Il grafico rappresenta la quantità giornaliera<br>  di accessi per applicazione nell'arco di 5 settimane,<br> da giovedì 27 febbraio a giovedì 9 aprile 2020.	
-</div>
-
-</div>
-
 <div class="fix"></div>
-
-
 
 
 <div class=contenitore>
@@ -260,7 +234,7 @@ border-bottom: solid #525252 1px;
 
 	<object type="image/svg+xml" data="dati_grafico_aggiornato.svg" id="dataviz"></object>
 
-	<script type="text/javascript">
+		<script type="text/javascript">
 
 		window.addEventListener("load", function(){
 			const svg = $("object")[0].contentDocument.documentElement;
@@ -502,16 +476,6 @@ border-bottom: solid #525252 1px;
 				
 
 
-
-
-
-
-
-
-			
-
-
-
 		});
 
 		// window.addEventListener("load", function(){
@@ -750,4 +714,6 @@ border-bottom: solid #525252 1px;
 <script src="../common/common.js" type="module"></script>
 
 </body>
+
 </html>
+

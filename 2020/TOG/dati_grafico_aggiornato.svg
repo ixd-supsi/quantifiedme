@@ -10,7 +10,7 @@
 	.st1{fill:none;stroke:lightgrey;stroke-width:0.8px;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:grey;stroke-width:0.8px;stroke-miterlimit:10;}
 	.st3{fill:none;}
-	.st24{fill:none;stroke:#525252;stroke-width:1px,stroke-miterlimit:10;}
+	.st24{fill:none;stroke:grey;stroke-width:1px,stroke-miterlimit:10;}
 
 	.st4{font-family:'Helvetica bold'}
 	.st5{font-size:12px;}
