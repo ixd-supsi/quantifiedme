@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tapper</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>La storia dei display</title>
+	<meta name="author" content="Fabienne Carrara">
+	<meta name="copyright" content="©2020">
+	<meta name="description" content="Quantified Me">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<style type="text/css">
+		text {pointer-events: none;}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: helvetica;
+			font-size: 12px;
+
+		}
+		.tooltip {
+			opacity: 0;
+		}
+		.box:hover .tooltip {
+			opacity: 1;
+		}
+
+
+		h2{
+		padding-left: 20px;
+		padding-top: 24px;
+		}
+
+		p {
+			margin-left: 20px;
+			font-size: 12px;
+			/*padding-right: 70%;
+			padding-bottom: 50px;*/
+		}
+
+		header {
+			position:fixed;
+		}
+
+		header p {
+			width: 35%;
+		}
+
+		/*modifico la posizione delle date*/
+		#timeline {
+			position: relative;
+			margin-left: 157px;
+			top: 140px;
+
+		/*il padding è quello dei testi delle app! non del rettangolo*/
+		}
+		.apps {
+			position:fixed;
+			top: 155px;
+			background-color: white;
+			opacity: 0.7;
+			padding: 15px;
+			list-style: none;
+			line-height: 2.42em;
+			z-index:2;
+		}
+
+		/*posso modificare la distanza dei quadrati dall'alto*/
+		#container_data {
+			position: relative;
+			top: 90px;
+		}
+
+		#info {
+			position: fixed;
+			font-size: 8px;
+		}
+
+		/*footer {
+			position: fixed;
+			bottom: 715px;
+			padding-left: 820px;		}
+
+		footer p {
+			width: 90%;
+		}*/
+
+
+
+	</style>
+
+		<p id=info>
+			Progetto di data vizualisation interattiva - SUPSI - Corso di Interaction Design - A.A 2019-2020 - Docenti: Andreas Gysin, Giovanni Profeta - Studente: Fabienne Carrara
+		</p>
+
+	<header>
+		<h2>Fabienne e il tempo passato al computer</h2>
+
+		<p>La heatmap indica i minuti che Fabienne ha trascorso su ogni singola app ogni giorno. Le righe rappresentano le app e i le colonne i differenti giorni (in bold sono riportati i weekend).</p> <br>
+	</header>
+
+
+	<main>
+		<ul class="apps">
+			<li>Acrobat Pro DC</li>
+			<li>Adobe After Effects</li>
+			<li>Adobe Illustrator</li>
+			<li>Acrobat InDesign</li>
+			<li>Adobe Media Encoder</li>
+			<li>Adobe Photoshop</li>
+			<li>Acrobat Premiere Pro</li>
+			<li>Adobe XD</li>
+			<li>GitHub Desktop</li>
+			<li>Microsoft Excel</li>
+			<li>Microsoft Teams</li>
+			<li>AMicrosoft Word</li>
+			<li>Safari</li>
+			<li>Skype</li>
+			<li>Spotify</li>
+			<li>Sublime Text</li>
+			<li>Whatsapp</li>
+			<li>Zoom.us</li>
+		</ul>
+
+		<object id="timeline" data="date.svg" width="1920" height="auto"></object>
+		<div id="container_data"></div>
+	</main>
+
+
+	<script>
+
+		fetch("list.tsv").then(function (result){
+			return result.text()
+		}).then(function (data){
+			run(data.trim())
+		})
+
+		function run(txt) {
+			let list = txt.split("\n")		
+			// console.log("number of lines: " + list.length)	
+
+			// conto il numero di applicazioni
+			let app_count = -1;
+			let app_array = [];
+
+			// conto il numero di giorni 
+			let day_count = -1;
+			let day_array = [];
+
+			list = list.map(function(el, idx, arr){
+				const line = el.split('\t');
+
+				// app
+				let app = line[1];
+				if (app_array.includes(app)) {
+				}
+				else {
+					app_array.push(app);
+					app_count += 1;
+				}
+
+				// giorni
+				let day = line[0];
+				if (day_array.includes(day)) {
+				}
+				else {
+					day_array.push(day);
+					day_count += 1;
+				}
+
+				return {
+					day: day,
+					app: app,
+					clicks: Math.floor(line[2])				
+				}
+			})
+			console.log(app_count,day_count);
+
+			let container = document.getElementById("container_data");
+			let dati = "";
+
+			dati += "<svg id='container' width='2100' height='570'><g transform='translate(15,130)'>"
+			
+			// posizione di base dei rettangoli
+			let y = 0;
+			let x = 0;
+
+			// lato del quadrato
+			let rect_size = 23;
+			let size = 23;
+
+			// colore
+			let color = "hsl(190, 100%, 50%)"// "black";
+
+			// opacità
+			let opacity;
+
+			// dimensione dei cerchi
+			//let circle_size = 800;
+
+			// inserisco i nomi delle app e il colore o i colori
+			dati += "<g>";
+			let text_color;
+			for (let i=1; i<list.length; i++){
+				if (i < (app_count+1) ) {
+					
+					if(list[i].app == "InDesign" || list[i].app == "Photoshop"){
+						text_color = "blue"
+					}
+					else {
+						text_color = "Black"
+					}
+
+					// dati += "<text x='" + 20 + "' y='" + ((size+1)*i) + "' fill='" + text_color + "'>" + list[i].app + "</text>"
+				}
+			}
+			dati += "</g>";
+
+			// funzione per scalare l'opacità (o la grandezza)
+			function scale(num, in_min, in_max, out_min, out_max) {
+				return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+			}
+
+			// inserisco rettangoli e 0 è per allineare tabella e testo
+			dati += "<g transform='translate(0," + ( ((size*app_count)+1) + 0) + ")'>";
+			for (let i=1; i<list.length; i++){
+
+				x_ = Math.ceil(i/app_count);
+				x = x_ * (rect_size+1);
+
+				y_ = Math.ceil(i - (app_count*x_) )
+				y = y_ * (rect_size+1);
+				// console.log(i,y_,x_);
+
+
+				// da spegnere
+				// if(list[i].app == "InDesign" || list[i].app == "Photoshop"){
+				// 	text_color = "blue"
+				// }
+				// else if (list[i].app == "Anteprima") {
+				// 	text_color = "violet"
+				// }
+				// else {
+				// 	text_color = "orange"
+				// }
+				// da spegnere
+
+
+				let value = list[i].clicks;
+				opacity = scale(value, 0.006666666667, 443.1776667, 0.2, 1);
+				// opacity = 1;
+				hue = scale(value, 0.006666666667, 443.1776667, 77, 271);
+
+				// ratio = atezza quadratini
+				let ratio = 1.2;
+
+				// genero gruppo
+				let classe = list[i].day + "_" + list[i].app;
+				let distanza_da_etichette = -1720;
+				dati += "<g class='box " + classe + "' transform='translate(" + (distanza_da_etichette + (rect_size*day_count)) + "," + (y*ratio) + ")'>";
+
+				// aggiungo i regttangoli
+				dati += "<rect width='" + rect_size + "' height='" + (rect_size*ratio) + "' x='" + x + "' y='0' fill='" + "hsl(" + hue + ", 100%, 50%)" + "' opacity='" + opacity + "'></rect>"
+
+				// dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='0' fill='" + text_color + "' opacity='" + opacity + "'></rect>"
+
+
+				
+
+				// tooltip- apro gruppo
+				dati += "<g class='tooltip'>"
+
+				// tooltip - inserisco rettangolo e testo
+				// dati += "<rect x='" + (x) + "' y='0' width='30' height='30' fill='orange'></rect>"
+				dati += "<text x='" + (x+11.5) + "' y='18' text-anchor='middle'>" + value + "</text>"
+
+				// tooltip -chiudo gruppo
+				dati += "</g>"
+
+				// chiudo il gruppo con il rettangolo
+				dati += "</g>"
+			}
+			// chiudo il gruppo con tutti i rettangoli
+			dati += "</g>";
+
+
+			// chiudo l'svg
+			dati += "</g></svg>"
+
+			// riporto l'svg dentro al contenitore
+			container.innerHTML = dati;
+		}
+
+
+	</script>
+
+
+
+	
+</body>
+</html>

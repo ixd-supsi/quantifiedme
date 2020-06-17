@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TAPPER</title>
+	<meta name="author" content="Nome Cognome">
+	<meta name="copyright" content="©2020">
+	<meta name="description" content="Quantified Me">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		@font-face{
+		    font-family: 'F';
+		    font-weight: 400;
+		    font-style: normal;
+		    font-stretch: normal;
+		    src: url('fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Regular.ttf.woff2') format('woff2'),
+		         url('fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff'),
+		         url('fonts/source-code-pro/OTF/SourceCodePro-Regular.otf') format('opentype'),
+		         url('fonts/source-code-pro/TTF/SourceCodePro-Regular.ttf') format('truetype');
+		}
+
+		pre{
+			font-family: 'F';
+			margin:0;
+			padding:0;
+			line-height: 24px;
+		}
+		span{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+<!-- style="background-color: green" -->
+
+	<!-- contenitore per il risultato -->
+<pre>
+───────────────────────────────────────────────────────────────────────────────────
+SUDDIVISIONE ORARIA DI QUANTI <mark>CLICK</mark> E KEY EFFETTUTI IN UN GIORNO
+───────────────────────────────────────────────────────────────────────────────────
+
+</pre>
+<pre id="output"></pre>
+<!-- <pre>
+**********************
+DOPO
+**********************
+</pre> -->
+
+	<script>
+
+		// ---- Carichiamo il file "data.tsv" (promise) ---------------------------
+		fetch("data.tsv").then(function(result){
+			return result.text()	// Ritorniamo il risultato come forma di "testo"
+		}).then(function(data){
+			run(data.trim())		// Lanicamo l'app con la nostra funzione "run"
+									// (e "trimmiamo" il testo da residue linee vuote e spazi)
+		})
+
+		// ---- Funzione d'aiuto per formattare le date al caso nostro ------------
+		function format_date_time(date) {
+			let data_string = ""
+			data_string += (date.getUTCMonth()+1).toString().padStart(2, 0)	+ "/" // attenzione: i mesi vanno da 0-11
+			data_string += date.getUTCDate().toString().padStart(2, 0)     	+ "/"
+			data_string += date.getUTCFullYear().toString()   				+ " "
+			data_string += date.getUTCHours().toString().padStart(2, 0)   	+ ":"
+			data_string += date.getUTCMinutes().toString().padStart(2, 0) 	+ ":"
+			data_string += date.getUTCSeconds().toString().padStart(2, 0)
+			return data_string
+		}
+
+		function format_date(date) {
+			let data_string = ""
+			data_string += (date.getUTCMonth()+1).toString().padStart(2, 0)	+ "/" // attenzione: i mesi vanno da 0-11
+			data_string += date.getUTCDate().toString().padStart(2, 0)     	+ "/"
+			data_string += date.getUTCFullYear().toString()
+			return data_string
+		}
+
+		console.log("Formato della data:")
+		console.log(format_date_time(new Date()))
+
+		// ---- Mappa per creare relazione tra "App" e "Tipo" ---------------------
+		const tipi_di_app = new Map()
+		tipi_di_app.set("Safari", "Web")
+		tipi_di_app.set("Sublime Text", "Web")
+		tipi_di_app.set("IINA", "Fun")
+		tipi_di_app.set("Finder", "Tools")
+		tipi_di_app.set("Affinity Photo", "Tools")
+		tipi_di_app.set("Affinity Designer", "Tools")
+
+
+		// ---- Applicazione ------------------------------------------------------
+		function run(txt){
+
+			// I dati sono un testo unico...
+			// possiamo cominciare a ridurlo a una lista di linee di testo
+			let lista = txt.split('\n')
+
+			// Dalla lista eliminamo la prima riga (header) e stampiamola nella console, come promemoria
+			const header = lista.shift().split('\t')
+
+			// Semplifichiamo un po' i nostri dati e teniamo solo quello che ci serve...
+			lista = lista.map(function(el, idx, arr){
+				// Ogni singola linea va divisa
+				// (essendo una TSV, ovvero TAB seprated list) usiamo il carattere tab '\t' per lo split
+				const linea = el.split('\t')
+				return {
+					time   : Math.floor(linea[0] * 1000), // Il tempo viene moltiplicato per 1000 (otteniamo millisecondi) e arrotondato
+					type   : linea[1],
+					app    : linea[2],
+					tipo   : tipi_di_app.get(linea[2]) || "Altro",
+					clicks : parseInt(linea[4]),
+					keys   : parseInt(linea[10])
+				}
+			})
+
+			// Per ogni app calcoliamo il delta t e aggiungiamo il campo di data successivo
+			// "Raddrizziamo" anche il conteggio di click e tasti
+			for (let i=0; i<lista.length-1; i++){
+				lista[i].clicks      = lista[i+1].clicks // importante: i click e i tasti registrati
+				lista[i].keys        = lista[i+1].keys   // appartengono alla linea precedente
+				lista[i].delta       = lista[i+1].time - lista[i].time
+				lista[i].data_inizio = format_date_time(new Date(lista[i].time))
+				lista[i].data_fine   = format_date_time(new Date(lista[i+1].time))
+			}
+
+			// Eliminiamo l'ultimo elemento della lista (non ha delta t)
+			lista.pop()
+
+			console.log("Numero di entries: " + lista.length)
+
+			// Filtriamo gli eventi e le app che non ci interessano
+			const data_inizio = 0     //new Date("01/14/2020 00:00:00") // mese/giorno/anno hh:mm:ss
+			const data_fine   = 1e100 //new Date("01/17/2020 00:00:00")
+			console.log(data_inizio)
+			lista = lista.filter(function(el){
+				return el.type == 'appActivated'
+					&& el.app != '(null)'
+					&& el.app != 'loginwindow'
+					&& el.time >= data_inizio
+					&& el.time <  data_fine
+			})
+
+			console.log("Numero di entries (dopo filtro): " + lista.length)
+
+			// ----------------------------------------------------------
+			// Generiamo l'output "a mano" e li visualizziamo sulla pagina
+			// NOTA BENE:
+			// Il "separatore" delle colonne in questo caso è il tabulatore "\t"...
+			// ... è possibile sostituirlo con una "," o altro.
+			// ----------------------------------------------------------
+
+			/*
+			let risultato = ""
+
+			// Porzione di header
+			// risultato += "indice\t"
+			risultato += "data_inizio\t"
+			risultato += "data_fine\t"
+			risultato += "app\t"
+			risultato += "tipo\t"				// <--- attenzione l'ultino elemento non vuole il tab
+			risultato += "clicks\t"
+			risultato += "delta\t"
+			risultato += "keys"
+			risultato += "\n" 				// <--- nuova linea
+
+			for (let i=0; i<lista.length; i++) { 	// per stampare la lista intera usare i<lista.length al posto di 100
+				//risultato += i + "\t" 	        // indice (opzionale)
+				risultato += lista[i].data_inizio + "\t"
+				risultato += lista[i].data_fine + "\t"
+				risultato += lista[i].app + "\t"
+				risultato += lista[i].tipo + "\t"   // <--- attenzione l'ultino elemento non vuole il tab
+				risultato += lista[i].clicks + "\t"
+				risultato += lista[i].delta + "\t"
+				risultato += lista[i].keys
+				risultato += "\n" 		         	// <--- nuova linea
+			}
+
+			// Inseriamo il risultato nell'elemento HTML a nostra scelta:
+			document.querySelector("#output").innerHTML = risultato
+			*/
+
+
+			// ----------------------------------------------------------
+			// Conteggio dei click in totale per ora
+			// (ouptut nella console)
+			// ----------------------------------------------------------
+
+			/*
+			let apps = new Map()
+
+			lista.forEach(function(el){
+
+				// creiamo la "key" della mappa corripsondente all'app
+				if (!apps.has(el.app)) {
+					apps.set(el.app, {
+						app : el.app,
+						total_time : 0,
+						total_clicks : 0,
+						days : new Map()
+					})
+				}
+
+				const a = apps.get(el.app)
+
+				a.total_time   += el.delta
+				a.total_clicks += el.clicks
+				const d = format_date(new Date(el.time))
+
+				// creiamo la "key" della mappa corripsondente alla data dell'app
+				if (!a.days.has(d)) a.days.set(d, 0)
+
+				a.days.set(d, a.days.get(d) + el.delta)
+			})
+
+			console.log(apps)
+			*/
+
+
+			// ----------------------------------------------------------
+			// Conteggio del tempo per app, per giorno
+			// (ouptut nella console)
+			// ----------------------------------------------------------
+
+			/*
+			let days = new Map()
+
+			lista.forEach(function(el){
+				// inseriamo il (nuovo) giorno
+				const d = format_date(new Date(el.time))
+				if (!days.has(d)) {
+					days.set(d, {
+						apps : new Map()
+					})
+				}
+
+				// inseriamo la (nuova) app per quel giorno
+				const day = days.get(d)
+				if (!day.apps.has(el.app)) {
+					day.apps.set(el.app, {
+						clicks : 0,
+						keys   : 0,
+						time   : 0
+					})
+				}
+
+				// accumuliamo i valori
+				const app = day.apps.get(el.app)
+				app.clicks += el.clicks
+				app.keys   += el.keys
+				app.time   += el.delta
+
+			})
+
+			console.log(days)
+			*/
+
+			// ----------------------------------------------------------
+			// Conteggio dei click per per giorno, per ora
+			// (ouptut nella console)
+			// ----------------------------------------------------------
+
+
+			let days = new Map()
+
+			lista.forEach(function(el){
+				// inseriamo il (nuovo) giorno
+				const d = format_date(new Date(el.time))
+				if (!days.has(d)) {
+					days.set(d, {
+						clicks : new Array(24).fill(0),
+						keys   : new Array(24).fill(0),
+						total_clicks : 0,
+						total_keys   : 0,
+					})
+				}
+
+				const h = (new Date(el.time)).getUTCHours()
+				days.get(d).clicks[h]   += el.clicks
+				days.get(d).keys[h]     += el.keys
+				days.get(d).total_clicks += el.clicks
+				days.get(d).total_keys   += el.keys
+			})
+
+			let max_keys   = 0
+			let max_clicks = 0
+			days.forEach(function(day){
+				day.keys.forEach(function(v){
+					max_keys = Math.max(v, max_keys)
+				})
+				day.clicks.forEach(function(v){
+					max_clicks = Math.max(v, max_clicks)
+				})
+			})
+
+			console.log("max_keys: " + max_keys)
+			console.log("max_clicks: " + max_clicks)
+
+			// iterazione finale per output
+
+			const scaletta = "▁▂▃▄▅▆▇█"
+			// const scaletta = ""
+			// const scaletta = "01234567"
+
+
+
+			let out = ""
+			days.forEach(function(value, key){
+
+				// 1. data:
+				out += key + " "
+
+				// 2. linea clicks
+				out += "<span style='background-color:yellow'>"
+				for (let i=0; i<24; i++) {
+					if  (value.clicks[i] == 0) {
+						out += "  │"
+					} else {
+						const indice = Math.floor(value.clicks[i] / (max_clicks+1) * scaletta.length)
+						out += scaletta[indice] + " │"
+					}
+				}
+				out += "</span>"
+				out += "\n"
+
+				// 3. linea keys
+				out += "           "
+				for (let i=0; i<24; i++) {
+					if  (value.keys[i] == 0) {
+						out += "  │"
+					} else {
+						const indice = Math.floor(value.keys[i] / (max_keys+1) * scaletta.length)
+						out += scaletta[indice] + " │"
+					}
+				}
+				out += "\n"
+			})
+			document.querySelector("#output").innerHTML = out
+
+		}
+
+
+	</script>
+	<script src="../common/common.js" type="module"></script>
+
+</body>
+</html>
+
