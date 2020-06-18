@@ -32,7 +32,7 @@
                 text-decoration: underline;
             }
             ul{
-                margin: 0;
+                margin:0;
                 padding: 0;
                 list-style: none;
             }
@@ -40,10 +40,22 @@
                 margin:0;
             }
             p{
-                margin:0 0 1em 0;
+                margin:0;
             }
             footer{
-                margin:2em 0 0 0;
+                margin:0 0 0 0;
+            }
+            .link {
+                margin-left: -1.25em;
+            }
+            .link:before {
+                display: inline-block;
+                width: 1.25em;
+                content: "→";
+            }
+            hr{
+                opacity: 0.2;
+                margin:1em 0 1em 0;
             }
         </style>
     </head>
@@ -52,8 +64,9 @@
         <p>
             SUPSI<br>
             Primavera 2020<br>
-            <a href="https://github.com/ixd-supsi/quantifiedme">→ codice</a>
+            <a class="link" href="https://github.com/ixd-supsi/quantifiedme">codice</a>
         </p>
+        <hr>
         <ul>
             <li><a href="2020/CAS/">Sara Camponovo</a></li>
             <li><a href="2020/CAF/">Fabienne Carrara</a></li>
@@ -67,15 +80,13 @@
             <li><a href="2020/TEL/">* Luca Tesi</a></li>
             <li><a href="2020/TOG/">Giorgia Tomasi</a></li>
         </ul>
+        <hr>
         <footer>
-            -
             <ul>
-                <li><a href="https://ixd-supsi.github.io/atlantetecnolgico/">Atlante Tecnologico</a></li>
+                <li><a class="link" href="https://ixd-supsi.github.io/atlantetecnolgico/">Atlante Tecnologico</a></li>
                 <li>Quantified me</li>
-                <li><a href="https://ixd-supsi.github.io/antologiainterattiva/">Antologia interattiva</a></li>
+                <li><a class="link" href="https://ixd-supsi.github.io/antologiainterattiva/">Antologia interattiva</a></li>
             </ul>
         </footer>
     </body>
 </html>
-
-
