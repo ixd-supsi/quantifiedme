@@ -8,6 +8,10 @@
 	<meta name="description" content="Quantified Me">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
+
+		body {
+			background-color: #FFFFFF;
+		}
 		
 		@font-face{
 		    font-family: 'F';
@@ -29,7 +33,7 @@
 		
 		span{
 			display: inline-block;
-			color:black;
+			color:#000000;
 		}
 
 	</style>
@@ -39,15 +43,11 @@
 
 	<pre>
 
-**********************
 title
-**********************
-
-caption
-
-	</pre>
-
-	<pre id="output"></pre>
+──────────────────────────────────────────────────────────────────────────────────────
+sottotitolo
+──────────────────────────────────────────────────────────────────────────────────────<pre style='color:green; display:block;'> ▉ keys <pre style='color:red; float: left;'>▉ click</pre></pre>
+<pre id="output"></pre>
 
 	<script>
 
@@ -90,7 +90,6 @@ caption
 		tipi_di_app.set("Finder", "Tools")
 		tipi_di_app.set("Affinity Photo", "Tools")
 		tipi_di_app.set("Affinity Designer", "Tools")
-
 
 		// --- Applicazione ----------------------------------------------------------------------
 		function run(txt){
@@ -177,7 +176,7 @@ caption
 			days.forEach(function(value, key){
 
 				// 1. Data:
-				out += "<span style='background-color:yellow; width:821px; height:24.2px;'>"
+				out += "<span style='background-color:red; width:821.5px; height:24.2px;'>"
 				out += key + "│" 																			//linea click --- spazio prima della prima "|"
 
 				// 2. Linea clicks:
@@ -193,6 +192,7 @@ caption
 				out += "\n"
 
 				// 3. Linea keys:
+				out += "<span style='background-color:green; width:821.5px; height:24.2px;'>"
 				out += "             │"  																	//linea keys --- spazio prima della prima "|"
 				for (let i=0; i<24; i++) {
 					if  (value.keys[i] == 0) {
