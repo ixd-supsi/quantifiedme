@@ -1,0 +1,77 @@
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+.contenitore{
+	margin-left: 200px;
+	margin-right: 160px;
+	margin-top:80px;
+}
+
+.titolo{
+font-size: 30px;
+font-weight: bolder;
+line-height: 125%;
+position: relative;
+margin-left: 20px;
+}
+
+.intro{
+	font-size: 20px;
+	line-height: 125%;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.Gruppi{
+	margin-left: -130px;
+	width: 120px;
+	margin-right: 0px;
+	float: left;
+}
+
+.Gruppi_1{
+	margin-top: 310px;
+}
+
+.Gruppi_2{
+	margin-top: 520px;
+}
+
+.Gruppi_3{
+	margin-top: 510px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.gallery{
+	margin-top:80px;
+	margin-bottom: 40px;
+	width: 1000px;
+	align-items: center;
+}
+
+.immagine1 {
+	margin-bottom: 40px;
+}
+
+.immagine2 {
+	margin-bottom: 40px;
+}
+
+.immagine3 {
+	
+}
+
+.Gruppi_1 hover {
+	cursor: pointer;
+	color: #00857A;
+}
+
