@@ -10,10 +10,12 @@
 	<style type="text/css">
 
 		body {
-			background-color: #FFFFFF;
+			background-color:#FFF;
+			margin: 0.5em;
+			padding: 0.5em;
 		}
 		
-		@font-face{
+		@font-face {
 		    font-family: 'F';
 		    font-weight: 400;
 		    font-style: normal;
@@ -24,16 +26,17 @@
 		         url('fonts/source-code-pro/TTF/SourceCodePro-Regular.ttf') format('truetype');
 		}
 
-		pre{
+		pre {
 			font-family: 'F';
 			margin:0;
 			padding:0;
 			line-height: 24.2px;
+			color:black;
 		}
 		
-		span{
+		span {
 			display: inline-block;
-			color:#000000;
+			color:black;
 		}
 
 	</style>
@@ -41,14 +44,17 @@
 
 <body>
 
-	<pre>
+	<div>
 
-title
+	<pre>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 ──────────────────────────────────────────────────────────────────────────────────────
-sottotitolo
-──────────────────────────────────────────────────────────────────────────────────────<pre style='color:green; display:block;'> ▉ keys <pre style='color:red; float: left;'>▉ click</pre></pre>
-<pre id="output"></pre>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+has been the industry's standard dummy text ever since the 1500s, when an unknown
+printer took a galley of type and scrambled it to make a type specimen book.
+──────────────────────────────────────────────────────────────────────────────────────
+<pre style='float: left;'><pre style='color:#ccff00; float: left;'>▉</pre><pre> riga dei click</pre></pre><pre style='float: left;'><pre style='color:#E3E3E3; float: left;'>   ▉</pre><pre> riga dei keys</pre></pre>
 
+<pre id="output"></pre>
 	<script>
 
 		// --- Upload file "data.tsv" ------------------------------------------------------------
@@ -176,7 +182,7 @@ sottotitolo
 			days.forEach(function(value, key){
 
 				// 1. Data:
-				out += "<span style='background-color:red; width:821.5px; height:24.2px;'>"
+				out += "<span style='background-color:#ccff00; width:821.5px; height:24.2px;'>"
 				out += key + "│" 																			//linea click --- spazio prima della prima "|"
 
 				// 2. Linea clicks:
@@ -192,7 +198,7 @@ sottotitolo
 				out += "\n"
 
 				// 3. Linea keys:
-				out += "<span style='background-color:green; width:821.5px; height:24.2px;'>"
+				out += "<span style='background-color:#E3E3E3; width:821.5px; height:24.2px;'>"
 				out += "             │"  																	//linea keys --- spazio prima della prima "|"
 				for (let i=0; i<24; i++) {
 					if  (value.keys[i] == 0) {
@@ -208,10 +214,24 @@ sottotitolo
 
 			document.querySelector("#output").innerHTML = out
 		}
+
 	</script>
+
+<pre style="margin-top: -50px;">Quantified Me
+──────────────────────────────────────────────────────────────────────────────────────
+Luca Grisoni
+──────────────────────────────────────────────────────────────────────────────────────
+SUPSI
+──────────────────────────────────────────────────────────────────────────────────────
+Corso di Interaction Design • 2019/2020
+──────────────────────────────────────────────────────────────────────────────────────
+Docenti: Andreas Gysin • Giovanni Profeta
+──────────────────────────────────────────────────────────────────────────────────────
+</pre>
 
 	<script src="../common/common.js" type="module"></script>
 
+	</div>
+	
 </body>
 </html>
-
