@@ -53164,3 +53164,1396 @@ time	type	activeApp	leftMouseDown	leftMouseUp	rightMouseDown	rightMouseUp	mouseM
 1592478163.998486	appActivated	Terminale	4	4	0	0	245	2	0	13	13	2	0
 1592478167.757076	appActivated	Finder	1	1	0	0	119	1	0	3	3	0	0
 1592478170.675718	appActivated	Terminale	3	2	0	0	49	36	0	1	1	0	0
+1592478175.715349	appActivated	Safari	0	1	0	0	268	0	0	1	1	0	0
+1592478176.399412	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478177.466068	appActivated	GitHub Desktop	0	0	0	0	17	0	0	0	0	0	0
+1592478180.016599	appActivated	Safari	0	0	0	0	116	0	0	0	0	0	0
+1592478180.787233	appActivated	Sublime Text	0	0	0	0	14	0	0	0	0	0	0
+1592478182.179861	appActivated	Finder	1	1	0	0	74	1	0	0	0	0	0
+1592478185.255927	appActivated	Safari	1	1	0	0	134	1	0	1	1	2	0
+1592478187.189701	appActivated	Finder	0	0	0	0	137	0	0	0	0	0	0
+1592478187.826189	appActivated	Sublime Text	1	0	0	0	52	0	0	0	0	0	0
+1592478193.095322	appActivated	Safari	2	3	0	0	197	167	0	0	0	0	0
+1592478210.770424	appActivated	Sublime Text	1	1	0	0	222	1	0	1	1	2	505
+1592478248.519823	appActivated	Safari	5	5	0	0	946	66	0	45	45	17	104
+1592478257.907344	appActivated	Terminale	0	0	0	0	65	0	0	1	1	1	126
+1592478258.739279	appActivated	Safari	0	0	0	0	33	0	0	0	0	0	0
+1592478267.226593	appActivated	Sublime Text	7	7	0	0	327	1	0	1	1	2	52
+1592478282.470041	appActivated	Safari	6	6	0	0	371	1	0	4	4	8	0
+1592478299.535109	appActivated	Sublime Text	4	4	0	0	408	1	0	2	2	4	163
+1592478303.439514	appActivated	Safari	2	2	0	0	190	0	0	2	2	4	0
+1592478320.319979	appActivated	Sublime Text	2	2	0	0	232	157	0	1	1	2	272
+1592478399.740177	appActivated	Safari	5	5	0	0	674	29	0	75	75	23	307
+1592478401.909110	appActivated	Sublime Text	0	0	0	0	38	0	0	2	2	4	0
+1592478408.662232	appActivated	Safari	2	2	0	0	86	17	0	9	9	6	0
+1592478461.766695	appActivated	Sublime Text	0	0	0	0	278	0	0	1	1	1	655
+1592478465.284336	appActivated	Safari	1	1	0	0	120	1	0	2	2	3	0
+1592478613.734395	appActivated	Sublime Text	0	0	0	0	18	0	0	1	1	1	637
+1592478615.167927	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478625.500295	appActivated	Sublime Text	0	0	0	0	10	0	0	0	0	0	120
+1592478626.519226	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592478627.617145	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478628.717973	appActivated	Terminale	0	0	0	0	0	0	0	0	0	0	0
+1592478630.900775	appActivated	Finder	2	2	0	0	133	1	0	0	0	0	0
+1592478635.593292	appActivated	Sublime Text	2	2	1	1	241	1	0	0	0	0	0
+1592478640.612337	appActivated	Finder	2	2	0	0	199	2	0	0	0	0	61
+1592478645.747549	appActivated	Safari	4	4	1	1	210	0	0	2	2	0	0
+1592478653.899366	appActivated	Finder	1	1	0	0	315	0	0	0	0	0	172
+1592478654.780955	appActivated	Safari	0	0	0	0	19	0	0	0	0	0	0
+1592478656.713137	appActivated	Finder	0	0	0	0	10	0	0	0	0	0	0
+1592478661.261984	appActivated	Sublime Text	3	3	1	1	285	1	0	0	0	0	2
+1592478664.768327	appActivated	Safari	0	0	0	0	56	0	0	0	0	0	0
+1592478665.385559	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478665.969432	appActivated	Finder	0	0	0	0	1	0	0	0	0	0	0
+1592478667.674867	appActivated	Sublime Text	0	0	0	0	55	0	0	0	0	0	0
+1592478670.068816	appActivated	Finder	2	2	0	0	87	76	0	0	0	0	0
+1592478674.183410	appActivated	Safari	2	2	1	1	159	0	0	0	0	0	2
+1592478683.800894	appActivated	Sublime Text	5	5	0	0	380	130	0	0	0	0	0
+1592478688.556327	appActivated	Safari	2	2	0	0	118	83	0	0	0	0	71
+1592478692.223697	appActivated	Sublime Text	3	3	0	0	147	1	0	0	0	0	0
+1592478701.598573	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592478702.831362	appActivated	Sublime Text	0	0	0	0	36	0	0	0	0	0	0
+1592478704.483011	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	62
+1592478707.803871	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478710.019885	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478717.656129	appActivated	Sublime Text	0	0	0	0	6	0	0	0	0	0	252
+1592478721.896029	appActivated	Safari	0	0	0	0	50	0	0	0	0	0	23
+1592478725.912860	appActivated	Sublime Text	0	0	0	0	37	0	0	0	0	0	64
+1592478726.579601	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478729.779818	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478730.494086	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478733.761359	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	84
+1592478735.260728	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478736.162258	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478737.715269	appActivated	Safari	0	0	0	0	1	0	0	0	0	0	0
+1592478739.298264	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	60
+1592478740.813846	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592478839.186567	appActivated	Sublime Text	2	2	0	0	445	95	0	0	0	0	890
+1592478848.091540	appActivated	Safari	1	1	0	0	249	0	0	0	0	0	115
+1592478851.493002	appActivated	Sublime Text	0	0	0	0	39	0	0	1	0	0	85
+1592478859.965335	appActivated	Safari	3	3	0	0	298	42	0	0	1	0	34
+1592478869.335928	appActivated	Sublime Text	0	0	0	0	36	0	0	0	0	0	0
+1592478882.959148	appActivated	Safari	3	3	0	0	195	125	0	0	0	0	41
+1592478885.883344	appActivated	Sublime Text	0	0	0	0	19	0	0	0	0	0	119
+1592478900.785688	appActivated	Safari	0	0	0	0	479	0	0	0	0	0	98
+1592478902.020846	appActivated	Sublime Text	0	0	0	0	33	0	0	0	0	0	0
+1592478904.266038	appActivated	Safari	1	1	0	0	111	1	0	0	0	0	0
+1592478905.442823	appActivated	Finder	2	2	0	0	73	0	0	0	0	0	0
+1592478909.010520	appActivated	Safari	4	4	0	0	82	1	0	2	2	0	0
+1592478935.889840	appActivated	Finder	0	0	0	0	191	0	0	0	0	0	608
+1592478936.488010	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592478937.087809	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592478938.370282	appActivated	Safari	0	0	0	0	11	0	0	0	0	0	0
+1592478941.915209	appActivated	Finder	2	2	0	0	124	58	0	0	0	0	0
+1592478943.781803	appActivated	Safari	1	1	0	0	84	1	0	0	0	0	0
+1592478953.252247	appActivated	Sublime Text	1	1	0	0	228	1	0	0	0	0	0
+1592478955.267617	appActivated	Safari	0	0	0	0	43	0	0	0	0	0	37
+1592478973.748619	appActivated	Sublime Text	8	8	0	0	697	1	0	22	22	2	188
+1592478977.893847	appActivated	Safari	2	2	0	0	124	0	0	2	2	4	65
+1592478981.959231	appActivated	Sublime Text	1	1	0	0	85	0	0	1	1	3	0
+1592478988.810825	appActivated	Safari	3	3	0	0	140	1	0	3	3	6	122
+1592479007.098185	appActivated	Sublime Text	0	0	0	0	90	0	0	1	1	1	0
+1592479010.750436	appActivated	Safari	2	2	0	0	107	0	0	0	0	0	0
+1592479018.068199	appActivated	Sublime Text	2	2	0	0	385	1	0	0	0	0	32
+1592479018.671468	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592479022.205432	appActivated	Sublime Text	2	2	0	0	96	1	0	1	1	2	35
+1592479029.381930	appActivated	Safari	4	4	0	0	319	1	0	1	1	2	60
+1592479035.583260	appActivated	Sublime Text	4	4	0	0	327	1	0	1	1	4	0
+1592479039.675851	appActivated	Safari	2	2	0	0	172	0	0	1	1	2	0
+1592479045.696409	appActivated	Sublime Text	4	4	0	0	272	1	0	2	2	4	28
+1592479057.784968	appActivated	Safari	4	4	0	0	265	1	0	8	8	6	77
+1592479085.518420	appActivated	Sublime Text	1	1	0	0	329	1	0	1	1	3	143
+1592479099.409292	appActivated	Safari	2	2	0	0	253	0	0	3	3	3	222
+1592479105.044632	appActivated	Sublime Text	0	0	0	0	156	0	0	1	1	1	0
+1592479107.979017	appActivated	Safari	0	0	0	0	87	0	0	3	3	3	0
+1592479110.603211	appActivated	Sublime Text	0	0	0	0	41	0	0	1	1	1	0
+1592479114.304431	appActivated	Safari	0	0	0	0	55	0	0	0	0	0	0
+1592479117.287537	appActivated	Sublime Text	0	0	0	0	128	0	0	0	0	0	0
+1592479121.392200	appActivated	Safari	2	2	0	0	158	0	0	4	4	4	0
+1592479122.120331	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592479124.774025	appActivated	Safari	0	0	0	0	0	0	0	8	8	4	0
+1592479126.624596	appActivated	Sublime Text	0	0	0	0	52	0	0	1	1	1	0
+1592479129.607781	appActivated	Safari	1	1	0	0	62	0	0	4	4	3	0
+1592479134.124870	appActivated	Sublime Text	0	0	0	0	179	0	0	1	1	1	2
+1592479137.758758	appActivated	Safari	0	0	0	0	144	0	0	3	3	3	0
+1592479139.476441	appActivated	Sublime Text	0	0	0	0	83	0	0	1	1	1	0
+1592479143.143003	appActivated	Safari	0	0	0	0	70	0	0	5	5	3	0
+1592479147.890550	appActivated	Sublime Text	0	0	0	0	68	0	0	1	1	1	0
+1592479157.513184	appActivated	Safari	2	2	0	0	274	169	0	3	3	7	0
+1592479176.014451	appActivated	Sublime Text	0	0	0	0	259	0	0	1	1	1	454
+1592479179.617933	appActivated	Safari	0	0	0	0	279	0	0	0	0	0	0
+1592479189.687866	appActivated	Sublime Text	0	0	0	0	9	0	0	0	0	0	267
+1592479198.306510	appActivated	Safari	4	4	0	0	362	0	0	11	11	3	0
+1592479201.941386	appActivated	Sublime Text	0	0	0	0	16	0	0	1	1	1	159
+1592479204.878921	appActivated	Safari	1	1	0	0	133	0	0	0	0	0	0
+1592479214.530682	appActivated	Sublime Text	3	3	0	0	391	26	0	1	1	2	96
+1592479238.333132	appActivated	Safari	5	5	0	0	399	0	0	47	47	7	85
+1592479245.418077	appActivated	Sublime Text	1	1	0	0	145	1	0	1	1	3	0
+1592479246.134879	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592479247.487314	appActivated	Sublime Text	0	0	0	0	77	0	0	0	0	0	0
+1592479248.502842	appActivated	Safari	0	0	0	0	48	0	0	0	0	0	0
+1592479254.057938	appActivated	Sublime Text	2	2	0	0	147	17	0	0	0	0	60
+1592479260.697936	appActivated	Safari	2	2	0	0	212	1	0	6	6	12	0
+1592479267.139019	appActivated	Sublime Text	1	1	0	0	175	1	0	1	1	2	0
+1592479269.054666	appActivated	Safari	0	0	0	0	66	0	0	0	0	0	0
+1592479415.234888	appActivated	Sublime Text	23	23	0	0	3158	249	0	13	13	8	2163
+1592479418.486337	appActivated	Safari	1	1	0	0	105	1	0	2	2	4	0
+1592479420.722355	appActivated	Sublime Text	0	0	0	0	47	0	0	1	1	3	0
+1592479421.922826	appActivated	Safari	0	0	0	0	18	0	0	1	1	1	0
+1592479439.189549	appActivated	Sublime Text	7	7	0	0	721	35	0	0	0	0	199
+1592479442.533098	appActivated	Safari	1	1	0	0	117	0	0	1	1	2	0
+1592479446.324697	appActivated	Sublime Text	1	1	0	0	128	1	0	2	2	4	0
+1592479451.334813	appActivated	Safari	2	2	0	0	154	0	0	4	4	5	0
+1592479452.502518	appActivated	Sublime Text	0	0	0	0	34	0	0	1	1	1	0
+1592479541.512260	appActivated	Safari	14	14	0	0	2058	217	0	73	73	26	276
+1592479549.483783	appActivated	Sublime Text	0	0	0	0	41	0	0	1	1	2	0
+1592479560.252839	appActivated	Safari	2	2	0	0	350	71	0	10	10	3	0
+1592479561.952160	appActivated	Sublime Text	0	0	0	0	34	0	0	1	1	1	0
+1592479585.637416	appActivated	Safari	9	9	0	0	1035	101	0	16	16	7	0
+1592479591.870399	appActivated	Sublime Text	0	0	0	0	17	0	0	1	1	1	0
+1592479595.253515	appActivated	Safari	0	0	0	0	31	0	0	0	0	0	0
+1592479608.182241	appActivated	Sublime Text	0	0	0	0	39	0	0	0	0	0	0
+1592479971.060306	appActivated	Safari	0	0	0	0	273	0	0	1	1	2	0
+1592479972.453706	appActivated	Sublime Text	0	0	0	0	37	0	0	1	1	2	0
+1592479985.573049	appActivated	Safari	2	2	0	0	377	35	0	5	5	7	0
+1592479990.837788	appActivated	Sublime Text	0	0	0	0	35	0	0	1	1	1	0
+1592480011.196192	appActivated	Safari	6	6	0	0	581	76	0	16	16	9	0
+1592480017.297975	appActivated	Sublime Text	0	0	0	0	8	0	0	1	1	1	0
+1592480021.001198	appActivated	Safari	1	1	0	0	115	1	0	2	2	3	0
+1592480025.804614	appActivated	Sublime Text	0	0	0	0	42	0	0	1	1	1	0
+1592480026.786144	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592480749.805842	appActivated	Sublime Text	0	0	0	0	97	0	0	0	0	0	396
+1592480753.447017	appActivated	Safari	1	1	0	0	109	11	0	3	3	3	0
+1592480766.550502	appActivated	Sublime Text	0	0	0	0	23	0	0	1	1	1	232
+1592480768.316222	appActivated	Safari	0	0	0	0	20	0	0	0	0	0	0
+1592480769.149823	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592480772.309637	appActivated	Safari	0	0	0	0	75	0	0	0	0	0	0
+1592480774.295033	appActivated	Sublime Text	0	0	0	0	25	0	0	0	0	0	0
+1592480775.378000	appActivated	Safari	0	0	0	0	21	0	0	0	0	0	0
+1592480785.396856	appActivated	Sublime Text	2	2	0	0	180	60	0	1	1	2	191
+1592480923.160579	appActivated	Safari	24	24	0	0	2184	648	0	205	205	54	0
+1592480933.512214	appActivated	Sublime Text	1	1	0	0	182	0	0	1	1	2	61
+1592480972.525517	appActivated	Safari	17	17	0	0	1056	620	0	35	35	15	0
+1592480974.291350	appActivated	Sublime Text	0	0	0	0	58	0	0	1	1	1	0
+1592480977.025017	appActivated	Safari	1	1	0	0	130	0	0	1	1	3	0
+1592480982.389877	appActivated	Sublime Text	0	0	0	0	31	0	0	1	1	1	0
+1592480987.307473	appActivated	GitHub Desktop	1	1	0	0	80	69	0	4	4	0	0
+1592480988.591332	appActivated	Safari	0	0	0	0	32	0	0	0	0	0	0
+1592480991.113119	appActivated	Sublime Text	0	0	0	0	100	0	0	1	1	5	0
+1592480992.192278	appActivated	Safari	0	0	0	0	0	0	0	1	1	2	0
+1592480993.493054	appActivated	Sublime Text	0	0	0	0	44	0	0	1	1	1	0
+1592480994.226499	appActivated	Safari	0	0	0	0	38	0	0	0	0	0	0
+1592481004.208904	appActivated	Sublime Text	2	2	0	0	236	29	0	1	1	2	103
+1592481007.423294	appActivated	Safari	0	0	0	0	81	0	0	5	5	5	0
+1592481011.207131	appActivated	Sublime Text	1	1	0	0	131	0	0	1	1	3	0
+1592481037.536351	appActivated	Safari	3	3	0	0	727	0	0	17	17	22	175
+1592481049.623432	appActivated	Sublime Text	0	0	0	0	144	0	0	1	1	2	74
+1592481065.638892	appActivated	Safari	2	2	0	0	405	1	0	19	19	5	143
+1592481067.439616	appActivated	Sublime Text	0	0	0	0	78	0	0	1	1	1	0
+1592481071.309905	appActivated	Safari	2	2	0	0	173	0	0	3	3	3	0
+1592481075.346989	appActivated	Sublime Text	0	0	0	0	60	0	0	1	1	1	0
+1592481086.540348	appActivated	Safari	1	1	0	0	144	1	0	15	15	13	0
+1592481108.416122	appActivated	Sublime Text	0	0	0	0	34	0	0	1	1	1	0
+1592481138.904083	appActivated	Safari	4	4	0	0	1188	99	0	11	11	7	0
+1592481141.603683	appActivated	Sublime Text	0	0	0	0	28	0	0	1	1	1	0
+1592481148.107226	appActivated	Safari	2	2	0	0	208	67	0	3	3	3	0
+1592481149.423251	appActivated	Sublime Text	0	0	0	0	35	0	0	1	1	1	0
+1592481165.087543	appActivated	Safari	1	1	0	0	241	1	0	14	14	11	0
+1592481168.205099	appActivated	Sublime Text	0	0	0	0	0	0	0	1	1	1	0
+1592481176.510922	appActivated	Safari	0	0	0	0	15	0	0	0	0	0	0
+1592481182.248205	appActivated	Sublime Text	0	0	0	0	18	0	0	0	0	0	0
+1592481357.188250	appActivated	Safari	0	0	0	0	450	0	0	0	0	0	0
+1592481360.387196	appActivated	Sublime Text	0	0	0	0	3	0	0	0	0	0	0
+1592481366.086206	appActivated	GitHub Desktop	0	0	0	0	27	0	0	0	0	0	0
+1592481366.786583	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592481367.420904	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592481368.519638	appActivated	Sublime Text	0	0	0	0	34	0	0	0	0	0	0
+1592481373.719729	appActivated	Safari	0	0	0	0	177	0	0	0	0	0	24
+1592481379.302615	appActivated	Sublime Text	2	2	0	0	173	42	0	1	1	2	70
+1592481388.083416	appActivated	Safari	3	3	0	0	256	134	0	14	14	8	0
+1592481390.733388	appActivated	Sublime Text	1	1	0	0	127	0	0	1	1	2	0
+1592481400.553039	appActivated	Safari	1	1	0	0	61	10	0	20	20	11	0
+1592481404.368211	appActivated	Sublime Text	0	0	0	0	118	0	0	1	1	1	0
+1592481406.935124	appActivated	Safari	1	1	0	0	73	1	0	3	2	5	0
+1592481417.572612	appActivated	Sublime Text	1	1	0	0	278	241	0	1	2	3	0
+1592481421.843658	appActivated	Safari	2	2	0	0	43	1	0	7	7	3	0
+1592481423.710311	appActivated	Sublime Text	0	0	0	0	57	0	0	1	1	1	0
+1592481427.162954	appActivated	Safari	1	1	0	0	24	0	0	5	5	9	0
+1592481447.810533	appActivated	Sublime Text	4	4	0	0	326	255	0	1	1	1	0
+1592481469.530401	appActivated	Safari	3	3	0	0	815	117	0	22	22	7	0
+1592481472.246281	appActivated	Sublime Text	0	0	0	0	78	0	0	1	1	1	0
+1592481478.719245	appActivated	Safari	2	2	0	0	96	1	0	3	3	5	0
+1592481482.685465	appActivated	Sublime Text	0	0	0	0	33	0	0	1	1	1	0
+1592481493.889255	appActivated	Safari	1	1	0	0	234	56	0	10	10	5	0
+1592481495.620487	appActivated	Sublime Text	0	0	0	0	27	0	0	1	1	1	0
+1592481497.771319	appActivated	Safari	0	0	0	0	86	0	0	0	0	0	0
+1592481498.896760	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592481502.012020	appActivated	Safari	0	0	0	0	175	0	0	0	0	0	0
+1592481504.948437	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592481512.919116	appActivated	Safari	2	2	0	0	220	1	0	0	0	0	0
+1592481514.135389	appActivated	Sublime Text	0	0	0	0	22	0	0	0	0	0	0
+1592481522.031740	appActivated	Safari	1	1	0	0	153	1	0	12	12	3	0
+1592481523.914294	appActivated	Sublime Text	0	0	0	0	37	0	0	1	1	2	0
+1592481532.832348	appActivated	Safari	1	1	0	0	77	1	0	19	19	6	0
+1592481535.130649	appActivated	Sublime Text	0	0	0	0	56	0	0	1	1	1	0
+1592481538.266691	appActivated	Safari	1	1	0	0	114	1	0	2	2	3	0
+1592481542.497401	appActivated	Sublime Text	0	0	0	0	52	0	0	1	1	1	0
+1592481547.061235	appActivated	Safari	1	1	0	0	168	1	0	7	7	3	0
+1592481550.836184	appActivated	Sublime Text	0	0	0	0	0	0	0	1	1	2	0
+1592481557.884333	appActivated	Safari	1	1	0	0	84	1	0	8	8	8	0
+1592481559.483632	appActivated	Sublime Text	0	0	0	0	41	0	0	1	1	1	0
+1592481565.713224	appActivated	Safari	2	2	0	0	155	0	0	6	6	7	0
+1592481570.262345	appActivated	Sublime Text	0	0	0	0	81	0	0	1	1	1	0
+1592481572.861779	appActivated	Safari	1	1	0	0	83	0	0	2	2	3	0
+1592481574.633479	appActivated	Sublime Text	0	0	0	0	51	0	0	1	1	2	0
+1592481578.603953	appActivated	Safari	0	0	0	0	102	0	0	4	4	5	0
+1592481580.588775	appActivated	Sublime Text	0	0	0	0	53	0	0	1	1	2	0
+1592481582.522307	appActivated	Safari	1	1	0	0	72	0	0	0	0	0	0
+1592481583.907173	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592481586.641965	appActivated	Safari	1	1	0	0	77	0	0	3	3	3	0
+1592481592.830448	appActivated	Sublime Text	3	3	0	0	187	1	0	2	2	3	0
+1592481594.830350	appActivated	Safari	0	0	0	0	55	0	0	0	0	0	0
+1592481595.830505	appActivated	Sublime Text	0	0	0	0	27	0	0	0	0	0	0
+1592481608.468127	appActivated	Safari	1	1	0	0	345	0	0	15	15	5	0
+1592481609.999046	appActivated	Sublime Text	0	0	0	0	44	0	0	1	1	1	0
+1592481615.283868	appActivated	Safari	1	1	0	0	262	0	0	5	5	3	0
+1592481617.216188	appActivated	Sublime Text	0	0	0	0	38	0	0	1	1	1	0
+1592481633.458069	appActivated	Safari	7	7	0	0	423	65	0	14	14	3	0
+1592481635.040300	appActivated	Sublime Text	0	0	0	0	44	0	0	1	1	1	0
+1592481638.529511	appActivated	Safari	0	0	0	0	69	0	0	0	0	0	0
+1592481647.809695	appActivated	Sublime Text	3	3	0	0	226	104	0	0	0	0	24
+1592481650.914971	appActivated	Safari	1	1	0	0	92	0	0	2	2	3	0
+1592481698.893455	appActivated	Sublime Text	3	3	0	0	259	74	0	1	1	1	1018
+1592481704.914293	appActivated	Safari	4	4	0	0	195	0	0	10	10	3	0
+1592481840.578288	appActivated	Sublime Text	0	0	0	0	125	0	0	1	1	1	246
+1592481842.616113	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592481845.594244	appActivated	Sublime Text	0	0	0	0	11	0	0	0	0	0	0
+1592481849.230388	appActivated	Safari	1	1	0	0	73	0	0	5	5	3	0
+1592481851.097296	appActivated	Sublime Text	0	0	0	0	33	0	0	1	1	1	0
+1592481855.736714	appActivated	Safari	1	1	0	0	198	1	0	3	3	3	0
+1592481858.885322	appActivated	Sublime Text	0	0	0	0	30	0	0	1	1	1	0
+1592481860.971463	appActivated	Safari	0	0	0	0	22	0	0	0	0	0	0
+1592481864.171195	appActivated	Sublime Text	0	0	0	0	18	0	0	0	0	0	0
+1592481869.296728	appActivated	Safari	1	1	0	0	124	1	0	4	4	3	0
+1592481870.797135	appActivated	Sublime Text	0	0	0	0	53	0	0	1	1	1	0
+1592481877.739323	appActivated	Safari	1	1	0	0	76	0	0	7	7	5	0
+1592481879.972290	appActivated	Sublime Text	0	0	0	0	55	0	0	1	1	1	0
+1592481884.945832	appActivated	Safari	0	0	0	0	224	0	0	2	2	5	0
+1592481890.312532	appActivated	Sublime Text	0	0	0	0	15	0	0	1	1	1	122
+1592481903.738145	appActivated	Safari	1	1	0	0	439	0	0	2	2	3	0
+1592481905.469820	appActivated	Sublime Text	0	0	0	0	0	0	0	1	1	2	0
+1592481910.974870	appActivated	Safari	0	0	0	0	0	0	0	19	19	8	0
+1592481913.941763	appActivated	Sublime Text	0	0	0	0	23	0	0	1	1	1	0
+1592481919.077969	appActivated	Safari	1	1	0	0	141	16	0	3	3	3	0
+1592481935.648589	appActivated	Sublime Text	2	2	0	0	124	29	0	1	1	1	685
+1592481941.949262	appActivated	Safari	0	0	0	0	95	0	0	0	0	0	235
+1592481944.264693	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	98
+1592481946.831238	appActivated	Safari	0	0	0	0	81	0	0	0	0	0	0
+1592481950.860712	appActivated	Sublime Text	2	1	0	0	168	1	0	2	2	2	0
+1592481956.563926	appActivated	Finder	5	6	0	0	263	2	0	1	1	2	0
+1592481960.128907	appActivated	GitHub Desktop	2	2	0	0	182	2	0	0	0	0	0
+1592482013.815344	appActivated	Finder	26	26	0	0	2141	10	0	22	22	2	68
+1592482029.076073	appActivated	Safari	11	11	0	0	889	3	0	3	3	6	0
+1592482047.548962	appActivated	Finder	0	0	0	0	156	0	0	0	0	0	620
+1592482048.032703	appActivated	GitHub Desktop	1	0	0	0	40	0	0	0	0	0	0
+1592482049.094391	appActivated	Finder	1	2	0	0	83	1	0	0	0	0	0
+1592482050.981791	appActivated	Safari	1	1	0	0	78	1	0	0	0	0	0
+1592482055.434267	appActivated	GitHub Desktop	0	0	0	0	27	0	0	0	0	0	0
+1592482057.365208	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592482373.513165	appActivated	GitHub Desktop	1	1	0	0	259	28	0	1	1	0	109
+1592482374.819156	appActivated	Safari	0	0	0	0	69	0	0	0	0	0	0
+1592482438.292967	appActivated	Finder	1	1	0	0	176	0	0	0	0	0	184
+1592482441.037341	appActivated	InDesign	3	3	0	0	109	1	0	0	0	0	0
+1592482457.117039	appActivated	Safari	0	0	0	0	123	0	0	0	0	0	0
+1592482507.741716	appActivated	Mail	12	12	0	0	1305	2	0	16	16	3	184
+1592482519.333709	appActivated	GitHub Desktop	3	3	0	0	642	2	0	1	1	5	0
+1592482520.181868	appActivated	Safari	0	0	0	0	33	0	0	0	0	0	0
+1592482597.817194	appActivated	InDesign	21	21	0	0	2567	97	0	15	15	4	396
+1592482598.697386	appActivated	WhatsApp	2	2	0	0	36	1	0	0	0	0	0
+1592482623.991642	appActivated	InDesign	5	5	0	0	528	65	0	12	12	0	0
+1592482626.142226	appActivated	loginwindow	0	0	0	0	0	0	0	1	1	2	0
+1592482626.554664	appActivated	Finder	1	1	0	0	22	0	0	0	0	0	0
+1592482627.461027	appActivated	WhatsApp	0	0	0	0	1	0	0	0	0	0	0
+1592482630.574398	appActivated	Finder	1	1	0	0	41	0	0	0	0	0	10
+1592482631.142886	appActivated	WhatsApp	0	0	0	0	0	0	0	0	0	0	0
+1592482632.524147	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	45
+1592482633.092403	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592482694.922875	appActivated	WhatsApp	13	13	0	0	2323	2	0	0	0	0	670
+1592482729.447500	appActivated	Safari	4	4	0	0	312	0	0	41	41	0	0
+1592482737.659603	appActivated	WhatsApp	2	2	0	0	338	0	0	0	0	0	88
+1592482796.181074	appActivated	Safari	1	1	0	0	330	0	0	34	34	0	38
+1592482797.117299	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592482798.546665	appActivated	Safari	0	0	0	0	33	0	0	0	0	0	0
+1592482802.116026	appActivated	WhatsApp	0	0	0	0	27	0	0	0	0	0	0
+1592482905.006696	appActivated	Safari	9	9	0	0	2826	5	0	6	6	0	130
+1592482948.679296	appActivated	WhatsApp	6	6	0	0	868	35	0	51	51	0	262
+1592482949.337471	appActivated	Safari	0	0	0	0	27	0	0	0	0	0	0
+1592482960.008781	appActivated	Finder	1	1	0	0	295	1	0	0	0	0	0
+1592482965.545879	appActivated	Sublime Text	3	3	0	0	410	1	0	0	0	0	0
+1592483047.714281	appActivated	Finder	18	18	0	0	1577	243	0	142	142	36	0
+1592483047.918647	appActivated	Safari	1	1	0	0	0	0	0	0	0	0	0
+1592483056.534612	appActivated	Sublime Text	5	4	0	0	370	246	0	0	0	0	0
+1592483062.374756	appActivated	Safari	3	3	0	0	373	1	0	2	2	2	0
+1592483064.455681	appActivated	Sublime Text	1	1	0	0	110	1	0	1	1	2	0
+1592483073.928811	appActivated	WhatsApp	1	2	0	0	41	0	0	11	11	4	0
+1592483074.860937	appActivated	Sublime Text	0	0	0	0	33	0	0	0	0	0	0
+1592483074.970524	appActivated	Safari	1	0	0	0	10	0	0	0	0	0	0
+1592483090.083783	appActivated	Sublime Text	4	4	0	0	385	114	0	1	1	4	0
+1592483091.614939	appActivated	WhatsApp	0	1	0	0	8	53	0	0	0	0	0
+1592483092.801548	appActivated	Sublime Text	0	0	0	0	29	0	0	0	0	0	0
+1592483093.578461	appActivated	Safari	1	0	0	0	82	0	0	0	0	0	0
+1592483100.828280	appActivated	Sublime Text	3	3	0	0	215	3	0	0	0	0	168
+1592483121.551766	appActivated	Safari	6	6	0	0	349	3	0	29	29	10	0
+1592483158.677997	appActivated	Sublime Text	8	8	0	0	951	874	0	2	2	4	19
+1592483182.715730	appActivated	Safari	2	2	0	0	174	1	0	0	0	0	0
+1592483200.387118	appActivated	GitHub Desktop	1	2	0	0	206	40	0	0	0	0	0
+1592483201.337824	appActivated	Safari	0	0	0	0	62	0	0	0	0	0	0
+1592483209.646090	appActivated	Sublime Text	4	3	0	0	402	101	0	0	0	0	0
+1592483220.988116	appActivated	Safari	3	3	0	0	206	3	0	16	16	2	0
+1592483267.849038	appActivated	Sublime Text	11	11	0	0	1726	264	0	1	1	2	618
+1592483288.565456	appActivated	Safari	2	3	0	0	226	50	0	26	26	8	0
+1592483295.308213	appActivated	Sublime Text	5	4	0	0	204	181	0	4	4	6	0
+1592483314.063478	appActivated	Safari	2	2	0	0	195	94	0	38	38	6	0
+1592483319.832297	appActivated	Sublime Text	3	3	0	0	229	80	0	4	4	6	0
+1592483324.441764	appActivated	Safari	1	2	0	0	97	0	0	0	0	0	0
+1592483407.426356	appActivated	WhatsApp	9	9	0	0	1378	68	0	0	0	0	366
+1592483408.586695	appActivated	Finder	1	1	0	0	105	0	0	0	0	0	0
+1592483446.280790	appActivated	Safari	11	11	0	0	507	0	0	3	3	4	0
+1592483472.966247	appActivated	GitHub Desktop	5	5	0	0	1325	0	0	0	0	0	151
+1592483480.588966	appActivated	Finder	4	4	0	0	324	0	0	0	0	0	0
+1592483487.357273	appActivated	Safari	6	6	0	0	409	2	0	1	1	4	0
+1592483567.415186	appActivated	Sublime Text	9	8	0	0	1179	41	0	0	0	0	424
+1592483569.328406	appActivated	Finder	2	3	0	0	108	2	0	0	0	0	0
+1592483579.876048	appActivated	Safari	7	7	0	0	497	4	0	1	1	4	0
+1592483582.452325	appActivated	Finder	0	0	0	0	55	0	0	1	1	2	89
+1592483585.235936	appActivated	GitHub Desktop	2	2	0	0	192	0	0	0	0	0	15
+1592483617.876089	appActivated	Finder	17	17	0	0	987	7	0	0	0	0	0
+1592483619.692387	appActivated	GitHub Desktop	2	1	0	0	136	1	0	0	0	0	0
+1592483623.642261	appActivated	Finder	3	4	0	0	260	2	0	0	0	0	0
+1592483625.274702	appActivated	Safari	2	2	0	0	112	0	0	0	0	0	0
+1592483663.382047	appActivated	Finder	1	1	0	0	217	0	0	0	0	0	314
+1592483665.546830	appActivated	GitHub Desktop	1	1	0	0	165	0	0	0	0	0	0
+1592483696.458286	appActivated	Safari	4	3	0	0	442	2	0	0	0	0	0
+1592483704.850371	appActivated	Finder	3	4	0	0	301	28	0	0	0	0	184
+1592483706.912991	appActivated	Safari	1	1	0	0	71	0	0	0	0	0	0
+1592483709.543101	appActivated	GitHub Desktop	1	1	0	0	71	0	0	0	0	0	0
+1592483721.560386	appActivated	Finder	4	4	0	0	436	3	0	0	0	0	0
+1592483728.032544	appActivated	Safari	7	7	0	0	373	0	0	0	0	0	0
+1592484045.016595	appActivated	GitHub Desktop	4	4	0	0	1046	2	0	1	1	2	955
+1592484060.025071	appActivated	Finder	1	1	0	0	190	1	0	0	0	0	27
+1592484063.766196	appActivated	Safari	2	2	0	0	179	1	0	0	0	0	0
+1592484064.576703	appActivated	WhatsApp	1	1	0	0	79	1	0	0	0	0	0
+1592484135.172876	appActivated	Finder	13	13	0	0	1263	375	0	224	224	4	31
+1592484136.325307	appActivated	Safari	1	1	0	0	67	1	0	0	0	0	0
+1592484143.273725	appActivated	WhatsApp	3	3	0	0	370	2	0	0	0	0	58
+1592484152.657475	appActivated	GitHub Desktop	3	3	0	0	414	58	0	0	0	0	0
+1592484153.775253	appActivated	WhatsApp	0	0	0	0	0	0	0	0	0	0	0
+1592484156.746143	appActivated	Finder	2	2	0	0	119	35	0	0	0	0	0
+1592484158.155141	appActivated	Spotify	1	1	0	0	91	1	0	0	0	0	0
+1592484163.942864	appActivated	Finder	1	1	0	0	234	0	0	0	0	0	0
+1592484164.724130	appActivated	Spotify	0	0	0	0	33	0	0	0	0	0	0
+1592484172.465284	appActivated	Finder	4	4	0	0	220	114	0	0	0	0	0
+1592484217.146921	appActivated	WhatsApp	28	28	0	0	1710	65	0	7	7	16	0
+1592484218.659519	appActivated	Finder	0	0	0	0	35	0	0	0	0	0	0
+1592484223.133593	appActivated	GitHub Desktop	0	0	0	0	22	0	0	0	0	0	0
+1592484252.098714	appActivated	Sublime Text	6	6	0	0	1084	4	0	30	30	6	130
+1592484255.392597	appActivated	GitHub Desktop	2	1	0	0	275	1	0	0	0	0	0
+1592484286.204816	appActivated	Finder	11	12	0	0	1168	4	0	2	2	4	0
+1592484309.137823	appActivated	GitHub Desktop	13	13	0	0	1187	128	0	0	0	0	0
+1592484392.357884	appActivated	Safari	16	16	0	0	1974	225	0	3	3	11	265
+1592484483.950242	appActivated	Spotify	16	16	0	0	1843	1164	0	15	15	2	733
+1592484485.764587	appActivated	Safari	0	0	0	0	19	0	0	1	1	0	0
+1592484492.180935	appActivated	GitHub Desktop	1	1	0	0	152	1	0	0	0	0	0
+1592484598.966009	appActivated	Spotify	6	6	0	0	1344	139	0	0	0	0	378
+1592484602.301959	appActivated	Safari	0	0	0	0	37	0	0	0	0	0	0
+1592484621.667397	appActivated	Spotify	7	7	0	0	538	185	0	0	0	0	244
+1592484623.083338	appActivated	GitHub Desktop	0	0	0	0	24	0	0	0	0	0	0
+1592484643.090679	appActivated	Spotify	3	3	0	0	407	3	0	0	0	0	0
+1592484644.057561	appActivated	Slack	2	2	0	0	44	1	0	0	0	0	0
+1592484818.997988	appActivated	GitHub Desktop	10	10	0	0	1327	3	0	458	458	27	26
+1592484834.974867	appActivated	Slack	6	6	0	0	762	63	0	0	0	0	0
+1592484881.538154	appActivated	GitHub Desktop	0	0	0	0	84	0	0	181	181	4	0
+1592484884.372567	appActivated	Slack	0	0	0	0	105	0	0	0	0	0	0
+1592484907.817776	appActivated	GitHub Desktop	0	0	0	0	424	0	0	25	25	4	0
+1592484908.684303	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592485063.957162	appActivated	Finder	10	10	0	0	1887	219	0	128	128	8	123
+1592485069.266832	appActivated	Slack	3	2	0	0	177	63	0	2	2	0	0
+1592485117.187010	appActivated	Safari	10	11	0	0	1301	5	0	3	3	0	576
+1592485119.790548	appActivated	Finder	1	1	0	0	79	0	0	1	0	1	0
+1592485121.339075	appActivated	GitHub Desktop	0	0	0	0	13	0	0	0	1	1	0
+1592485123.735430	appActivated	Finder	1	1	0	0	133	1	0	1	1	0	0
+1592485126.328072	appActivated	Slack	0	0	0	0	13	0	0	1	1	2	0
+1592485148.546305	appActivated	GitHub Desktop	8	8	0	0	841	7	0	0	0	0	178
+1592485153.157347	appActivated	Spotify	2	2	0	0	280	1	0	0	0	0	0
+1592485155.229367	appActivated	WhatsApp	1	1	0	0	59	0	0	0	0	0	0
+1592485187.420718	appActivated	Spotify	3	2	0	0	327	2	0	0	0	0	0
+1592485194.840639	appActivated	WhatsApp	3	4	0	0	241	2	0	0	0	0	0
+1592485226.637718	appActivated	Spotify	4	3	0	0	416	82	0	0	0	0	0
+1592485232.303300	appActivated	WhatsApp	2	2	0	0	124	263	0	0	0	0	0
+1592485233.908441	appActivated	Finder	1	2	0	0	16	1	0	0	0	0	0
+1592485235.873220	appActivated	Slack	0	0	0	0	15	0	0	0	0	0	0
+1592485238.009191	appActivated	GitHub Desktop	1	1	0	0	139	1	0	0	0	0	0
+1592485239.965947	appActivated	Slack	1	1	0	0	57	1	0	0	0	0	0
+1592485272.002437	appActivated	GitHub Desktop	3	3	0	0	379	2	0	0	0	0	78
+1592485273.960869	appActivated	WhatsApp	1	1	0	0	89	1	0	0	0	0	0
+1592485287.802161	appActivated	Finder	3	3	0	0	482	64	0	0	0	0	0
+1592485292.706742	appActivated	Slack	1	1	0	0	241	1	0	0	0	0	0
+1592485293.907570	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592485298.313608	appActivated	WhatsApp	0	0	0	0	101	0	0	0	0	0	0
+1592485300.402345	appActivated	Spotify	1	0	0	0	148	0	0	0	0	0	0
+1592485303.836093	appActivated	GitHub Desktop	1	2	0	0	40	1	0	0	0	0	0
+1592485309.543728	appActivated	Slack	2	2	0	0	187	189	0	0	0	0	0
+1592485329.608868	appActivated	Finder	5	5	0	0	350	305	0	0	0	0	151
+1592485336.874191	appActivated	Slack	0	0	0	0	303	0	0	0	0	0	0
+1592485339.141689	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592485340.850835	appActivated	WhatsApp	1	0	0	0	119	1	0	0	0	0	0
+1592485342.769663	appActivated	Slack	0	1	0	0	0	0	0	0	0	0	0
+1592485373.164796	appActivated	WhatsApp	1	1	0	0	377	0	0	0	0	0	136
+1592485378.143501	appActivated	Finder	0	0	0	0	26	0	0	0	0	0	0
+1592485459.957140	appActivated	Slack	0	0	1	1	0	0	0	0	0	0	0
+1592485464.957933	appActivated	Finder	1	1	0	0	144	1	0	0	0	0	75
+1592485466.442540	appActivated	WhatsApp	0	0	0	0	0	0	0	0	0	0	0
+1592485471.826059	appActivated	Finder	2	2	0	0	249	0	0	0	0	0	0
+1592485472.878600	appActivated	WhatsApp	0	0	0	0	0	0	0	0	0	0	0
+1592485494.479891	appActivated	Finder	2	2	0	0	237	1	0	36	36	2	0
+1592485495.130417	appActivated	WhatsApp	0	0	0	0	13	0	0	0	0	0	0
+1592485497.096621	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592485499.679613	appActivated	Finder	0	0	0	0	20	0	0	0	0	0	0
+1592485502.433610	appActivated	Calendario	2	2	0	0	217	2	0	0	0	0	0
+1592485507.827916	appActivated	Finder	2	2	0	0	158	1	0	1	0	1	0
+1592485510.082734	appActivated	Slack	0	0	0	0	20	0	0	0	1	1	0
+1592485510.093830	appActivated	GitHub Desktop	1	0	0	0	0	0	0	0	0	0	0
+1592485520.966113	appActivated	Finder	3	4	0	0	305	2	0	0	0	0	0
+1592485543.703231	appActivated	GitHub Desktop	14	14	0	0	863	60	0	1	1	4	0
+1592485570.454266	appActivated	Finder	5	5	0	0	784	3	0	32	32	6	0
+1592485571.189077	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592485700.310297	appActivated	Finder	53	53	1	1	3666	299	0	25	25	12	722
+1592485702.131994	appActivated	GitHub Desktop	3	3	0	0	72	0	0	0	0	0	0
+1592485745.861911	appActivated	Finder	2	2	0	0	731	62	0	1	1	2	21
+1592485746.989451	appActivated	Safari	1	1	0	0	85	1	0	0	0	0	0
+1592485760.468525	appActivated	GitHub Desktop	1	1	0	0	611	1	0	7	7	2	0
+1592485801.205387	appActivated	Dizionario	3	3	0	0	347	1	0	0	0	0	0
+1592485803.101060	appActivated	GitHub Desktop	1	1	0	0	171	0	0	0	0	0	0
+1592485842.539793	appActivated	Safari	5	5	0	0	595	2	0	0	0	0	0
+1592485844.156893	appActivated	WhatsApp	0	0	0	0	17	0	0	0	0	0	0
+1592485845.629777	appActivated	Finder	1	1	0	0	11	0	0	2	2	2	0
+1592485846.366829	appActivated	Spotify	1	0	0	0	75	0	0	0	0	0	0
+1592485848.706717	appActivated	GitHub Desktop	0	1	0	0	13	0	0	1	1	0	0
+1592486097.406266	appActivated	Slack	3	2	0	0	527	1	0	0	0	0	0
+1592486136.250213	appActivated	GitHub Desktop	1	1	0	0	207	1	0	0	0	0	0
+1592486137.660110	appActivated	Safari	0	1	0	0	1	0	0	0	0	0	0
+1592486145.497339	appActivated	Finder	3	3	0	0	470	51	0	1	0	1	0
+1592486171.326485	appActivated	GitHub Desktop	11	11	0	0	734	81	0	2	3	1	0
+1592486293.898678	appActivated	Finder	6	6	0	0	877	1	0	24	24	2	372
+1592486345.707635	appActivated	Google Chrome	24	24	1	1	1748	68	0	0	0	0	0
+1592486354.926563	appActivated	Finder	2	2	0	0	184	1	0	2	2	4	108
+1592486368.102870	appActivated	Safari	7	7	1	1	417	4	0	2	2	0	0
+1592486782.003538	appActivated	Finder	2	2	0	0	340	51	0	0	0	0	1330
+1592486785.305492	appActivated	Safari	2	2	0	0	242	1	0	0	0	0	0
+1592486786.700828	appActivated	Finder	1	1	0	0	62	0	0	1	0	1	0
+1592486788.296457	appActivated	GitHub Desktop	1	1	0	0	59	1	0	0	1	1	0
+1592486791.251190	appActivated	Finder	1	1	0	0	64	0	0	1	1	1	0
+1592486797.147022	appActivated	Slack	1	1	0	0	101	0	0	0	0	1	0
+1592486799.388676	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592486806.590985	appActivated	Slack	1	1	0	0	52	1	0	1	1	0	0
+1592486833.254443	appActivated	Finder	2	2	0	0	817	1	0	21	21	4	0
+1592486838.288850	appActivated	Slack	0	0	0	0	67	0	0	0	0	0	0
+1592486847.322107	appActivated	Spotify	3	3	0	0	207	157	0	0	0	2	0
+1592486853.937504	appActivated	Finder	3	3	0	0	377	1	0	0	0	0	0
+1592486854.538536	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592486855.536098	appActivated	Finder	0	0	0	0	7	0	0	0	0	0	0
+1592486868.117157	appActivated	Safari	6	6	0	0	572	23	0	2	2	0	0
+1592486876.373823	appActivated	Finder	3	3	0	0	338	2	0	12	12	0	0
+1592486879.126869	appActivated	Slack	1	1	0	0	5	15	0	1	1	2	0
+1592486879.841570	appActivated	Finder	0	0	0	0	24	0	0	0	0	0	0
+1592486886.260447	appActivated	Slack	0	0	0	0	423	0	0	0	0	0	0
+1592486887.293017	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592486918.082819	appActivated	Slack	14	14	0	0	1425	4	0	1	1	6	0
+1592486925.157997	appActivated	GitHub Desktop	2	2	0	0	575	1	0	0	0	0	0
+1592486937.634229	appActivated	Finder	4	4	0	0	567	153	0	0	0	0	0
+1592486940.016701	appActivated	GitHub Desktop	1	1	0	0	177	1	0	0	0	0	0
+1592486948.304029	appActivated	Finder	3	3	0	0	232	2	0	0	0	0	0
+1592486949.304773	appActivated	GitHub Desktop	0	0	0	0	60	0	0	0	0	0	0
+1592487021.472668	appActivated	Finder	16	16	0	0	1996	6	0	0	0	0	270
+1592487041.034274	appActivated	GitHub Desktop	9	9	0	0	990	36	0	1	1	4	0
+1592487141.547374	appActivated	Finder	8	8	0	0	2644	3	0	0	0	4	0
+1592487159.416980	appActivated	Sublime Text	15	15	0	0	814	135	0	4	4	4	0
+1592487262.814621	appActivated	Finder	12	12	0	0	3264	237	0	1	1	0	989
+1592487265.714565	appActivated	Sublime Text	2	2	0	0	141	1	0	0	0	0	0
+1592487269.880787	appActivated	Finder	2	2	0	0	245	19	0	0	0	0	0
+1592487272.063628	appActivated	Safari	4	4	0	0	83	0	0	0	0	0	0
+1592487278.883928	appActivated	Finder	4	4	0	0	285	69	0	0	0	0	0
+1592487280.977474	appActivated	Safari	1	1	0	0	133	0	0	0	0	0	0
+1592487282.360659	appActivated	Sublime Text	0	0	0	0	96	0	0	0	0	0	0
+1592487285.232041	appActivated	Safari	1	1	0	0	162	1	0	2	2	4	0
+1592487291.601254	appActivated	Sublime Text	1	1	0	0	264	39	0	0	0	0	0
+1592487297.664838	appActivated	Safari	2	2	0	0	228	33	0	2	2	6	22
+1592487303.163783	appActivated	Sublime Text	1	1	0	0	350	0	0	3	3	4	0
+1592487304.213878	appActivated	Safari	0	0	0	0	51	0	0	0	0	0	0
+1592487306.225068	appActivated	Sublime Text	0	0	0	0	105	0	0	0	0	0	0
+1592487343.612493	appActivated	Safari	2	2	0	0	1153	0	0	1	1	2	244
+1592487348.065528	appActivated	Sublime Text	1	1	0	0	136	124	0	0	0	0	0
+1592487353.067506	appActivated	Safari	4	3	0	0	294	3	0	1	1	2	0
+1592487354.832562	appActivated	Sublime Text	0	1	0	0	46	0	0	1	1	2	0
+1592487360.697886	appActivated	Safari	4	4	0	0	196	3	0	0	0	0	0
+1592487378.056286	appActivated	Sublime Text	10	10	0	0	829	35	0	0	0	0	0
+1592487378.842268	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592487390.069166	appActivated	Safari	7	7	0	0	871	2	0	0	0	0	0
+1592487397.393456	appActivated	Finder	1	1	0	0	619	0	0	0	0	0	0
+1592487400.558251	appActivated	Safari	5	5	0	0	170	1	0	0	0	0	0
+1592487410.250287	appActivated	Finder	0	0	0	0	541	0	0	0	0	0	0
+1592487412.661664	appActivated	Safari	3	3	0	0	157	0	0	0	0	0	0
+1592487418.995433	appActivated	Finder	2	2	0	0	387	0	0	0	0	0	0
+1592487419.561980	appActivated	Safari	0	0	0	0	34	0	0	0	0	0	0
+1592487421.427428	appActivated	Finder	1	1	0	0	107	0	0	0	0	0	0
+1592487424.441809	appActivated	Safari	4	4	0	0	154	1	0	0	0	0	0
+1592487427.932025	appActivated	Finder	1	1	0	0	246	1	0	0	0	0	0
+1592487430.384718	appActivated	Safari	4	4	0	0	153	1	0	0	0	0	0
+1592487433.846394	appActivated	Finder	1	1	0	0	224	1	0	0	0	0	0
+1592487435.592008	appActivated	Safari	3	3	0	0	110	1	0	0	0	0	0
+1592487439.230016	appActivated	Finder	1	1	0	0	260	1	0	0	0	0	0
+1592487465.767069	appActivated	Safari	14	14	0	0	1198	85	0	0	0	0	0
+1592487469.429877	appActivated	Finder	1	1	0	0	206	1	0	0	0	0	0
+1592487472.978376	appActivated	Safari	5	5	0	0	247	3	0	0	0	0	0
+1592487475.870929	appActivated	Finder	0	0	0	0	121	0	0	0	0	0	0
+1592487476.793510	appActivated	Safari	0	0	0	0	19	0	0	0	0	0	0
+1592487491.138284	appActivated	Finder	0	0	0	0	969	0	0	0	0	0	0
+1592487507.050566	appActivated	Safari	9	9	0	0	599	69	0	4	4	4	0
+1592487514.189144	appActivated	Sublime Text	3	3	0	0	388	19	0	0	0	0	0
+1592487517.259695	appActivated	Spotify	0	0	0	0	168	0	0	0	0	0	51
+1592487523.920228	appActivated	Sublime Text	1	1	0	0	72	1	0	0	0	0	0
+1592487527.664540	appActivated	Finder	2	2	0	0	168	28	0	0	0	0	25
+1592487533.513358	appActivated	Safari	3	3	0	0	163	25	0	0	0	0	0
+1592487536.917897	appActivated	Sublime Text	1	1	0	0	214	1	0	0	0	0	0
+1592487537.084169	appActivated	Finder	1	1	0	0	0	0	0	0	0	0	0
+1592487539.477959	appActivated	Sublime Text	1	1	0	0	142	88	0	0	0	0	0
+1592487624.083056	appActivated	Spotify	21	21	0	0	2420	831	0	27	27	6	711
+1592487625.219181	appActivated	Safari	0	0	0	0	15	0	0	0	0	0	0
+1592487629.274526	appActivated	Finder	1	1	0	0	173	0	0	0	0	0	0
+1592487629.483545	appActivated	Safari	1	1	0	0	0	0	0	0	0	0	0
+1592487642.337794	appActivated	Finder	2	2	0	0	707	24	0	1	1	2	0
+1592487642.921577	appActivated	Safari	0	0	0	0	40	0	0	0	0	0	0
+1592487671.844785	appActivated	Sublime Text	6	6	0	0	891	26	0	0	0	0	0
+1592487696.051445	appActivated	Spotify	2	2	0	0	603	152	0	1	1	2	420
+1592487697.753635	appActivated	Safari	0	0	0	0	32	0	0	0	0	0	0
+1592487706.677864	appActivated	Sublime Text	1	1	0	0	298	1	0	1	1	2	0
+1592487724.436037	appActivated	Safari	1	1	0	0	368	0	0	20	20	8	0
+1592487732.639888	appActivated	Finder	0	0	0	0	128	0	0	1	1	2	0
+1592487733.573869	appActivated	Safari	0	0	0	0	58	0	0	0	0	0	0
+1592487747.969699	appActivated	Sublime Text	8	8	0	0	711	176	0	3	3	6	29
+1592487822.308399	appActivated	Spotify	11	11	0	0	2630	93	0	19	19	12	515
+1592487822.924590	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592487960.742609	appActivated	Spotify	14	14	0	0	4111	464	0	124	124	54	209
+1592487962.058751	appActivated	Safari	0	0	0	0	49	0	0	0	0	0	0
+1592487968.809020	appActivated	Sublime Text	1	1	0	0	382	0	0	1	1	2	0
+1592487973.578001	appActivated	Safari	2	2	0	0	89	0	0	6	6	2	50
+1592488009.582151	appActivated	Sublime Text	0	0	1	1	563	0	0	1	1	2	0
+1592488029.504764	appActivated	Safari	5	5	0	0	641	3	0	22	22	10	51
+1592488038.947226	appActivated	Sublime Text	1	1	0	0	244	0	0	1	1	2	0
+1592488042.985341	appActivated	Safari	1	1	0	0	165	1	0	4	4	2	0
+1592488051.369226	appActivated	Sublime Text	0	0	0	0	258	0	0	1	1	2	0
+1592488159.693761	appActivated	Safari	26	26	0	0	3282	499	0	62	62	28	224
+1592488168.458094	appActivated	Sublime Text	1	1	0	0	430	0	0	1	1	2	0
+1592488251.226620	appActivated	Safari	23	23	0	0	2693	447	0	60	60	36	167
+1592488255.336338	appActivated	Sublime Text	0	0	0	0	174	0	0	1	1	2	0
+1592488332.055644	appActivated	Safari	6	6	0	0	2164	3	0	7	7	2	894
+1592488337.643585	appActivated	Sublime Text	1	1	0	0	453	0	0	1	1	2	0
+1592488897.701178	appActivated	Safari	128	128	0	0	13786	2717	0	371	371	118	3972
+1592488913.039897	appActivated	Sublime Text	1	1	0	0	1141	0	0	1	1	2	0
+1592488922.490807	appActivated	Safari	1	1	0	0	259	1	0	5	5	3	123
+1592488926.989503	appActivated	Sublime Text	0	0	0	0	267	0	0	1	1	1	0
+1592488936.610830	appActivated	Safari	1	1	0	0	151	0	0	6	6	3	0
+1592488939.179120	appActivated	Finder	0	0	0	0	124	0	0	1	1	1	0
+1592488940.479242	appActivated	Sublime Text	0	0	0	0	43	0	0	0	0	0	0
+1592488942.970328	appActivated	Safari	0	0	0	0	69	0	0	3	3	3	0
+1592488945.351449	appActivated	Sublime Text	0	0	0	0	111	0	0	1	1	1	0
+1592488948.087527	appActivated	Safari	0	0	0	0	56	0	0	2	2	3	0
+1592488952.438994	appActivated	Finder	0	0	0	0	157	0	0	1	1	1	0
+1592488953.805944	appActivated	Sublime Text	0	0	0	0	27	0	0	0	0	0	0
+1592488959.062944	appActivated	Safari	1	1	0	0	202	1	0	4	4	3	0
+1592488961.628211	appActivated	Finder	0	0	0	0	113	0	0	1	1	1	0
+1592488962.897803	appActivated	Sublime Text	0	0	0	0	39	0	0	0	0	0	0
+1592488977.147944	appActivated	Safari	1	1	0	0	200	0	0	4	4	11	0
+1592488980.116798	appActivated	Sublime Text	0	0	0	0	129	0	0	1	1	2	0
+1592488991.308201	appActivated	Safari	2	2	0	0	139	18	0	12	12	15	0
+1592489012.289807	appActivated	Sublime Text	3	3	0	0	749	23	0	1	1	2	0
+1592489048.609361	appActivated	Safari	4	4	0	0	662	2	0	14	14	2	384
+1592489061.561136	appActivated	Sublime Text	1	1	0	0	691	0	0	1	1	2	0
+1592489074.905678	appActivated	Safari	3	3	0	0	359	2	0	8	8	3	28
+1592489076.972317	appActivated	Sublime Text	0	0	0	0	83	0	0	1	1	1	0
+1592489091.883009	appActivated	Safari	4	4	0	0	347	2	0	15	15	5	0
+1592489096.287558	appActivated	Sublime Text	0	0	0	0	211	0	0	1	1	1	0
+1592489098.055770	appActivated	Safari	0	0	0	0	59	0	0	0	0	0	44
+1592489100.171217	appActivated	Sublime Text	0	0	0	0	102	0	0	0	0	0	0
+1592489124.684669	appActivated	Safari	6	6	0	0	885	118	0	17	17	11	23
+1592489127.617160	appActivated	Sublime Text	0	0	0	0	90	0	0	1	1	1	0
+1592489132.582503	appActivated	Safari	2	2	0	0	218	2	0	5	5	3	0
+1592489134.816834	appActivated	Sublime Text	0	0	0	0	139	0	0	1	1	1	0
+1592489141.869506	appActivated	Safari	1	1	0	0	313	0	0	5	5	5	0
+1592489144.672396	appActivated	Sublime Text	0	0	0	0	121	0	0	1	1	1	0
+1592489148.896140	appActivated	Safari	1	1	0	0	112	0	0	4	4	3	0
+1592489155.543513	appActivated	Sublime Text	0	0	0	0	427	0	0	1	1	1	0
+1592489169.981933	appActivated	Safari	3	3	0	0	587	2	0	0	0	0	111
+1592489175.503786	appActivated	Sublime Text	0	0	0	0	293	0	0	0	0	0	0
+1592489212.612989	appActivated	Safari	4	4	0	0	364	3	0	36	36	4	90
+1592489218.150704	appActivated	Sublime Text	0	0	0	0	331	0	0	1	1	2	0
+1592489236.984242	appActivated	Safari	0	0	0	0	188	0	0	0	0	0	0
+1592489237.838666	appActivated	Sublime Text	0	0	0	0	19	0	0	0	0	0	0
+1592489252.754780	appActivated	Safari	2	2	0	0	418	87	0	1	1	0	0
+1592489254.021228	appActivated	Sublime Text	0	0	0	0	79	0	0	0	0	0	0
+1592489315.365160	appActivated	Spotify	9	9	0	0	1398	155	0	19	19	2	89
+1592489316.314766	appActivated	Safari	0	0	0	0	24	0	0	0	0	0	0
+1592489325.179624	appActivated	Sublime Text	1	1	0	0	639	31	0	0	0	0	0
+1592489344.807447	appActivated	Safari	2	2	0	0	420	1	0	16	16	4	0
+1592489439.861840	appActivated	Sublime Text	0	0	0	0	2157	0	0	1	1	2	0
+1592489442.161471	appActivated	Safari	0	0	0	0	118	0	0	0	0	0	0
+1592489443.194426	appActivated	Sublime Text	0	0	0	0	36	0	0	0	0	0	0
+1592489453.990133	appActivated	Safari	3	3	0	0	148	1	0	9	9	4	0
+1592489458.860817	appActivated	Sublime Text	0	0	0	0	384	0	0	1	1	2	0
+1592489470.127440	appActivated	Safari	1	1	0	0	316	0	0	0	0	0	99
+1592489472.160363	appActivated	Sublime Text	0	0	0	0	117	0	0	0	0	0	0
+1592489513.442597	appActivated	Safari	6	6	0	0	1436	131	0	44	44	13	0
+1592489516.426505	appActivated	Sublime Text	0	0	0	0	227	0	0	1	1	1	0
+1592489521.659841	appActivated	Safari	2	2	0	0	273	1	0	5	5	5	0
+1592489523.426842	appActivated	Sublime Text	0	0	0	0	77	0	0	1	1	1	0
+1592489534.540773	appActivated	Safari	3	3	0	0	526	56	0	5	5	7	0
+1592489536.823588	appActivated	Sublime Text	0	0	0	0	141	0	0	1	1	1	0
+1592489541.376921	appActivated	Safari	1	1	0	0	87	0	0	9	9	7	0
+1592489595.699451	appActivated	Sublime Text	2	2	0	0	2602	54	0	1	1	1	0
+1592489603.485409	appActivated	Safari	0	0	0	0	91	0	0	0	0	0	231
+1592489608.106358	appActivated	Sublime Text	0	0	0	0	479	0	0	0	0	0	0
+1592489612.955954	appActivated	Safari	1	1	0	0	173	1	0	3	3	3	65
+1592489616.406340	appActivated	Sublime Text	0	0	0	0	258	0	0	1	1	1	0
+1592489619.975436	appActivated	Safari	0	0	0	0	75	0	0	3	3	3	0
+1592489622.589559	appActivated	Sublime Text	0	0	0	0	175	0	0	1	1	1	0
+1592489625.356425	appActivated	Safari	0	0	0	0	60	0	0	3	3	3	0
+1592489629.807421	appActivated	Sublime Text	0	0	0	0	240	0	0	1	1	1	0
+1592489632.305869	appActivated	Safari	0	0	0	0	59	0	0	5	4	3	0
+1592489639.340514	appActivated	Sublime Text	0	0	0	0	475	0	0	0	1	1	0
+1592489644.124874	appActivated	Safari	0	0	0	0	46	0	0	6	6	3	0
+1592489656.068769	appActivated	Sublime Text	0	0	0	0	766	0	0	1	1	1	66
+1592489687.490329	appActivated	Safari	5	5	0	0	1128	106	0	30	30	6	213
+1592489692.081899	appActivated	Sublime Text	0	0	0	0	334	0	0	1	1	2	0
+1592489695.832234	appActivated	Safari	0	0	0	0	46	0	0	0	0	0	0
+1592489711.332291	appActivated	Sublime Text	0	0	0	0	676	0	0	0	0	0	0
+1592489712.901501	appActivated	Safari	0	0	0	0	87	0	0	0	0	0	0
+1592489763.551969	appActivated	Sublime Text	0	0	0	0	890	0	0	0	0	0	0
+1592489787.576019	appActivated	Safari	4	4	0	0	524	63	0	9	9	8	97
+1592489790.347823	appActivated	Sublime Text	0	0	0	0	88	0	0	1	1	4	0
+1592489796.533393	appActivated	Safari	1	1	0	0	156	68	0	3	3	3	0
+1592489818.850132	appActivated	Sublime Text	0	0	0	0	816	0	0	1	1	1	0
+1592489821.667422	appActivated	Safari	1	1	0	0	56	1	0	6	5	3	0
+1592489828.733831	appActivated	Sublime Text	1	1	0	0	575	1	0	0	1	1	0
+1592489888.025842	appActivated	Slack	6	6	0	0	728	42	0	28	28	12	361
+1592489896.945398	appActivated	Sublime Text	2	2	0	0	380	0	0	2	2	2	97
+1592489986.951619	appActivated	Slack	6	6	0	0	593	2	0	0	0	0	233
+1592489989.354003	appActivated	GitHub Desktop	1	0	0	0	66	0	0	0	0	0	70
+1592489994.495033	appActivated	Slack	3	3	0	0	274	67	0	0	0	0	0
+1592490046.685271	appActivated	Finder	2	3	0	0	578	47	0	0	0	2	217
+1592490051.381344	appActivated	Safari	8	8	0	0	154	1	0	0	0	0	0
+1592490069.862169	appActivated	Finder	6	6	0	0	464	2	0	1	0	1	0
+1592490073.980307	appActivated	Slack	1	1	0	0	132	18	0	1	2	3	0
+1592490077.726743	appActivated	Finder	1	1	0	0	111	0	0	0	0	0	83
+1592490078.443408	appActivated	Sublime Text	0	0	0	0	4	0	0	0	0	0	0
+1592490086.715977	appActivated	Finder	7	7	0	0	370	1	0	1	0	1	0
+1592490088.628054	appActivated	Slack	0	0	0	0	20	0	0	0	1	1	0
+1592490098.280274	appActivated	Finder	3	3	0	0	328	3	0	0	0	0	0
+1592490101.863663	appActivated	Slack	1	1	0	0	72	0	0	0	0	0	0
+1592490105.209502	appActivated	Terminale	1	1	0	0	170	1	0	0	0	0	0
+1592490107.413507	appActivated	Slack	0	0	0	0	0	0	0	1	1	1	0
+1592490107.987095	appActivated	Finder	1	1	0	0	29	1	0	0	0	1	0
+1592490110.613681	appActivated	Slack	1	1	0	0	77	0	0	0	0	0	0
+1592490273.697224	appActivated	Safari	5	5	0	0	987	2	0	0	0	0	0
+1592490310.270202	appActivated	Slack	7	6	0	0	761	40	0	34	34	2	229
+1592490312.547244	appActivated	Safari	0	1	0	0	16	0	0	1	0	1	97
+1592490386.332945	appActivated	Finder	6	6	0	0	589	2	0	10	10	6	136
+1592490422.904931	appActivated	Safari	24	23	0	0	1438	53	0	4	5	1	0
+1592490452.515276	appActivated	Finder	6	7	0	0	706	2	0	44	44	2	0
+1592490485.771767	appActivated	Safari	16	16	0	0	1459	76	0	10	10	0	238
+1592490491.891297	appActivated	Finder	2	2	0	0	258	1	0	0	0	0	97
+1592490493.284771	appActivated	Safari	2	2	0	0	92	1	0	0	0	0	0
+1592490502.659386	appActivated	Finder	4	4	0	0	423	34	0	0	0	0	111
+1592490505.649826	appActivated	Safari	5	5	0	0	149	0	0	0	0	0	0
+1592490512.960580	appActivated	Finder	2	2	0	0	234	1	0	0	0	0	161
+1592490513.919971	appActivated	Safari	2	2	0	0	69	1	0	0	0	0	0
+1592490520.118336	appActivated	Finder	1	1	0	0	172	1	0	0	0	0	169
+1592490521.132534	appActivated	Safari	2	2	0	0	77	1	0	0	0	0	0
+1592490532.166676	appActivated	Finder	5	5	0	0	369	2	0	0	0	0	110
+1592490623.089709	appActivated	Safari	36	36	0	0	2553	376	0	53	53	2	1399
+1592490676.363358	appActivated	Finder	12	12	0	0	1093	5	0	31	30	1	647
+1592490713.038067	appActivated	Sublime Text	12	12	1	1	978	3	0	0	1	1	294
+1592490795.207157	appActivated	Finder	4	4	0	0	926	241	0	0	0	0	706
+1592490798.222513	appActivated	Sublime Text	0	0	0	0	105	0	0	0	0	0	0
+1592490799.517288	appActivated	Slack	2	2	0	0	101	0	0	0	0	0	0
+1592490855.842354	appActivated	Sublime Text	3	2	0	0	556	1	0	76	76	32	0
+1592490864.075997	appActivated	Slack	1	1	0	0	221	0	0	0	0	0	0
+1592490876.276537	appActivated	Sublime Text	1	1	0	0	67	0	0	0	0	0	0
+1592490886.646849	appActivated	Slack	1	2	0	0	18	0	0	1	0	1	19
+1592491623.668156	willSleep	Slack	0	0	0	0	102	0	0	0	1	1	0
+1592491623.687419	screenDidSleep	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592491624.818765	appActivated	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592491634.506577	didWake	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592491634.539897	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592491635.002670	screenDidWake	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592491641.033026	appActivated	Finder	3	3	0	0	353	0	0	0	0	0	0
+1592491642.179563	appActivated	Safari	2	1	0	0	43	0	0	0	0	0	0
+1592495903.095763	willSleep	Safari	14	15	0	0	2515	40	0	21	21	2	702
+1592495903.152436	screenDidSleep	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592495904.320469	appActivated	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592500247.325146	didWake	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592500247.485908	screenDidWake	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592500247.794209	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592500249.602619	appActivated	Finder	0	0	0	0	0	0	0	1	0	1	0
+1592500320.471005	appActivated	Slack	17	17	0	0	2864	6	0	2	3	21	0
+1592500405.311275	willSleep	Slack	1	1	0	0	193	0	0	0	0	0	225
+1592500405.343011	screenDidSleep	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592500406.454985	appActivated	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592556719.413871	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592556719.658395	didWake	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592556720.222208	screenDidWake	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592556725.473549	appActivated	Finder	1	1	0	0	189	0	0	0	0	2	66
+1592556727.035905	appActivated	Safari	2	2	0	0	106	1	0	0	0	0	0
+1592558066.282194	appActivated	Finder	13	13	0	0	3271	1	0	37	36	1	83
+1592558275.592828	appActivated	Slack	1	1	0	0	99	1	0	0	1	1	0
+1592558281.618857	appActivated	Safari	2	2	0	0	466	0	0	0	0	0	39
+1592558316.584214	appActivated	Slack	13	13	0	0	1109	170	0	11	10	11	0
+1592558317.175386	appActivated	Finder	1	1	0	0	21	1	0	0	1	1	0
+1592558317.875664	appActivated	Slack	1	0	0	0	67	1	0	0	0	0	0
+1592558318.315930	appActivated	Finder	0	1	0	0	0	0	0	1	1	1	0
+1592558321.871652	appActivated	Safari	2	2	0	0	76	1	0	0	0	1	0
+1592558323.552816	appActivated	Finder	0	0	0	0	12	0	0	0	0	0	0
+1592558325.339460	appActivated	Safari	0	0	0	0	35	0	0	0	0	0	0
+1592558328.206629	appActivated	Spotify	2	2	0	0	125	78	0	0	0	0	0
+1592558375.865951	appActivated	Finder	17	17	0	0	2847	4	0	10	10	0	190
+1592558377.105574	appActivated	GitHub Desktop	2	2	0	0	92	1	0	0	0	0	0
+1592558379.132130	appActivated	Finder	2	2	0	0	39	1	0	1	1	2	0
+1592558380.284049	appActivated	GitHub Desktop	2	2	0	0	58	1	0	0	0	0	0
+1592558399.703498	appActivated	Finder	11	11	0	0	840	121	0	0	0	0	0
+1592558402.691799	appActivated	Safari	1	1	0	0	21	1	0	0	0	2	0
+1592558403.234137	appActivated	Finder	0	0	0	0	0	0	0	0	0	1	0
+1592558414.264973	appActivated	Safari	8	8	0	0	707	2	0	1	1	3	0
+1592558422.567419	appActivated	Finder	1	1	0	0	359	0	0	0	0	0	0
+1592558425.721824	appActivated	Safari	2	1	0	0	199	1	0	0	0	0	0
+1592558427.483399	appActivated	Finder	1	2	0	0	85	0	0	0	0	0	0
+1592558430.073582	appActivated	Safari	2	1	0	0	160	1	0	0	0	0	0
+1592558478.061427	appActivated	Finder	10	11	0	0	2230	1	0	0	0	0	293
+1592558482.556940	appActivated	Safari	6	6	0	0	255	3	0	0	0	0	0
+1592558509.814525	appActivated	Finder	7	7	0	0	738	24	0	1	0	1	792
+1592558587.680931	appActivated	Spotify	8	8	0	0	994	3	0	1	2	5	0
+1592558592.518167	appActivated	Finder	2	2	0	0	254	0	0	0	0	0	0
+1592558606.687986	appActivated	Safari	7	7	0	0	621	2	0	0	0	0	0
+1592558612.141953	appActivated	Finder	2	1	0	0	325	1	0	0	0	0	68
+1592558627.147280	appActivated	Safari	10	11	0	0	780	2	0	0	0	0	99
+1592558646.229536	appActivated	Finder	5	4	0	0	540	1245	0	0	0	0	0
+1592558656.957874	appActivated	Safari	7	8	0	0	651	2	0	0	0	0	33
+1592558672.209186	appActivated	Finder	3	2	0	0	842	2	0	0	0	0	128
+1592558674.202134	appActivated	Safari	1	2	0	0	109	1	0	0	0	0	0
+1592558690.461506	appActivated	Finder	5	5	0	0	226	0	0	25	25	0	0
+1592558695.906785	appActivated	Safari	4	4	0	0	361	2	0	0	0	0	0
+1592558705.272017	appActivated	Finder	1	1	0	0	337	0	0	0	0	0	322
+1592558713.528474	appActivated	Safari	10	10	0	0	502	3	0	0	0	0	0
+1592558732.525234	appActivated	Finder	6	6	0	0	455	57	0	0	0	0	552
+1592558741.377496	appActivated	Safari	8	8	0	0	519	4	0	0	0	0	0
+1592558787.735760	appActivated	Finder	1	1	0	0	4946	0	0	2	2	6	0
+1592558791.486977	appActivated	Safari	1	1	0	0	186	0	0	0	0	0	0
+1592558792.487795	appActivated	Finder	0	0	0	0	55	0	0	0	0	0	0
+1592558795.589766	appActivated	Safari	5	5	0	0	213	1	0	0	0	0	0
+1592558801.625731	appActivated	Finder	2	2	0	0	79	1	0	2	2	0	0
+1592558803.525716	appActivated	Safari	0	0	0	0	127	0	0	0	0	0	0
+1592558809.189084	appActivated	Finder	2	2	0	0	293	0	0	1	0	1	0
+1592558821.199164	appActivated	Sublime Text	4	4	0	0	573	239	0	0	1	1	0
+1592558832.053802	appActivated	Finder	6	6	0	0	664	2	0	0	0	0	0
+1592558836.229654	appActivated	Sublime Text	1	1	0	0	165	108	0	0	0	0	0
+1592558865.218162	appActivated	Finder	9	9	0	0	940	478	0	0	0	0	388
+1592558881.148552	appActivated	Safari	10	10	0	0	489	2	0	1	1	4	229
+1592558895.713363	appActivated	Finder	1	1	0	0	182	143	0	0	0	0	475
+1592558896.349734	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592558913.414016	appActivated	Finder	4	4	0	0	372	256	0	0	0	0	333
+1592558914.639348	appActivated	Sublime Text	1	0	0	0	85	0	0	0	0	0	0
+1592558930.148494	appActivated	Safari	3	4	0	0	417	71	0	5	5	6	166
+1592558933.849294	appActivated	Sublime Text	1	1	0	0	65	1	0	1	1	2	115
+1592558940.329615	appActivated	Safari	2	2	0	0	221	2	0	5	5	3	0
+1592558942.197011	appActivated	Sublime Text	0	0	0	0	24	0	0	1	1	1	0
+1592558950.722330	appActivated	Safari	1	1	0	0	289	0	0	2	2	3	157
+1592558952.322451	appActivated	Sublime Text	0	0	0	0	33	0	0	1	1	1	0
+1592559000.962309	appActivated	Finder	17	17	0	0	1386	117	0	29	29	12	128
+1592559010.558059	appActivated	GitHub Desktop	1	1	0	0	260	0	0	0	0	0	0
+1592559012.732917	appActivated	Finder	0	0	0	0	109	0	0	0	0	0	0
+1592559013.418587	appActivated	Sublime Text	0	0	0	0	8	0	0	0	0	0	0
+1592559017.197742	appActivated	Finder	3	3	0	0	151	1	0	0	0	0	0
+1592559040.085332	appActivated	Safari	20	20	0	0	1067	4	0	0	0	0	0
+1592559052.377272	appActivated	Finder	4	4	0	0	510	218	0	2	2	4	43
+1592559052.823824	appActivated	Sublime Text	1	0	0	0	12	0	0	0	0	0	0
+1592559118.349618	appActivated	Safari	18	19	0	0	1664	454	0	76	76	48	164
+1592559202.160311	appActivated	Sublime Text	0	0	0	0	223	0	0	1	1	2	629
+1592559212.576869	appActivated	Safari	2	2	0	0	387	0	0	6	6	7	33
+1592559217.029858	appActivated	Sublime Text	0	0	0	0	25	0	0	1	1	1	182
+1592559223.166199	appActivated	Safari	2	2	0	0	246	0	0	5	5	3	0
+1592559224.833064	appActivated	Sublime Text	0	0	0	0	27	0	0	1	1	2	0
+1592559305.263647	appActivated	Safari	7	7	0	0	1074	223	0	17	17	11	97
+1592559309.764673	appActivated	Sublime Text	0	0	0	0	18	0	0	1	1	2	75
+1592559315.952591	appActivated	Safari	0	0	0	0	159	0	0	2	2	2	0
+1592559810.951472	appActivated	Spotify	1	1	0	0	143	138	0	1	1	2	453
+1592559811.945388	appActivated	WhatsApp	2	2	0	0	70	0	0	0	0	0	0
+1592559812.951899	appActivated	Spotify	1	0	0	0	72	0	0	0	0	0	0
+1592559817.125437	appActivated	WhatsApp	2	2	0	0	262	1	0	0	0	0	0
+1592559890.408641	appActivated	Safari	8	9	0	0	1210	3	0	176	176	4	334
+1592559897.149011	appActivated	WhatsApp	2	2	0	0	207	0	0	10	10	0	0
+1592559901.999336	appActivated	Safari	0	0	0	0	149	0	0	6	6	0	0
+1592559913.006931	appActivated	WhatsApp	4	4	0	0	251	2	0	11	11	2	0
+1592559916.308467	appActivated	Safari	0	0	0	0	199	0	0	0	0	0	36
+1592559917.861496	appActivated	WhatsApp	0	0	0	0	46	0	0	0	0	0	0
+1592559920.622610	appActivated	Spotify	1	1	0	0	72	0	0	1	1	2	0
+1592559922.640249	appActivated	Finder	1	1	0	0	140	1	0	0	0	0	0
+1592559922.840581	appActivated	Safari	1	1	0	0	0	0	0	0	0	0	0
+1592559928.693477	appActivated	Finder	2	2	0	0	285	28	0	0	0	0	0
+1592559934.841808	appActivated	Spotify	6	6	1	1	148	61	0	0	0	0	2
+1592559935.791291	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592559936.925963	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592559938.140794	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592559938.791400	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592559939.960714	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592559940.708959	appActivated	Safari	0	0	0	0	15	0	0	0	0	0	0
+1592559941.890373	appActivated	Finder	1	1	0	0	58	39	0	0	0	0	0
+1592559952.568872	appActivated	Sublime Text	5	5	0	0	278	2	0	0	0	0	0
+1592559953.251887	appActivated	Finder	0	0	0	0	26	0	0	0	0	0	0
+1592559961.521049	appActivated	Safari	8	8	0	0	393	0	0	1	1	2	0
+1592559962.132737	appActivated	Finder	1	1	0	0	65	1	0	0	0	0	0
+1592559966.524819	appActivated	Safari	8	8	0	0	133	1	0	1	1	2	0
+1592559970.527777	appActivated	Finder	2	2	0	0	168	2	0	0	0	0	98
+1592559978.443233	appActivated	Spotify	3	3	1	1	447	69	0	0	0	0	0
+1592559980.203771	appActivated	Sublime Text	1	1	0	0	36	98	0	0	0	0	0
+1592560015.331679	appActivated	Safari	7	7	0	0	891	130	0	1	1	2	314
+1592560016.198197	appActivated	Sublime Text	0	0	0	0	13	0	0	0	0	0	0
+1592560028.276416	appActivated	Safari	3	3	0	0	318	62	0	2	2	4	45
+1592560029.167037	appActivated	Sublime Text	0	0	0	0	25	0	0	0	0	0	0
+1592560050.556971	appActivated	Safari	7	7	0	0	604	0	0	7	7	4	0
+1592560054.806256	appActivated	Sublime Text	0	0	0	0	39	0	0	2	2	4	0
+1592560063.079572	appActivated	Safari	2	2	0	0	171	58	0	10	10	7	0
+1592560067.679447	appActivated	Sublime Text	0	0	0	0	57	0	0	1	1	2	115
+1592560071.566289	appActivated	Safari	2	2	0	0	104	0	0	4	4	4	0
+1592560073.399950	appActivated	Sublime Text	0	0	0	0	29	0	0	1	1	2	40
+1592560078.086230	appActivated	Safari	0	0	0	0	68	0	0	4	4	12	0
+1592560123.907578	appActivated	Finder	3	3	0	0	703	3	0	1	1	1	778
+1592560151.098826	appActivated	Sublime Text	5	5	0	0	376	30	0	1	1	2	129
+1592560151.765890	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	1
+1592560161.975820	appActivated	Utility Compressione	10	10	0	0	400	5	0	0	0	0	1
+1592560162.326157	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592560168.958916	appActivated	Utility Compressione	5	5	0	0	294	2	0	0	0	0	0
+1592560169.311472	appActivated	loginwindow	0	0	0	0	0	0	0	0	0	0	0
+1592560169.316156	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592560203.758158	appActivated	Safari	11	11	1	1	1202	5	0	2	2	10	2
+1592560217.432160	appActivated	NetAuthAgent	1	1	0	0	155	0	0	0	0	0	543
+1592560219.016994	appActivated	Safari	1	1	0	0	65	1	0	0	0	0	29
+1592560220.933562	appActivated	Finder	2	1	0	0	95	1	0	0	0	0	0
+1592560222.805250	appActivated	Safari	0	1	0	0	39	0	0	0	0	0	0
+1592560228.578631	appActivated	Finder	0	0	0	0	73	0	0	0	0	0	259
+1592560229.393064	appActivated	Sublime Text	0	0	0	0	6	0	0	0	0	0	0
+1592560246.940015	appActivated	Finder	1	1	0	0	754	0	0	2	2	3	203
+1592560247.856854	appActivated	Safari	0	0	0	0	14	0	0	0	0	2	0
+1592560249.239544	appActivated	Finder	0	0	0	0	0	0	0	1	1	1	0
+1592560250.058683	appActivated	Sublime Text	0	0	0	0	26	0	0	0	0	1	0
+1592560252.232465	appActivated	Finder	0	0	0	0	52	0	0	2	2	4	0
+1592560252.932210	appActivated	Safari	0	0	0	0	0	0	0	0	0	2	0
+1592560255.149467	appActivated	Finder	0	0	0	0	14	0	0	1	1	1	0
+1592560287.838952	appActivated	Sublime Text	0	0	0	0	17	0	0	0	0	0	0
+1592560291.019730	appActivated	Safari	0	0	0	0	88	0	0	0	0	0	30
+1592560294.421723	appActivated	Finder	0	0	0	0	17	0	0	0	0	0	166
+1592560298.161321	appActivated	Sublime Text	1	1	0	0	143	0	0	0	0	0	0
+1592560308.983295	appActivated	Safari	3	3	0	0	447	72	0	2	2	2	93
+1592560321.903180	appActivated	Sublime Text	0	0	0	0	26	0	0	1	1	2	398
+1592560325.958297	appActivated	Safari	1	1	0	0	130	19	0	2	2	3	0
+1592560329.474133	appActivated	Sublime Text	0	0	0	0	25	0	0	1	1	2	159
+1592560363.567130	appActivated	Safari	4	4	0	0	1311	99	0	12	12	8	262
+1592560367.516931	appActivated	Sublime Text	0	0	0	0	26	0	0	1	1	1	168
+1592560410.299480	appActivated	Safari	9	9	0	0	1731	68	0	15	15	15	403
+1592560414.163783	appActivated	Sublime Text	0	0	0	0	42	0	0	1	1	1	138
+1592560415.700754	appActivated	Safari	0	0	0	0	94	0	0	0	0	0	0
+1592560421.279555	appActivated	Sublime Text	1	1	0	0	121	73	0	0	0	0	147
+1592560439.542204	appActivated	Safari	5	5	0	0	437	71	0	2	2	2	300
+1592560465.178618	appActivated	Sublime Text	5	5	0	0	470	440	0	3	3	0	78
+1592560465.844564	appActivated	Safari	0	0	0	0	29	0	0	0	0	0	0
+1592560495.341023	appActivated	Sublime Text	4	4	0	0	396	1	0	37	37	0	561
+1592560557.259088	appActivated	Safari	7	7	0	0	824	75	0	56	56	37	541
+1592560560.744066	appActivated	Sublime Text	1	1	0	0	153	0	0	2	2	5	0
+1592560577.959487	appActivated	Safari	3	3	0	0	373	0	0	33	33	13	58
+1592560584.730989	appActivated	Sublime Text	0	0	0	0	38	0	0	1	1	1	323
+1592560590.604358	appActivated	Safari	0	0	0	0	268	0	0	0	0	0	0
+1592560602.274666	appActivated	Sublime Text	2	2	0	0	140	463	0	0	0	0	0
+1592560613.014429	appActivated	Safari	0	0	0	0	230	0	0	21	21	9	0
+1592560615.735921	appActivated	Sublime Text	0	0	0	0	46	0	0	4	4	5	0
+1592560634.859397	appActivated	Safari	2	2	0	0	511	1	0	30	30	7	0
+1592560641.416332	appActivated	Sublime Text	0	0	0	0	73	0	0	1	1	1	214
+1592560648.441481	appActivated	Safari	2	2	0	0	179	0	0	9	9	3	0
+1592560651.460197	appActivated	Sublime Text	0	0	0	0	44	0	0	1	1	1	0
+1592560665.303254	appActivated	Safari	1	1	0	0	175	0	0	27	27	3	0
+1592560675.797750	appActivated	Sublime Text	1	1	0	0	258	37	0	1	1	1	230
+1592560688.177311	appActivated	Safari	3	3	0	0	480	37	0	7	7	3	21
+1592560797.776518	appActivated	Sublime Text	11	11	0	0	2302	398	0	1	1	1	588
+1592560803.916544	appActivated	Safari	0	0	0	0	123	0	0	0	0	0	91
+1592560813.053643	appActivated	Sublime Text	1	1	0	0	111	0	0	1	1	2	218
+1592560819.045393	appActivated	Safari	1	1	0	0	175	1	0	2	2	3	66
+1592560820.862320	appActivated	Sublime Text	0	0	0	0	23	0	0	1	1	1	0
+1592560827.558234	appActivated	Safari	0	0	0	0	107	0	0	0	0	0	63
+1592560834.009788	appActivated	Sublime Text	2	2	0	0	102	18	0	1	1	2	207
+1592560846.467529	appActivated	Safari	4	4	0	0	409	1	0	12	12	5	55
+1592560849.104076	appActivated	Sublime Text	0	0	0	0	39	0	0	4	4	3	0
+1592560859.770866	appActivated	Safari	2	2	0	0	264	63	0	4	4	3	100
+1592560863.165550	appActivated	Sublime Text	0	0	0	0	23	0	0	1	1	2	122
+1592560900.338656	appActivated	Safari	5	5	0	0	1202	102	0	30	30	16	140
+1592560901.787924	appActivated	Sublime Text	0	0	0	0	50	0	0	1	1	1	0
+1592560905.499421	appActivated	Safari	1	1	0	0	110	0	0	6	6	3	0
+1592560909.853006	appActivated	Sublime Text	0	0	0	0	31	0	0	1	1	1	139
+1592560914.711787	appActivated	Safari	0	0	0	0	116	0	0	5	5	3	0
+1592560919.409868	appActivated	Sublime Text	0	0	0	0	44	0	0	1	1	1	191
+1592560929.162615	appActivated	Safari	1	1	0	0	129	1	0	15	15	5	0
+1592560931.746711	appActivated	Sublime Text	0	0	0	0	12	0	0	1	1	1	0
+1592560939.104935	appActivated	Safari	1	1	0	0	119	0	0	7	7	3	0
+1592560942.990063	appActivated	Sublime Text	0	0	0	0	46	0	0	1	1	1	154
+1592560948.748988	appActivated	Safari	0	0	0	0	73	0	0	6	6	3	0
+1592560951.245208	appActivated	Sublime Text	0	0	0	0	53	0	0	1	1	1	0
+1592560952.984773	appActivated	Spotify	1	0	0	0	81	0	0	0	0	0	0
+1592560953.905091	appActivated	Sublime Text	1	1	0	0	42	1	0	0	0	0	0
+1592560955.429417	appActivated	Safari	0	1	0	0	14	0	0	0	0	0	0
+1592560960.129993	appActivated	Sublime Text	0	0	0	0	3	0	0	0	0	0	197
+1592560974.856056	appActivated	Safari	1	1	0	0	467	79	0	4	3	3	216
+1592560978.088425	appActivated	Sublime Text	0	0	0	0	39	0	0	1	2	3	69
+1592560994.271780	appActivated	Safari	1	1	0	0	283	0	0	1	1	0	114
+1592561001.222733	appActivated	Sublime Text	0	0	0	0	10	0	0	0	0	0	254
+1592561001.839192	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592561005.023495	appActivated	Sublime Text	0	0	0	0	40	0	0	0	0	0	95
+1592561005.696754	appActivated	Safari	0	0	0	0	20	0	0	0	0	0	0
+1592561006.330882	appActivated	Sublime Text	0	0	0	0	16	0	0	0	0	0	0
+1592561086.554899	appActivated	Safari	12	12	0	0	2687	20	0	40	40	7	667
+1592561087.897937	appActivated	Sublime Text	0	0	0	0	11	0	0	1	1	1	0
+1592561090.187602	appActivated	Safari	0	0	0	0	54	0	0	2	2	5	0
+1592561091.570268	appActivated	Sublime Text	0	0	0	0	9	0	0	1	1	1	0
+1592561094.840286	appActivated	Safari	1	1	0	0	115	0	0	2	2	3	0
+1592561096.178185	appActivated	Sublime Text	0	0	0	0	35	0	0	1	1	1	0
+1592561104.101286	appActivated	Safari	1	1	0	0	141	1	0	2	2	3	172
+1592561106.633715	appActivated	Sublime Text	0	0	0	0	39	0	0	1	1	2	83
+1592561108.275107	appActivated	Safari	0	0	0	0	3	0	0	3	2	4	0
+1592561110.541729	appActivated	Sublime Text	0	0	0	0	15	0	0	1	2	3	0
+1592561116.239879	appActivated	Safari	2	2	0	0	204	2	0	4	4	3	0
+1592561117.872678	appActivated	Sublime Text	0	0	0	0	63	0	0	1	1	1	0
+1592561121.148755	appActivated	Safari	0	0	0	0	41	0	0	5	5	3	0
+1592561122.693703	appActivated	Sublime Text	0	0	0	0	0	0	0	1	1	1	0
+1592561130.521539	appActivated	Safari	2	2	0	0	180	0	0	3	3	3	68
+1592561133.202588	appActivated	Sublime Text	0	0	0	0	15	0	0	1	1	1	70
+1592561181.254487	appActivated	Safari	7	7	0	0	859	23	0	52	52	13	348
+1592561184.351590	appActivated	FaceTime	0	0	0	0	14	0	0	1	1	1	135
+1592561388.317317	appActivated	Safari	0	0	0	0	121	0	0	0	0	0	242
+1592561991.440828	appActivated	Sublime Text	4	4	0	0	494	91	0	9	9	0	762
+1592561993.008922	appActivated	Safari	0	0	0	0	36	0	0	0	0	0	0
+1592561996.542665	appActivated	Sublime Text	1	1	0	0	65	0	0	3	3	0	0
+1592561997.259841	appActivated	Finder	0	0	0	0	9	0	0	0	0	0	0
+1592561999.711705	appActivated	GitHub Desktop	0	0	0	0	153	0	0	0	0	0	0
+1592562000.594837	appActivated	Finder	0	0	0	0	34	0	0	0	0	0	0
+1592562001.431266	appActivated	Sublime Text	0	0	0	0	39	0	0	0	0	0	0
+1592562002.381487	appActivated	Safari	0	0	0	0	43	0	0	0	0	0	0
+1592562003.178653	appActivated	Sublime Text	0	0	0	0	12	0	0	0	0	0	0
+1592562007.818343	appActivated	Safari	2	2	0	0	224	1	0	0	0	0	0
+1592562009.272256	appActivated	Finder	0	0	0	0	12	0	0	0	0	0	0
+1592562046.907255	appActivated	Safari	29	29	0	0	2290	26	0	2	2	2	0
+1592562088.481521	appActivated	GitHub Desktop	10	10	0	0	1601	18	0	17	17	2	101
+1592562090.714803	appActivated	Safari	0	0	0	0	109	0	0	0	0	0	0
+1592562096.233128	appActivated	Finder	4	4	0	0	437	3	0	0	0	0	0
+1592562104.243755	appActivated	Safari	6	6	0	0	511	3	0	0	0	0	0
+1592562112.983663	appActivated	Sublime Text	0	0	0	0	46	0	0	0	0	0	166
+1592562123.851241	appActivated	Safari	2	2	0	0	234	0	0	6	6	2	138
+1592562132.048016	appActivated	Sublime Text	4	4	0	0	232	1	0	3	3	6	0
+1592562141.283388	appActivated	Safari	1	1	0	0	237	1	0	7	7	11	0
+1592562143.865910	appActivated	Sublime Text	0	0	0	0	32	0	0	1	1	1	0
+1592562151.531813	appActivated	Safari	1	1	0	0	92	0	0	13	13	5	35
+1592562153.483898	appActivated	Sublime Text	0	0	0	0	16	0	0	1	1	1	0
+1592562162.832398	appActivated	Safari	3	3	0	0	240	0	0	8	8	3	0
+1592562174.876797	appActivated	Spotify	0	0	0	0	257	0	0	1	1	1	170
+1592562175.893249	appActivated	Safari	0	0	0	0	25	0	0	0	0	0	0
+1592562179.376437	appActivated	Spotify	0	0	0	0	98	0	0	0	0	0	0
+1592562180.076877	appActivated	Finder	1	1	0	0	70	1	0	0	0	0	0
+1592562195.877302	appActivated	Photoshop CC	1	1	1	1	636	0	0	4	4	0	0
+1592562214.654120	appActivated	Safari	8	8	0	0	727	1	0	1	1	2	0
+1592562215.401637	appActivated	Sublime Text	0	0	0	0	14	0	0	0	0	0	0
+1592562228.819349	appActivated	Safari	3	3	0	0	299	0	0	3	3	8	203
+1592562229.551730	appActivated	Photoshop CC	0	0	0	0	9	0	0	0	0	0	0
+1592562234.866560	appActivated	Safari	6	6	0	0	298	1	0	1	1	2	0
+1592562235.685034	appActivated	Sublime Text	0	0	0	0	8	0	0	0	0	0	0
+1592562241.618123	appActivated	Safari	2	2	0	0	188	0	0	4	4	8	0
+1592562249.569827	appActivated	Sublime Text	1	1	0	0	95	0	0	1	1	2	206
+1592562250.319758	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592562260.252733	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	266
+1592562261.135165	appActivated	Photoshop CC	0	0	0	0	0	0	0	0	0	0	0
+1592562267.505001	appActivated	Safari	0	0	0	0	29	0	0	0	0	0	0
+1592562269.434362	appActivated	Sublime Text	0	0	0	0	19	0	0	0	0	0	0
+1592562273.101977	appActivated	Safari	0	0	0	0	39	0	0	0	0	0	24
+1592562275.134918	appActivated	Photoshop CC	0	0	0	0	17	0	0	0	0	0	0
+1592562277.034908	appActivated	Safari	0	0	0	0	18	0	0	0	0	0	0
+1592562279.036141	appActivated	Photoshop CC	0	0	0	0	23	0	0	0	0	0	0
+1592562284.184393	appActivated	Safari	0	0	0	0	56	0	0	0	0	0	0
+1592562285.835078	appActivated	Sublime Text	0	0	0	0	39	0	0	0	0	0	0
+1592562288.068074	appActivated	Safari	2	2	0	0	73	0	0	0	0	0	0
+1592562288.768159	appActivated	Sublime Text	0	0	0	0	15	0	0	0	0	0	0
+1592562291.068659	appActivated	Safari	0	0	0	0	29	0	0	2	2	3	0
+1592562295.384244	appActivated	Sublime Text	1	1	0	0	2	0	0	1	1	1	0
+1592562326.352292	appActivated	Safari	6	6	0	0	1076	66	0	32	32	21	123
+1592562334.201691	appActivated	Sublime Text	0	0	0	0	28	0	0	1	1	1	207
+1592562342.734067	appActivated	Safari	2	2	0	0	296	1	0	2	2	3	121
+1592562396.913629	appActivated	Sublime Text	6	6	0	0	505	262	0	8	8	9	1005
+1592562398.578790	appActivated	Safari	0	0	0	0	19	0	0	0	0	0	0
+1592562399.261656	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592562406.542582	appActivated	Safari	2	2	0	0	161	37	0	0	0	0	0
+1592562410.558625	appActivated	Sublime Text	1	1	0	0	187	1	0	1	1	2	0
+1592562411.156328	appActivated	Safari	0	0	0	0	5	0	0	0	0	0	0
+1592562437.472172	appActivated	Sublime Text	1	1	0	0	237	0	0	0	0	0	490
+1592562440.203359	appActivated	Finder	0	0	0	0	7	0	0	0	0	0	0
+1592562440.871171	appActivated	Sublime Text	0	0	0	0	17	0	0	0	0	0	0
+1592562441.527763	appActivated	Finder	1	1	0	0	67	0	0	0	0	0	0
+1592562452.666709	appActivated	Sublime Text	2	1	0	0	556	1	0	0	0	0	150
+1592562462.704844	appActivated	Safari	1	2	0	0	74	0	0	9	9	3	88
+1592562463.937320	appActivated	Sublime Text	0	0	0	0	15	0	0	1	1	1	0
+1592562474.487417	appActivated	Safari	4	4	0	0	229	1	0	17	17	3	57
+1592562477.287115	appActivated	Sublime Text	0	0	0	0	18	0	0	1	1	1	50
+1592562478.120277	appActivated	Safari	0	0	0	0	3	0	0	0	0	0	0
+1592562485.187295	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592562486.438062	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592562487.055519	appActivated	Photoshop CC	0	0	0	0	0	0	0	0	0	0	0
+1592562506.095057	appActivated	InDesign	10	10	0	0	1081	61	0	6	6	0	0
+1592562706.203193	appActivated	Safari	129	129	0	0	7576	1060	0	60	60	42	324
+1592562707.002693	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592562712.734900	appActivated	Safari	2	2	0	0	206	1	0	1	1	2	107
+1592562713.521381	appActivated	InDesign	0	0	0	0	18	0	0	0	0	0	0
+1592562722.384350	appActivated	Safari	8	8	0	0	567	1	0	1	1	2	0
+1592562723.068768	appActivated	Sublime Text	0	0	0	0	8	0	0	0	0	0	0
+1592562730.817996	appActivated	Safari	1	1	0	0	284	0	0	4	4	8	0
+1592562737.051852	appActivated	Sublime Text	0	0	0	0	56	0	0	1	1	2	180
+1592562738.271215	appActivated	InDesign	0	0	0	0	21	0	0	0	0	0	0
+1592562751.712083	appActivated	Finder	13	13	0	0	480	29	0	6	6	0	0
+1592562753.535366	appActivated	InDesign	2	1	0	0	99	32	0	0	0	0	0
+1592562762.519830	appActivated	Safari	7	8	0	0	563	3	0	1	1	2	0
+1592562763.319791	appActivated	Sublime Text	0	0	0	0	22	0	0	0	0	0	0
+1592562768.650849	appActivated	Safari	4	4	0	0	250	1	0	2	2	4	0
+1592562773.552595	appActivated	Sublime Text	0	0	0	0	69	0	0	1	1	2	150
+1592562774.167228	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592562785.252971	appActivated	Sublime Text	0	0	0	0	14	0	0	0	0	0	312
+1592562786.784878	appActivated	Finder	0	0	0	0	16	0	0	0	0	0	0
+1592562787.686083	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592562788.337546	appActivated	InDesign	0	0	0	0	0	0	0	0	0	0	0
+1592562789.851818	appActivated	Safari	0	0	0	0	88	0	0	0	0	0	0
+1592562791.371426	appActivated	InDesign	0	0	0	0	25	0	0	0	0	0	0
+1592562823.585155	appActivated	Sublime Text	22	22	0	0	1525	119	0	12	12	4	0
+1592562841.868969	appActivated	Safari	6	6	0	0	782	0	0	16	16	20	54
+1592562956.966603	appActivated	Sublime Text	0	0	0	0	355	0	0	1	1	2	439
+1592562958.551833	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592563040.334030	appActivated	Sublime Text	1	1	0	0	47	1	0	0	0	0	489
+1592563057.784211	appActivated	Safari	7	7	0	0	549	2	0	27	27	3	65
+1592563066.583294	appActivated	Sublime Text	0	0	0	0	33	0	0	1	1	1	109
+1592563192.533003	appActivated	Safari	1	1	0	0	445	0	0	4	4	7	125
+1592563193.915511	appActivated	Sublime Text	0	0	0	0	15	0	0	1	1	1	0
+1592563207.599552	appActivated	Safari	2	2	0	0	295	2	0	7	7	15	97
+1592563222.765199	appActivated	Sublime Text	2	2	0	0	260	119	0	1	1	1	38
+1592563231.483265	appActivated	Safari	0	0	0	0	132	0	0	0	0	0	0
+1592563232.067640	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592563254.082150	appActivated	Safari	0	0	0	0	52	0	0	22	22	8	76
+1592563255.165383	appActivated	Sublime Text	0	0	0	0	27	0	0	0	0	1	0
+1592563256.098948	appActivated	Safari	0	0	0	0	0	0	0	2	1	2	0
+1592563261.798926	appActivated	Sublime Text	0	0	0	0	0	0	0	1	2	3	137
+1592563264.266634	appActivated	Safari	0	0	0	0	18	0	0	1	1	0	53
+1592563368.550242	appActivated	Sublime Text	9	9	0	0	1334	59	0	6	6	0	1194
+1592563369.847266	appActivated	Safari	0	0	0	0	49	0	0	0	0	0	0
+1592563373.048039	appActivated	Sublime Text	2	2	0	0	99	1	0	0	0	0	0
+1592563375.132786	appActivated	Safari	0	0	0	0	28	0	0	0	0	0	0
+1592563413.981045	appActivated	Sublime Text	4	4	0	0	610	1	0	0	0	0	0
+1592563416.914108	appActivated	Safari	1	1	0	0	27	1	0	1	1	4	27
+1592563449.464161	appActivated	Sublime Text	9	9	0	0	693	1	0	21	21	6	555
+1592563453.331876	appActivated	Safari	2	2	0	0	141	1	0	1	1	2	62
+1592563457.465075	appActivated	Sublime Text	2	2	0	0	245	1	0	1	1	2	0
+1592563461.134400	appActivated	Safari	2	2	0	0	90	0	0	2	2	5	0
+1592563465.914326	appActivated	Sublime Text	2	2	0	0	148	2	0	1	1	3	0
+1592563467.383179	appActivated	Safari	0	0	0	0	44	0	0	0	0	0	0
+1592563470.115901	appActivated	Sublime Text	0	0	0	0	17	0	0	0	0	0	0
+1592563471.096864	appActivated	Safari	0	0	0	0	50	0	0	0	0	0	0
+1592563475.287516	appActivated	Finder	5	5	0	0	254	37	0	0	0	0	0
+1592563651.084501	appActivated	Safari	22	21	0	0	1761	40	0	151	151	0	132
+1592563668.230011	appActivated	Sublime Text	12	13	0	0	523	6	0	1	1	2	169
+1592563672.813913	appActivated	Safari	2	2	0	0	198	1	0	1	1	2	0
+1592563676.061656	appActivated	Sublime Text	2	2	0	0	79	0	0	1	1	4	0
+1592563679.912972	appActivated	Safari	2	2	0	0	138	0	0	2	2	4	0
+1592563847.068662	appActivated	FaceTime	2	2	0	0	99	1	0	1	1	2	420
+1592563882.394251	appActivated	Sublime Text	0	0	0	0	44	0	0	0	0	0	208
+1592563883.243561	appActivated	Finder	0	0	0	0	38	0	0	0	0	0	0
+1592563889.164098	appActivated	Slack	2	2	0	0	439	0	0	0	0	0	0
+1592563949.168372	appActivated	CoreServicesUIAgent	9	9	0	0	1315	0	0	0	0	0	345
+1592563950.376127	appActivated	Slack	1	0	0	0	96	0	0	0	0	0	0
+1592563951.617666	appActivated	Acrobat Reader	1	1	0	0	42	1	0	0	0	0	0
+1592563974.806881	appActivated	Slack	3	4	0	0	259	0	0	0	0	0	227
+1592564006.195476	appActivated	Acrobat Reader	6	6	0	0	805	2	0	0	0	0	596
+1592564544.296147	appActivated	FaceTime	0	0	0	0	0	0	0	0	0	0	0
+1592564554.445294	appActivated	Finder	1	1	0	0	63	0	0	0	0	0	0
+1592564564.816873	appActivated	Slack	2	2	0	0	372	1	0	0	0	0	0
+1592564566.327832	appActivated	Acrobat Reader	1	0	0	0	97	0	0	0	0	0	0
+1592564574.409443	appActivated	GitHub Desktop	2	3	0	0	157	281	0	0	0	0	0
+1592564575.995401	appActivated	Acrobat Reader	0	0	0	0	27	0	0	0	0	0	0
+1592564579.810275	appActivated	Sublime Text	0	0	0	0	51	0	0	0	0	0	0
+1592564592.194736	appActivated	Acrobat Reader	3	3	0	0	134	356	0	0	0	0	82
+1592564629.061410	appActivated	Sublime Text	0	0	0	0	304	0	0	0	0	0	0
+1592564629.760555	appActivated	Safari	0	0	0	0	19	0	0	0	0	0	0
+1592565061.690025	appActivated	Sublime Text	6	6	0	0	2679	68	0	13	13	2	3375
+1592565062.474961	appActivated	Acrobat Reader	0	0	0	0	4	0	0	0	0	0	0
+1592565063.175346	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592565068.092777	appActivated	Safari	2	2	0	0	120	0	0	1	1	2	82
+1592565074.609461	appActivated	Sublime Text	2	2	0	0	156	274	0	1	1	2	0
+1592565078.826780	appActivated	Safari	2	2	0	0	198	0	0	2	2	6	0
+1592565085.925894	appActivated	Sublime Text	1	1	0	0	185	0	0	1	1	2	138
+1592565095.375975	appActivated	Safari	3	3	0	0	464	1	0	5	5	3	0
+1592565112.975077	appActivated	Sublime Text	0	0	0	0	237	0	0	1	1	1	113
+1592565124.091535	appActivated	Safari	2	2	0	0	445	55	0	3	3	7	0
+1592565125.908889	appActivated	Sublime Text	0	0	0	0	33	0	0	1	1	1	0
+1592565135.958220	appActivated	Safari	2	2	0	0	217	0	0	6	6	5	0
+1592565138.642884	appActivated	Sublime Text	0	0	0	0	66	0	0	2	2	3	0
+1592565144.093026	appActivated	Safari	1	1	0	0	292	0	0	3	3	3	0
+1592565145.409651	appActivated	Sublime Text	0	0	0	0	38	0	0	1	1	1	0
+1592565153.542069	appActivated	Safari	1	1	0	0	539	0	0	1	1	3	0
+1592565154.859465	appActivated	Sublime Text	0	0	0	0	12	0	0	1	1	2	0
+1592565162.625504	appActivated	Safari	1	1	0	0	62	0	0	10	10	4	0
+1592565194.692817	appActivated	Sublime Text	4	4	0	0	715	2	0	2	2	3	253
+1592565203.426445	appActivated	Safari	3	3	0	0	386	0	0	4	4	9	41
+1592565228.159178	appActivated	Sublime Text	2	2	0	0	507	0	0	2	2	3	385
+1592565248.326815	appActivated	Safari	2	2	0	0	940	0	0	25	25	3	29
+1592565257.958203	appActivated	Sublime Text	0	0	0	0	35	0	0	1	1	1	64
+1592565266.025444	appActivated	Safari	1	1	0	0	120	1	0	3	3	3	0
+1592565267.824711	appActivated	Sublime Text	0	0	0	0	45	0	0	1	1	1	0
+1592565272.156444	appActivated	Safari	1	1	0	0	38	0	0	15	14	3	0
+1592565274.624992	appActivated	Sublime Text	0	0	0	0	30	0	0	1	2	3	0
+1592565277.440086	appActivated	Safari	1	1	0	0	60	0	0	3	3	3	0
+1592565278.891877	appActivated	Sublime Text	0	0	0	0	42	0	0	1	1	1	0
+1592565280.741254	appActivated	Safari	1	1	0	0	24	0	0	2	2	3	0
+1592565329.008556	appActivated	Sublime Text	1	1	0	0	293	0	0	1	1	1	693
+1592565333.991710	appActivated	Safari	2	2	0	0	78	110	0	2	2	3	0
+1592565340.074533	appActivated	Sublime Text	0	0	0	0	93	0	0	1	1	1	0
+1592565346.825684	appActivated	Safari	3	3	0	0	304	2	0	5	5	3	0
+1592565348.557433	appActivated	Sublime Text	0	0	0	0	30	0	0	1	1	1	0
+1592565351.241268	appActivated	Safari	0	0	0	0	38	0	0	2	2	3	0
+1592565353.091012	appActivated	Sublime Text	0	0	0	0	19	0	0	1	1	1	0
+1592565355.358298	appActivated	Safari	0	0	0	0	30	0	0	2	2	3	0
+1592565374.145187	appActivated	InDesign	0	0	0	0	146	0	0	1	1	1	564
+1592565382.407566	appActivated	Finder	3	3	0	0	316	0	0	2	2	4	0
+1592565385.623612	appActivated	Spotify	1	0	0	0	73	1	0	0	0	0	0
+1592565387.692849	appActivated	Safari	1	2	0	0	62	0	0	0	0	0	0
+1592565389.542838	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592565394.907431	appActivated	Safari	1	1	0	0	147	1	0	1	1	0	51
+1592565405.191666	appActivated	Sublime Text	6	6	0	0	375	0	0	1	1	2	60
+1592565412.241584	appActivated	Safari	4	4	0	0	69	0	0	2	2	5	96
+1592565425.741026	appActivated	Sublime Text	5	5	0	0	557	1	0	2	2	5	58
+1592565442.640942	appActivated	Safari	5	5	0	0	443	1	0	19	19	7	82
+1592565488.942045	appActivated	Sublime Text	0	0	0	0	917	0	0	1	1	2	336
+1592565491.023608	appActivated	Safari	0	0	0	0	61	0	0	0	0	0	0
+1592565503.510563	appActivated	Sublime Text	0	0	0	0	39	0	0	0	0	0	31
+1592565509.873202	appActivated	Safari	4	4	0	0	106	2	0	7	7	3	58
+1592565511.408410	appActivated	Sublime Text	0	0	0	0	27	0	0	1	1	1	0
+1592565517.408428	appActivated	Safari	2	2	0	0	57	0	0	6	6	5	0
+1592565534.340261	appActivated	Sublime Text	0	0	0	0	57	0	0	1	1	1	123
+1592565534.990129	appActivated	Safari	0	0	0	0	26	0	0	0	0	0	0
+1592565547.373975	appActivated	Sublime Text	7	7	0	0	450	2	0	2	2	4	121
+1592565557.840690	appActivated	Safari	5	5	0	0	222	1	0	15	15	6	92
+1592565563.707632	appActivated	Sublime Text	1	1	0	0	118	1	0	1	1	2	169
+1592565574.939960	appActivated	Safari	2	2	0	0	247	1	0	21	21	6	0
+1592565577.307953	appActivated	Sublime Text	0	0	0	0	95	0	0	1	1	2	0
+1592565581.108968	appActivated	Safari	1	1	0	0	153	1	0	0	0	0	0
+1592565596.740833	appActivated	Sublime Text	11	11	0	0	705	3	0	1	1	4	167
+1592565597.323811	appActivated	Safari	0	0	0	0	39	0	0	0	0	0	0
+1592565600.241081	appActivated	Sublime Text	1	1	0	0	164	1	0	0	0	0	0
+1592565612.223119	appActivated	Safari	5	5	0	0	197	3	0	21	21	9	0
+1592565622.772933	appActivated	Sublime Text	3	3	0	0	296	2	0	1	1	1	157
+1592565628.841364	appActivated	Safari	1	1	0	0	62	0	0	16	16	3	0
+1592565643.040698	appActivated	Sublime Text	1	1	0	0	274	0	0	2	2	3	235
+1592565649.490060	appActivated	Safari	2	2	0	0	148	0	0	12	12	4	0
+1592565652.491153	appActivated	Sublime Text	0	0	0	0	55	0	0	1	1	1	84
+1592565658.107395	appActivated	Safari	2	2	0	0	117	0	0	13	13	3	0
+1592565665.222646	appActivated	Sublime Text	0	0	0	0	29	0	0	1	1	1	264
+1592565667.256839	appActivated	Safari	0	0	0	0	152	0	0	0	0	0	0
+1592565687.989890	appActivated	Sublime Text	6	6	0	0	596	3	0	21	21	0	124
+1592565689.112360	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592565699.807340	appActivated	Finder	5	5	0	0	443	71	0	1	1	0	0
+1592565731.478385	appActivated	Photoshop CC	3	3	1	1	297	14	0	0	0	0	0
+1592565736.742630	appActivated	Acrobat Reader	3	3	0	0	242	0	0	1	1	2	0
+1592565737.775192	appActivated	Sublime Text	0	0	0	0	42	0	0	0	0	0	0
+1592565743.640186	appActivated	Photoshop CC	4	4	0	0	173	1	0	4	4	10	0
+1592565746.806442	appActivated	Finder	1	1	0	0	159	1	0	1	1	2	0
+1592565747.975906	appActivated	Safari	1	0	0	0	101	1	0	0	0	0	0
+1592565777.634725	appActivated	Sublime Text	7	8	1	1	651	30	0	17	17	4	32
+1592565780.917932	appActivated	Safari	2	2	0	0	120	1	0	2	2	4	0
+1592565809.860169	appActivated	Sublime Text	7	7	0	0	368	3	0	2	2	4	312
+1592565813.613336	appActivated	Safari	4	4	0	0	131	1	0	2	2	4	0
+1592565827.592967	appActivated	Sublime Text	5	5	0	0	297	2	0	2	2	4	336
+1592565830.477853	appActivated	Safari	2	2	0	0	80	0	0	2	2	5	0
+1592565845.518416	appActivated	Sublime Text	6	6	0	0	591	3	0	3	3	5	112
+1592565849.988713	appActivated	Safari	2	2	0	0	209	1	0	2	2	4	0
+1592565863.259992	appActivated	Spotify	1	1	0	0	183	1	0	1	1	2	155
+1592565864.027763	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592565874.427544	appActivated	Spotify	0	0	0	0	212	0	0	0	0	0	141
+1592565875.275527	appActivated	Sublime Text	0	0	0	0	26	0	0	0	0	0	0
+1592565911.107069	appActivated	Safari	6	6	0	0	1203	166	0	15	15	17	462
+1592566209.526742	appActivated	Spotify	0	0	0	0	241	0	0	1	1	1	238
+1592566359.116710	appActivated	Safari	7	7	0	0	478	0	0	10	10	0	0
+1592566370.502593	appActivated	Sublime Text	0	0	0	0	44	0	0	0	0	0	201
+1592566413.908987	appActivated	Safari	9	9	0	0	1916	356	0	15	15	13	0
+1592566416.244573	appActivated	Sublime Text	0	0	0	0	63	0	0	1	1	1	0
+1592566419.472337	appActivated	Safari	0	0	0	0	20	0	0	0	0	0	0
+1592566423.404389	appActivated	Sublime Text	0	0	0	0	17	0	0	0	0	0	0
+1592566475.626002	appActivated	Safari	8	8	0	0	1059	191	0	76	76	22	19
+1592566484.733205	appActivated	Sublime Text	0	0	0	0	57	0	0	1	1	2	219
+1592566495.072324	appActivated	Safari	3	3	0	0	449	2	0	4	4	3	0
+1592566497.173093	appActivated	Sublime Text	0	0	0	0	15	0	0	1	1	1	0
+1592566513.888329	appActivated	Safari	3	3	0	0	413	108	0	9	9	5	0
+1592566515.874190	appActivated	Sublime Text	0	0	0	0	40	0	0	1	1	1	0
+1592566526.002097	appActivated	Safari	1	1	0	0	231	0	0	12	12	5	0
+1592566528.116650	appActivated	Sublime Text	0	0	0	0	38	0	0	1	1	1	0
+1592566551.921203	appActivated	Safari	3	3	0	0	1061	94	0	15	15	7	0
+1592566554.104551	appActivated	Sublime Text	0	0	0	0	64	0	0	1	1	1	0
+1592566561.951440	appActivated	Safari	1	1	0	0	253	0	0	1	1	3	0
+1592566563.750853	appActivated	Sublime Text	0	0	0	0	27	0	0	1	1	1	0
+1592566629.367197	appActivated	Safari	12	12	0	0	2635	286	0	29	29	25	0
+1592566634.871073	appActivated	Sublime Text	0	0	0	0	9	0	0	1	1	1	91
+1592566635.442123	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592566636.635490	appActivated	Sublime Text	0	0	0	0	4	0	0	0	0	0	0
+1592566640.874804	appActivated	Safari	0	0	0	0	198	0	0	0	0	0	0
+1592566642.224626	appActivated	Sublime Text	0	0	0	0	12	0	0	0	0	0	0
+1592566649.507540	appActivated	Safari	1	1	0	0	327	0	0	3	3	2	0
+1592566650.291021	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	1	0
+1592566651.574499	appActivated	Safari	0	0	0	0	2	0	0	1	1	2	0
+1592566654.047535	appActivated	Sublime Text	0	0	0	0	43	0	0	1	1	1	0
+1592566659.458577	appActivated	Safari	2	2	0	0	253	1	0	3	3	3	0
+1592566663.504801	appActivated	Sublime Text	0	0	0	0	9	0	0	1	1	1	0
+1592566674.484863	appActivated	Safari	2	2	0	0	182	165	0	16	16	7	0
+1592566678.381021	appActivated	Sublime Text	0	0	0	0	42	0	0	1	1	1	113
+1592566686.743773	appActivated	Safari	1	1	0	0	299	0	0	11	11	3	0
+1592566699.943745	appActivated	Sublime Text	0	0	0	0	122	0	0	1	1	1	247
+1592566703.042363	appActivated	Safari	0	0	0	0	50	0	0	0	0	0	0
+1592566706.265158	appActivated	Sublime Text	0	0	0	0	15	0	0	0	0	0	169
+1592566707.381323	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	29
+1592566729.357550	appActivated	Sublime Text	0	0	0	0	48	0	0	0	0	0	304
+1592566737.727812	appActivated	Safari	1	1	0	0	292	115	0	2	2	3	51
+1592566740.566464	appActivated	Sublime Text	0	0	0	0	0	0	0	1	1	1	86
+1592566747.504106	appActivated	Safari	1	1	0	0	90	0	0	4	4	5	0
+1592566750.705005	appActivated	Sublime Text	0	0	0	0	25	0	0	1	1	1	81
+1592566761.211109	appActivated	Safari	0	0	0	0	64	0	0	8	8	5	0
+1592566763.777405	appActivated	Sublime Text	0	0	0	0	25	0	0	1	1	1	93
+1592566767.380979	appActivated	Safari	0	0	0	0	35	0	0	5	5	3	0
+1592566770.132797	appActivated	Sublime Text	0	0	0	0	28	0	0	1	1	1	60
+1592566776.287743	appActivated	Safari	0	0	0	0	77	0	0	5	5	3	0
+1592566777.836747	appActivated	Sublime Text	0	0	0	0	31	0	0	1	1	1	0
+1592566780.442750	appActivated	Safari	0	0	0	0	34	0	0	3	3	3	0
+1592566924.786635	appActivated	Sublime Text	17	17	0	0	1348	770	0	19	19	11	2740
+1592566940.850818	appActivated	Safari	3	3	0	0	219	1	0	22	22	3	90
+1592566945.166364	appActivated	Sublime Text	0	0	0	0	115	0	0	1	1	1	2
+1592566963.086246	appActivated	Safari	6	6	0	0	351	4	0	19	19	21	96
+1592566984.553021	appActivated	Sublime Text	1	1	0	0	357	1	0	2	2	3	626
+1592566986.390008	appActivated	Acrobat Reader	1	1	0	0	30	0	0	1	1	2	0
+1592566989.941660	appActivated	GitHub Desktop	1	1	0	0	262	1	0	0	0	0	0
+1592567078.004306	appActivated	Acrobat Reader	15	15	0	0	1874	4	0	34	34	2	30
+1592567079.052418	appActivated	Sublime Text	0	0	0	0	36	0	0	0	0	0	0
+1592567082.988662	appActivated	Safari	2	2	0	0	135	0	0	0	0	0	53
+1592567088.565303	appActivated	Finder	6	6	0	0	273	2	0	1	1	1	0
+1592567089.989210	appActivated	Acrobat Reader	0	0	0	0	0	0	0	0	0	1	0
+1592567090.604954	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592567099.909693	appActivated	Safari	6	6	0	0	446	0	0	1	1	4	0
+1592567118.061253	appActivated	Acrobat Reader	2	2	0	0	217	438	0	0	0	0	126
+1592567121.394867	appActivated	Safari	0	0	0	0	51	0	0	0	0	0	0
+1592567126.226111	appActivated	Finder	0	0	0	0	80	0	0	1	1	1	0
+1592567133.600297	appActivated	Sublime Text	4	4	1	1	375	130	0	0	0	1	0
+1592567136.170365	appActivated	Finder	1	1	0	0	166	0	0	0	0	0	0
+1592567138.766925	appActivated	Safari	3	3	0	0	148	0	0	0	0	0	0
+1592567142.002698	appActivated	Finder	2	2	0	0	112	84	0	0	0	0	0
+1592567142.545338	appActivated	Sublime Text	1	0	0	0	53	1	0	0	0	0	0
+1592567182.277425	appActivated	Safari	5	6	0	0	590	31	0	60	60	14	87
+1592567189.629190	appActivated	Sublime Text	0	0	0	0	55	0	0	2	2	4	0
+1592567228.784862	appActivated	Safari	5	5	0	0	1054	131	0	29	29	11	71
+1592567234.954192	appActivated	Sublime Text	0	0	0	0	50	0	0	1	1	1	122
+1592567245.374293	appActivated	Safari	0	0	0	0	90	0	0	11	11	5	0
+1592567246.891797	appActivated	Sublime Text	0	0	0	0	62	0	0	1	1	1	0
+1592567249.109075	appActivated	Safari	0	0	0	0	171	0	0	0	0	0	0
+1592567253.376215	appActivated	Sublime Text	1	1	0	0	70	271	0	0	0	0	0
+1592567260.016671	appActivated	Safari	1	1	0	0	134	1	0	5	5	3	0
+1592567263.964579	appActivated	Sublime Text	0	0	0	0	50	0	0	1	1	1	0
+1592567284.711366	appActivated	Safari	6	6	0	0	577	92	0	7	6	9	187
+1592567287.744076	appActivated	Sublime Text	0	0	0	0	92	0	0	2	3	5	0
+1592567292.417406	appActivated	Safari	0	0	0	0	188	0	0	4	4	2	0
+1592567323.429106	appActivated	Sublime Text	1	1	0	0	98	727	0	1	1	2	0
+1592567342.744303	appActivated	Safari	1	1	0	0	177	0	0	12	12	18	19
+1592567348.830073	appActivated	Sublime Text	1	1	0	0	148	333	0	1	1	2	0
+1592567371.838625	appActivated	Safari	4	4	0	0	858	90	0	33	33	3	82
+1592567378.854192	appActivated	Sublime Text	0	0	0	0	219	0	0	3	3	3	127
+1592567382.645402	appActivated	Finder	3	3	0	0	203	0	0	1	1	4	0
+1592567384.526474	appActivated	GitHub Desktop	0	0	0	0	35	0	0	0	0	0	0
+1592567426.742972	appActivated	Acrobat Reader	4	4	0	0	407	2	0	81	81	14	0
+1592567428.391681	appActivated	Finder	0	0	0	0	29	0	0	0	0	0	0
+1592567429.307426	appActivated	Safari	0	0	0	0	45	0	0	0	0	0	0
+1592567430.136424	appActivated	Finder	1	1	0	0	28	1	0	1	0	1	0
+1592567431.759702	appActivated	Acrobat Reader	0	0	0	0	10	0	0	0	1	1	0
+1592567432.724928	appActivated	Finder	0	0	0	0	23	0	0	0	0	0	0
+1592567437.974754	appActivated	Acrobat Reader	5	5	0	0	323	1	0	0	0	0	0
+1592567441.144310	appActivated	Finder	1	1	0	0	154	0	0	1	1	2	0
+1592567443.708837	appActivated	GitHub Desktop	0	0	0	0	22	0	0	0	0	0	78
+1592567445.777232	appActivated	Finder	0	0	0	0	30	0	0	0	0	0	0
+1592567453.406139	appActivated	Safari	4	4	0	0	383	1	0	1	1	4	0
+1592567473.888327	appActivated	Slack	4	4	0	0	251	146	0	0	0	0	600
+1592567475.270380	appActivated	Safari	0	0	0	0	11	0	0	0	0	0	0
+1592567554.884603	appActivated	Slack	8	8	0	0	1329	334	0	23	23	2	394
+1592567555.932439	appActivated	Finder	0	0	0	0	0	0	0	0	0	0	0
+1592567563.597275	appActivated	Sublime Text	4	4	0	0	383	125	0	1	1	4	0
+1592567591.639443	appActivated	Spotify	8	8	0	0	1157	59	0	12	12	14	92
+1592567592.921373	appActivated	Sublime Text	0	0	0	0	27	0	0	0	0	0	0
+1592567595.104730	appActivated	Finder	1	1	0	0	137	1	0	1	1	2	0
+1592567596.569692	appActivated	Safari	2	2	0	0	68	0	0	0	0	0	0
+1592567599.860152	appActivated	Finder	1	1	0	0	175	0	0	0	0	0	0
+1592567602.695848	appActivated	Safari	4	4	0	0	183	2	0	0	0	0	0
+1592567652.976726	appActivated	Spotify	5	5	0	0	262	912	0	1	1	2	545
+1592567707.159315	appActivated	Slack	18	18	0	0	2626	12	0	0	0	0	275
+1592567707.776783	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592567811.977328	appActivated	Slack	2	2	0	0	107	557	0	0	0	0	263
+1592567813.966440	appActivated	Finder	0	0	0	0	14	0	0	0	0	0	0
+1592567814.715227	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592567831.505287	appActivated	Slack	1	1	0	0	208	410	0	0	0	0	159
+1592567832.435450	appActivated	Safari	0	0	0	0	31	0	0	0	0	0	0
+1592567834.072929	appActivated	Slack	0	0	0	0	77	0	0	0	0	0	0
+1592567834.870517	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592567838.561449	appActivated	Safari	0	0	0	0	37	0	0	0	0	0	0
+1592567839.744196	appActivated	Finder	0	0	0	0	4	0	0	0	0	0	0
+1592567840.459015	appActivated	Sublime Text	1	0	0	0	17	1	0	0	0	0	0
+1592567851.085705	appActivated	Safari	4	5	0	0	469	102	0	4	4	2	0
+1592567853.020014	appActivated	Sublime Text	1	1	0	0	37	1	0	1	1	2	0
+1592567881.038095	appActivated	Safari	0	0	0	0	813	0	0	1	1	2	409
+1592567960.144671	appActivated	Sublime Text	12	12	0	0	1805	398	0	54	54	2	1138
+1592567974.438932	appActivated	Safari	1	1	0	0	283	0	0	22	22	2	68
+1592567986.138329	appActivated	Sublime Text	1	1	0	0	122	0	0	1	1	3	501
+1592567990.722173	appActivated	Safari	3	3	0	0	163	1	0	3	3	4	0
+1592567996.754520	appActivated	Sublime Text	1	1	0	0	87	83	0	1	1	2	186
+1592568000.038973	appActivated	Safari	1	1	0	0	87	13	0	4	4	4	0
+1592568023.523900	appActivated	Sublime Text	4	4	0	0	372	106	0	1	1	1	390
+1592568024.851977	appActivated	FaceTime	0	0	0	0	10	0	0	0	0	0	0
+1592568116.065557	appActivated	Sublime Text	1	1	0	0	315	0	0	0	0	0	42
+1592568116.671188	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592568117.319072	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592568122.422375	appActivated	Slack	0	0	0	0	0	0	0	0	0	0	0
+1592568123.442010	appActivated	Sublime Text	0	0	0	0	16	0	0	0	0	0	0
+1592568169.611922	appActivated	Safari	0	0	0	0	11	0	0	0	0	0	0
+1592568171.379220	appActivated	Sublime Text	0	0	0	0	0	0	0	0	0	0	0
+1592568175.259678	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	109
+1592568180.512692	appActivated	Sublime Text	1	1	0	0	58	0	0	0	0	0	70
+1592568182.160799	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592568312.624691	appActivated	Safari	0	0	0	0	0	0	0	1	1	0	0
+1592569488.405530	appActivated	Slack	1	1	0	0	271	0	0	0	0	0	302
+1592569489.004452	appActivated	GitHub Desktop	0	0	0	0	0	0	0	0	0	0	0
+1592569491.422180	appActivated	Sublime Text	0	0	0	0	63	0	0	0	0	0	0
+1592569493.188574	appActivated	Safari	0	0	0	0	37	0	0	0	0	0	0
+1592569538.952695	appActivated	Sublime Text	6	6	0	0	576	2	0	14	14	0	871
+1592569540.853401	appActivated	Safari	0	0	0	0	23	0	0	0	0	0	0
+1592569575.477692	appActivated	Finder	4	4	0	0	565	253	0	2	2	0	753
+1592569579.748586	appActivated	Sublime Text	3	3	0	0	140	37	0	1	1	2	0
+1592569580.394507	appActivated	Safari	0	0	0	0	14	0	0	0	0	0	0
+1592569581.447552	appActivated	Spotify	0	0	0	0	0	0	0	0	0	0	0
+1592569586.488558	appActivated	Finder	3	3	0	0	259	1	0	0	0	0	0
+1592569593.895028	appActivated	Spotify	8	8	0	0	410	3	0	0	0	0	0
+1592569594.528483	appActivated	Safari	0	0	0	0	0	0	0	0	0	0	0
+1592569607.684448	appActivated	Finder	3	3	0	0	360	401	0	0	0	0	74
+1592569614.469235	appActivated	Terminale	3	3	0	0	264	3	0	12	12	0	0
