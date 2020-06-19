@@ -42,7 +42,7 @@
 			<li>Zoom.us</li>
 		</ul>
 
-		<object id="timeline" data="illustrator.svg" width="1920" height="auto"></object>
+		<object id="timeline" data="illustrator.svg" width="2253" height="auto"></object>
 		<div id="container_data"></div>
 
 
@@ -77,41 +77,43 @@ color: white;
 		}
 
 
+		.box:hover .tooltip {
+			opacity: 1;
+
+		}
 
 
+	p { 
+		margin:0 0 1em 0;
+		font-size: 15px;
+		line-height: 25px;
+		color: white;
 
-p { 
-	margin:0 0 1em 0;
-	font-size: 15px;
-	line-height: 25px;
-	color: white;
+	}
 
 
-
- }
-
- h1 {
+ 	h1 {
  	margin-bottom: 15px;
-color: white;
- }
-
-
-
-
-#timeline {
-	position:relative;
-	margin-left: 160px;
-	top: -450px;
 	color: white;
-z-index:-1;
-}
+ 	
+ 	}
 
-#container_data {
-	position: relative;
-	margin-left: 5%;
-	top: 130px;
-	font-color: white;
-}
+
+
+	#timeline {
+		position:relative;
+		margin-left: 340px;
+		top: -590px;
+		color: white;
+		z-index:-1;
+	}
+
+	#container_data {
+		position: relative;
+		margin-left: 0px;
+		top: 130px;
+		font-color: white;
+	}	
 
 
 
@@ -121,9 +123,9 @@ z-index:-1;
 	top: 340px;
 	background-color: black;
 	opacity:1;
-	padding: 15px;
+	padding-right: 15px;
 	list-style: none;
-	line-height: 2.42em;
+	line-height: 2.43em;
 	z-index:2;
 	font-color: white;
 }
@@ -224,15 +226,15 @@ z-index:-1;
 			let container = document.getElementById("container_data");
 			let dati = "";
 
-			dati += "<svg id='container' width='3700' height='600'><g transform='translate(0,0)'>"
+			dati += "<svg id='container' width='3980' height='630'><g transform='translate(0,0)'>"
 			
 			// posizione di base dei rettangoli
 			let y = 0;
 			let x = 0;
 
 			// lato del quadrato
-			let rect_size = 30;
-			let size = 30;
+			let rect_size = 33;
+			let size = 33;
 
 			// colore
 			let color = "#FBFF02";
@@ -263,7 +265,7 @@ z-index:-1;
 				// console.log(i,y_,x_);
 
 				let value = list[i].clicks;
-				opacity = scale(value, 0, 548.31145, 0.03, 1);
+				opacity = scale(value, 0, 548.31145, 0.14, 1);
 
 				// genero gruppo
 				let classe = list[i].day + "_" + list[i].app;
@@ -292,36 +294,7 @@ z-index:-1;
 			dati += "</g>";
 
 
-			// // inserisco bolle
-			// dati += "<g transform='translate(0," + ((size*app_count)+15) + ")'>";
-			// for (let i=1; i<list.length; i++){
-
-			// 	x_ = Math.ceil(i/app_count);
-			// 	x = x_ * (rect_size+1);
-
-			// 	y_ = Math.ceil(i - (app_count*x_) )
-			// 	y = y_ * (rect_size+1);
-			// 	// console.log(i,y_,x_);
-
-			// 	// ottengo il raggio
-			// 	radius = Math.sqrt(list[i].clicks/3.14);
-
-			// 	// scalare il raggio
-			// 	the_size = scale(radius, 0, 1097, 1, circle_size);
-
-			// 	// creo il gruppo che contiene il cerchio
-			// 	let classe = list[i].day + "_" + list[i].app;
-			// 	let distanza_da_etichette = 100;
-			// 	dati += "<g class='" + classe + "' transform='translate(" + (distanza_da_etichette + (size*day_count)) + "," + y + ")'>"
-				
-			// 	// aggiungo il cerchio
-			// 	dati += "<circle r='" + the_size + "' cx='" + (x+size/2) + "' cy='" + 0 + "' fill='" + color + "'></circle>"
-
-			// 	// chudo il gruppo
-			// 	dati += "</g>"
-			// }
-			// // chiudo il gruppo con i cerchi
-			// dati += "</g>";
+			
 
 			// chiudo l'svg
 			dati += "</g></svg>"
