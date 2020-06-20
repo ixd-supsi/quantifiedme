@@ -1,278 +1,251 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>La vita di Andrea</title>
-
-</head>
-<body>
-
-	<header>
-	<h2>La vita di Andrea</h2>
-	<p>
-		I computer sono diventati parte integrante della nostra vita, trascorriamo ore ed ore senza accorgerci di cosa ci accade intorno. Digitiamo milioni di tasti e passiamo da un’applicazione all’altra in meno di 1 secondo. Vi siete mai chiesti “quante ore ho usato il computer? Qual è l’applicazione che ho usato per più tempo?”<br>Di seguito è presente un grafico raffigurante tutte le applicazioni e il rispettivo tempo di utilizzo per tutto il periodo di quarantena.
-	</p>
-	</header>
-
-
-
-	<main>
-		<ul class="apps">
-			<li>Adobe After Effects</li>
-			<li>Adobe Illustrator</li>
-			<li>Adobe Premiere</li>
-			<li>Anteprima</li>
-			<li>Finder</li>
-			<li>Foto</li>
-			<li>Chrome</li>
-			<li>inDesign</li>
-			<li>Photoshop</li>
-			<li>Quick Time</li>
-			<li>Safari</li>
-			<li>Skype</li>
-			<li>Sublime Text</li>
-			<li>Telegram</li>
-			<li>TextEdit</li>
-			<li>Whatsapp</li>
-		</ul>
-
-
-		<object id="timeline" data="file.svg" width="1920" height="auto"></object>
-		<div id="container_data"></div>
-
-	</main>
-
-	<style type="text/css">
-
-		body {
-		cursor: default;
-			margin: 0;
-			padding: 0;
-			font-family: "Roboto", sans-serif;
-		}
-
-		h2{
-		padding-left: 3%;
-		padding-top: 3%;
-		}
-
-		p {
-			padding-top: -1%;
-			padding-right: 16%;
-			margin-right: 35%;
-			margin-left: 3%;
-			font-size: 1em;
-			/*padding-right: 70%;
-			padding-bottom: 50px;*/
-		}
-
-		header {
-			position:fixed;
-		}
-
-		header p {
-			min-width: 40%;
-			max-width: 100%
-		}
-
-		/*p, h2{
-			color: black;
-			padding-left: 3%;
-			margin-right: 60%;
-			position: fixed;
-		}
-		h2 {
-			padding-top: 20%;
-		}
-
-		p {
-			margin-top: -0.5%;
-			font-size: 0.9em;
-			margin-bottom: 1.5%;
-			text-align: justify;
-		}
-		*/
-
-		.apps {
-			margin-left: 0%;
-			font-size: 0.9em;
-			position:fixed;
-			top: 37%;
-			background-color: white;
-			opacity: 0.7;
-			padding-top: 15px;
-			padding-right: : 15%;
-			padding-bottom: 15px;
-			padding-left: 3.5%;
-			list-style: none;
-			line-height: 1.87em;
-			z-index:2;
-		}
-
-		#timeline {
-			position: absolute;
-			margin-left: 180px;
-			top: -53px;
-		}		
-		#timeline p{
-					font-family: "Roboto", sans-serif;
-
-		}
-
-		#container_data {
-			position: relative;
-			top: 337px;
-		}
-
-		.tooltip {
-			opacity: 0;
-		}
-		/*.box:hover .tooltip {
-			opacity: 1;
-		}*/
-		.tooltip:hover   {
-			opacity: 1;
-		}
-		text {
-			font-size: 0.8em;
-		}
-	</style>
-
-	<script>
-
-		fetch("list.tsv").then(function (result){
-			return result.text()
-		}).then(function (data){
-			run(data.trim())
-		})
-
-		function run(txt) {
-			let list = txt.split("\n")		
-			// console.log("number of lines: " + list.length)	
-
-			// conto il numero di applicazioni
-			let app_count = -1;
-			let app_array = [];
-
-			// conto il numero di giorni 
-			let day_count = -1;
-			let day_array = [];
-
-			list = list.map(function(el, idx, arr){
-				const line = el.split('\t');
-
-				// app
-				let app = line[1];
-				if (app_array.includes(app)) {
-				}
-				else {
-					app_array.push(app);
-					app_count += 1;
-				}
-
-				// giorni
-				let day = line[0];
-				if (day_array.includes(day)) {
-				}
-				else {
-					day_array.push(day);
-					day_count += 1;
-				}
-
-				return {
-					day: day,
-					app: app,
-					value: line[2]				
-				}
-			})
-			console.log(app_count,day_count);
-
-			let container = document.getElementById("container_data");
-			let dati = "";
-
-			dati += "<svg id='container' width='3582' height='450'><g transform='translate(0,0)'>"
-			
-			// posizione di base dei rettangoli
-			let y = 0;
-			let x = 0;
-
-			// lato del quadrato
-			let rect_size = 25;
-			let size = 25;
-
-			// colore
-			let color = "red";
-
-			// opacità
-			let opacity;
-
-			// dimensione dei cerchi
-			// let circle_size = 800;
-
-			// inserisco i nomi delle app
-
-			dati += "</g>";
-
-			// funzione per scalare l'opacità (o la grandezza)
-			function scale(num, in_min, in_max, out_min, out_max) {
-				return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-			}
-
-			// inserisco rettangoli
-			dati += "<g transform='translate(0," + ((size*app_count)+20) + ")'>";
-			for (let i=1; i<list.length; i++){
-
-				x_ = Math.ceil(i/app_count);
-				x = x_ * (rect_size+1);
-
-				y_ = Math.ceil(i - (app_count*x_) )
-				y = y_ * (rect_size+1);
-				// console.log(i,y_,x_);
-
-				let value = list[i].value;
-				opacity = scale(value, 0, 894.80105, 0.03, 2);
-
-
-
-				// genero gruppo
-				let classe = list[i].day + "_" + list[i].app;
-				let distanza_da_etichette = -1668;
-				dati += "<g class='box " + classe + "' transform='translate(" + (distanza_da_etichette + (rect_size*day_count)) + "," + y + ")'>";
-
-				// aggiungo i regttangoli
-				dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='7' fill='" + color + "' opacity='" + opacity + "' class='val'></rect>"
-
-				// tooltip- apro gruppo
-				dati += "<g class='tooltip'>"
-
-				// tooltip - inserisco rettangolo e testo
-				// dati += "<rect x='" + (x) + "' y='-" + (rect_size*2) + "' width='70' height='" + (rect_size*2) +"' fill='grey'></rect>"
-				dati += "<text x='" + (x+13) + "' y='0" + (rect_size) + "' text-anchor='middle'>" + value + "</text>"; 
-				 // list[i].day + " "
-
-				// tooltip -chiudo gruppo
-				dati += "</g>"
-
-				// chiudo il gruppo con il rettangolo
-				dati += "</g>"
-			}
-			// chiudo il gruppo con tutti i rettangoli
-			dati += "</g>";
-
-
-			// chiudo l'svg
-			dati += "</g></svg>"
-
-			// riporto l'svg dentro al contenitore
-			container.innerHTML = dati;
-		}
-
-
-	</script>
-	
-<script src="common/common.js" type="module"></script>
-
-</body>
+   <head>
+      <meta charset="utf-8">
+      <title>La vita di Andrea</title>
+   </head>
+   <body>
+      <header>
+         <h2>La vita di Andrea</h2>
+         <p>
+            I computer sono diventati parte integrante della nostra vita, trascorriamo ore ed ore senza accorgerci di cosa ci accade intorno. Digitiamo milioni di tasti e passiamo da un’applicazione all’altra in meno di 1 secondo. Vi siete mai chiesti “quante ore ho usato il computer? Qual è l’applicazione che ho usato per più tempo?”<br>Di seguito è presente un grafico raffigurante tutte le applicazioni e il rispettivo tempo di utilizzo per tutto il periodo di quarantena.
+         </p>
+      </header>
+      <main>
+         <ul class="apps">
+            <li>Adobe After Effects</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Premiere</li>
+            <li>Anteprima</li>
+            <li>Finder</li>
+            <li>Foto</li>
+            <li>Chrome</li>
+            <li>inDesign</li>
+            <li>Photoshop</li>
+            <li>Quick Time</li>
+            <li>Safari</li>
+            <li>Skype</li>
+            <li>Sublime Text</li>
+            <li>Telegram</li>
+            <li>TextEdit</li>
+            <li>Whatsapp</li>
+         </ul>
+         <object id="timeline" data="file.svg" width="1920" height="auto"></object>
+         <div id="container_data"></div>
+      </main>
+      <style type="text/css">
+         body {
+         cursor: default;
+         margin: 0;
+         padding: 0;
+         font-family: "Roboto", sans-serif;
+         }
+         h2{
+         padding-left: 3%;
+         padding-top: 3%;
+         }
+         p {
+         padding-top: -1%;
+         padding-right: 16%;
+         margin-right: 35%;
+         margin-left: 3%;
+         font-size: 1em;
+         /*padding-right: 70%;
+         padding-bottom: 50px;*/
+         }
+         header {
+         position:fixed;
+         }
+         header p {
+         min-width: 40%;
+         max-width: 100%
+         }
+         /*p, h2{
+         color: black;
+         padding-left: 3%;
+         margin-right: 60%;
+         position: fixed;
+         }
+         h2 {
+         padding-top: 20%;
+         }
+         p {
+         margin-top: -0.5%;
+         font-size: 0.9em;
+         margin-bottom: 1.5%;
+         text-align: justify;
+         }
+         */
+         .apps {
+         margin-left: 0%;
+         font-size: 0.9em;
+         position:fixed;
+         top: 38%;
+         background-color: white;
+         opacity: 0.7;
+         padding-top: 15px;
+         padding-right: : 15%;
+         padding-bottom: 15px;
+         padding-left: 3.5%;
+         list-style: none;
+         line-height: 1.87em;
+         z-index:2;
+         }
+         #timeline {
+         position: absolute;
+         margin-left: 180px;
+         top: -53px;
+         }		
+         #timeline p{
+         font-family: "Roboto", sans-serif;
+         }
+         #container_data {
+         position: relative;
+         top: 337px;
+         }
+         .tooltip {
+         opacity: 0;
+         }
+         /*.box:hover .tooltip {
+         opacity: 1;
+         }*/
+         .tooltip:hover   {
+         opacity: 1;
+         }
+         text {
+         font-size: 0.8em;
+         }
+      </style>
+      <script>
+         fetch("list.tsv").then(function (result){
+         	return result.text()
+         }).then(function (data){
+         	run(data.trim())
+         })
+         
+         function run(txt) {
+         	let list = txt.split("\n")		
+         	// console.log("number of lines: " + list.length)	
+         
+         	// conto il numero di applicazioni
+         	let app_count = -1;
+         	let app_array = [];
+         
+         	// conto il numero di giorni 
+         	let day_count = -1;
+         	let day_array = [];
+         
+         	list = list.map(function(el, idx, arr){
+         		const line = el.split('\t');
+         
+         		// app
+         		let app = line[1];
+         		if (app_array.includes(app)) {
+         		}
+         		else {
+         			app_array.push(app);
+         			app_count += 1;
+         		}
+         
+         		// giorni
+         		let day = line[0];
+         		if (day_array.includes(day)) {
+         		}
+         		else {
+         			day_array.push(day);
+         			day_count += 1;
+         		}
+         
+         		return {
+         			day: day,
+         			app: app,
+         			value: line[2]				
+         		}
+         	})
+         	console.log(app_count,day_count);
+         
+         	let container = document.getElementById("container_data");
+         	let dati = "";
+         
+         	dati += "<svg id='container' width='3582' height='450'><g transform='translate(0,0)'>"
+         	
+         	// posizione di base dei rettangoli
+         	let y = 0;
+         	let x = 0;
+         
+         	// lato del quadrato
+         	let rect_size = 25;
+         	let size = 25;
+         
+         	// colore
+         	let color = "red";
+         
+         	// opacità
+         	let opacity;
+         
+         	// dimensione dei cerchi
+         	// let circle_size = 800;
+         
+         	// inserisco i nomi delle app
+         
+         	dati += "</g>";
+         
+         	// funzione per scalare l'opacità (o la grandezza)
+         	function scale(num, in_min, in_max, out_min, out_max) {
+         		return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+         	}
+         
+         	// inserisco rettangoli
+         	dati += "<g transform='translate(0," + ((size*app_count)+20) + ")'>";
+         	for (let i=1; i<list.length; i++){
+         
+         		x_ = Math.ceil(i/app_count);
+         		x = x_ * (rect_size+1);
+         
+         		y_ = Math.ceil(i - (app_count*x_) )
+         		y = y_ * (rect_size+1);
+         		// console.log(i,y_,x_);
+         
+         		let value = list[i].value;
+         		opacity = scale(value, 0, 894.80105, 0.03, 2);
+         
+         
+         
+         		// genero gruppo
+         		let classe = list[i].day + "_" + list[i].app;
+         		let distanza_da_etichette = -1668;
+         		dati += "<g class='box " + classe + "' transform='translate(" + (distanza_da_etichette + (rect_size*day_count)) + "," + y + ")'>";
+         
+         		// aggiungo i regttangoli
+         		dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='7' fill='" + color + "' opacity='" + opacity + "' class='val'></rect>"
+         
+         		// tooltip- apro gruppo
+         		dati += "<g class='tooltip'>"
+         
+         		// tooltip - inserisco rettangolo e testo
+         		// dati += "<rect x='" + (x) + "' y='-" + (rect_size*2) + "' width='70' height='" + (rect_size*2) +"' fill='grey'></rect>"
+         		dati += "<text x='" + (x+13) + "' y='0" + (rect_size) + "' text-anchor='middle'>" + value + "</text>"; 
+         		 // list[i].day + " "
+         
+         		// tooltip -chiudo gruppo
+         		dati += "</g>"
+         
+         		// chiudo il gruppo con il rettangolo
+         		dati += "</g>"
+         	}
+         	// chiudo il gruppo con tutti i rettangoli
+         	dati += "</g>";
+         
+         
+         	// chiudo l'svg
+         	dati += "</g></svg>"
+         
+         	// riporto l'svg dentro al contenitore
+         	container.innerHTML = dati;
+         }
+         
+         
+      </script>
+      <script src="common/common.js" type="module"></script>
+   </body>
 </html>
-
-
