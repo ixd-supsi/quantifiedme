@@ -849,7 +849,7 @@
 		<line class="st9" x1="39" y1="815.3" x2="39" y2="823.5"/>
 		<text transform="matrix(1 0 0 1 15.7097 837.2891)" class="st27 st28">Tue 03</text>
 	</g>
-	<text transform="matrix(1 0 0 1 0.1855 837.2891)" class="st27 st28">Mon 03</text>
+	<text transform="matrix(1 0 0 1 0.1855 837.2891)" class="st27 st28">Mon 02</text>
 	<g transform="translate(222.58448297345888,0)">
 		<line class="st9" x1="62.1" y1="814.2" x2="62.1" y2="822.4"/>
 		<text transform="matrix(1 0 0 1 42.3442 836.1748)" class="st25 st26">12 PM</text>
@@ -894,6 +894,6 @@
 		<line class="st9" x1="293.4" y1="814.2" x2="293.4" y2="822.4"/>
 		<text transform="matrix(1 0 0 1 273.679 836.1748)" class="st25 st26">12 PM</text>
 	</g>
-	<text transform="matrix(1 0 0 1 26.4258 17.002)" class="st27 st29">Scuola in SUPSI (3-8 marzo 2020)</text>
+	<text transform="matrix(1 0 0 1 26.4258 17.002)" class="st27 st29">Scuola in SUPSI (2-8 marzo 2020)</text>
 </g>
 </svg>
