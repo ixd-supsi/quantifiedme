@@ -10,9 +10,8 @@
 	.st4{font-size:15.1042px;}
 	.st5{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st6{opacity:0.6;fill:#013503;enable-background:new    ;}
-	.st7{opacity:0.6;fill:none;}
-	.st8{opacity:0.6;fill:none;stroke:#FAFCFA;stroke-width:0.25;stroke-miterlimit:10;}
-	.st9{fill:none;stroke:#FAFCFA;stroke-width:0.25;stroke-miterlimit:10;}
+	.st7{opacity:0.6;fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;enable-background:new    ;}
+	.st8{fill:none;stroke:#FAFCFA;stroke-width:0.25;stroke-miterlimit:10;}
 </style>
 <g transform="translate(0,0)">
 	<rect x="33.3" y="38.6" class="st0" width="27.4" height="10.8"/>
@@ -156,7 +155,7 @@
 <rect x="1255.1" y="92.4" class="st6" width="60.7" height="546.6"/>
 <rect x="1468.1" y="92.4" class="st6" width="60.7" height="546.6"/>
 <rect x="1681" y="92.4" class="st6" width="60.7" height="546.6"/>
-<line class="st7" x1="247.6" y1="92.4" x2="247.6" y2="635.6"/>
-<line class="st8" x1="859.6" y1="92.4" x2="859.6" y2="639"/>
-<line class="st9" x1="859.7" y1="31.8" x2="859.7" y2="58.3"/>
+<line class="st0" x1="247.6" y1="92.4" x2="247.6" y2="635.6"/>
+<line class="st7" x1="859.6" y1="92.4" x2="859.6" y2="639"/>
+<line class="st8" x1="859.7" y1="31.8" x2="859.7" y2="58.3"/>
 </svg>
