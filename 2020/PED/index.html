@@ -6,24 +6,32 @@
 </head>
 
 <body>
+				
 
-
-		<header>
-			<h1 class ="titolo">Le mie settimane in quarantena</h1>	
-			<div class="contenuto-sezione">
+				<header>
+			
+				<h1 class ="titolo">Una quarantena al computer</h1>	
+				<div class="contenuto-sezione">
+				
 				<p>
 					Questa tabella indica il tempo che ho passato al computer dall'inizio della quarantena fino a poche settimane fa.
-					Con la suddivisione in settimane è possibile notare anche l'utilizzo nei giorni feriali osservando che le applicazioni pù usate restano sempre le stesse.
+					Con la suddivisione in settimane è possibile notare anche l'utilizzo nei giorni feriali osservando che le applicazioni pù usate restano sempre le stesse.</p>
 			</div>
 		</header>
+<h2>
+				<li>Quantified Me, Corso di Interaction Design
+				<li>Progetto e dati di Katia Pedrioli
+				<li>Docenti: Andreas Gysin e Giovanni Profeta
 
+
+				</h2>	
 
 	<div id="container_data"></div>
 
 <main>
 		<ul class="app">
 
-			<li>Adobe Illustrator CC</li>
+			<li>Adobe Illustrator</li>
 			<li>FaceTime</li>
 			<li>Firefox</li>
 			<li>Google Chrome</li>
@@ -33,7 +41,8 @@
 			<li>Mail</li>
 			<li>Microsoft PowerPoint</li>
 			<li>Microsoft Teams</li>
-			<li>Photoshop CC</li>
+			<li>Pages</li>
+			<li>Photoshop</li>
 			<li>Safari</li>
 			<li>Skype</li>
 			<li>Sublime Text</li>
@@ -42,7 +51,7 @@
 			<li>Zoom.us</li>
 		</ul>
 
-		<object id="timeline" data="illustrator.svg" width="2253" height="auto"></object>
+		<object id="timeline" data="illustrator.svg" width="2050" height="auto"></object>
 		<div id="container_data"></div>
 
 
@@ -55,13 +64,10 @@
 	<style type="text/css">
 		body {
 			
-	background-color: black;
-	padding: 2em;
-	margin: 0;
+	background-color: #0F2100;
 	font-family: "helvetica LT";
-	font-weight: lighter;
 	font-size: 15px;
-color: white;
+	color: white;
 
 
 
@@ -84,33 +90,49 @@ color: white;
 
 
 	p { 
-		margin:0 0 1em 0;
+		margin-top: 20px;
+		margin-left: 60px;
 		font-size: 15px;
 		line-height: 25px;
 		color: white;
+		font-weight: lighter;
 
 	}
 
 
  	h1 {
- 	margin-bottom: 15px;
-	color: white;
+ 		margin-top: 70px;
+		margin-left: 60px;
+ 		margin-bottom: 0px;
+		color: white;
+		font-weight: bold;
  	
  	}
+
+ 	h2 { 
+		margin-top: 20px;
+		margin-left: 680px;
+		font-size: 13px;
+		line-height: 25px;
+		font-weight: lighter;
+		color: white;
+		list-style: none;
+
+	}
 
 
 
 	#timeline {
 		position:relative;
-		margin-left: 340px;
-		top: -590px;
+		margin-left: 286px;
+		top: -583px;
 		color: white;
 		z-index:-1;
 	}
 
 	#container_data {
 		position: relative;
-		margin-left: 0px;
+		margin-left: 120px;
 		top: 130px;
 		font-color: white;
 	}	
@@ -118,14 +140,14 @@ color: white;
 
 
 .app {
-
+	margin-left: 20px;
 	position: fixed;
-	top: 340px;
-	background-color: black;
+	margin-top: -490px;
+	background-color: #0F2100  ;
 	opacity:1;
 	padding-right: 15px;
 	list-style: none;
-	line-height: 2.43em;
+	line-height: 2.10em;
 	z-index:2;
 	font-color: white;
 }
@@ -226,15 +248,15 @@ color: white;
 			let container = document.getElementById("container_data");
 			let dati = "";
 
-			dati += "<svg id='container' width='3980' height='630'><g transform='translate(0,0)'>"
+			dati += "<svg id='container' width='3060' height='630'><g transform='translate(0,0)'>"
 			
 			// posizione di base dei rettangoli
 			let y = 0;
 			let x = 0;
 
 			// lato del quadrato
-			let rect_size = 33;
-			let size = 33;
+			let rect_size = 30;
+			let size = 30;
 
 			// colore
 			let color = "#FBFF02";
@@ -265,7 +287,7 @@ color: white;
 				// console.log(i,y_,x_);
 
 				let value = list[i].clicks;
-				opacity = scale(value, 0, 548.31145, 0.14, 1);
+				opacity = scale(value, 0, 548.31145, 0.18, 1);
 
 				// genero gruppo
 				let classe = list[i].day + "_" + list[i].app;
