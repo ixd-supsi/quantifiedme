@@ -1,0 +1,23 @@
+
+
+
+p { 
+	margin:0 0 1em 0;
+
+ }
+
+ h4 {
+ 	margin: 0;
+ }
+
+
+header {
+float: left;
+clear: both;
+margin-bottom: 2em;
+margin-left: 25px;
+border-top: solid 30px black;
+font-color: white;
+
+}
+
