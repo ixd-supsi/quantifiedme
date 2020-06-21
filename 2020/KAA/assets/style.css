@@ -81,5 +81,17 @@ h2.selected{
 	margin-bottom: 20px;
 }
 
+.indietro {
+	font-weight: 500;
+	font-size: 13px;
+	float: right;
+	margin-top:-35px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
 
 
