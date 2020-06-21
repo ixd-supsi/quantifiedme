@@ -1,0 +1,356 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Quantifiedme</title>
+     <meta name="author" content="Katia Pedrioli">
+     <meta name="copyright" content="©2020">
+     <meta name="Quantifiedme" content="Data visualization">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+
+<body>
+				
+
+	<header>
+			
+				<h1 class ="titolo">Quarantena al computer</h1>	
+				<div class="contenuto-sezione">
+				
+				<p>
+					Il grafico raffigura il tempo giornaliero di utilizzo delle 
+					varie applicazioni nei mesi di marzo e aprile, durante la quarantena. 
+				</p>
+
+				</div>
+
+
+	</header>
+
+
+				<h2>
+				
+					<li>Quantified Me, Corso di Interaction Design
+					<li>Progetto e dati di Katia Pedrioli, docenti: Andreas Gysin e Giovanni Profeta
+
+				</h2>	
+
+
+
+	<div id="container_data"></div>
+
+	<main>
+		<ul class="app">
+
+			<li>Adobe Illustrator</li>
+			<li>FaceTime</li>
+			<li>Firefox</li>
+			<li>Google Chrome</li>
+			<li>InDesign</li>
+			<li>Keynote</li>
+			<li>Lightroom</li>
+			<li>Mail</li>
+			<li>Microsoft PowerPoint</li>
+			<li>Microsoft Teams</li>
+			<li>Pages</li>
+			<li>Photoshop</li>
+			<li>Safari</li>
+			<li>Skype</li>
+			<li>Sublime Text</li>
+			<li>WhatsApp</li>
+			<li>iMovie</li>
+			<li>Zoom.us</li>
+		</ul>
+
+		<object id="timeline" data="illustrator.svg" width="2050" height="auto"></object>
+		<div id="container_data"></div>
+
+
+
+	</main> 
+
+
+
+
+	<style type="text/css">
+		
+
+		body {
+			
+		background-color: #0F2100;
+		font-family: "helvetica LT";
+		font-size: 15px;
+		color: white;
+
+
+
+		}
+		.tooltip {
+			opacity: 0;
+
+		}
+
+		.box:hover .tooltip {
+			opacity: 1;
+
+		}
+
+
+		.box:hover .tooltip {
+			opacity: 1;
+
+		}
+
+
+		p { 
+			margin-top: 20px;
+			margin-left: 60px;
+			font-size: 15px;
+			line-height: 25px;
+			color: white;
+			font-weight: lighter;
+
+		}
+
+
+ 		h1 {
+ 			margin-top: 70px;
+			margin-left: 60px;
+ 			margin-bottom: 0px;
+			color: white;
+			font-weight: bold;
+ 	
+ 		}
+
+ 		h2 { 
+			margin-top: 20px;
+			margin-left: 680px;
+			font-size: 13px;
+			line-height: 25px;
+			font-weight: lighter;
+			color: white;
+			list-style: none;
+
+		}
+
+
+
+		#timeline {
+			
+			position:relative;
+			margin-left: 286px;
+			top: -583px;
+			color: white;
+			z-index:-1;
+
+
+		}
+
+		
+		#container_data {
+			position: relative;
+			margin-left: 120px;
+			top: 130px;
+			font-color: white;
+		
+
+		}	
+
+
+
+		.app {
+			margin-left: 20px;
+			position: fixed;
+			margin-top: -490px;
+			background-color: #0F2100  ;
+			opacity:1;
+			padding-right: 15px;
+			list-style: none;
+			line-height: 2.10em;
+			z-index:2;
+			font-color: white;
+			
+		}
+
+
+
+ 		.titolo-sezione {
+ 			width: 1em;
+ 			float: top;
+ 
+ 		}
+
+ 
+ 		.contenuto-sezione {
+ 			width: 40em;
+ 			float: left;
+ 		
+ 		}
+
+ 		.contenitore {
+ 		width: 20em;
+
+ 		}
+
+		
+
+		/* finestra */
+
+			::-webkit-scrollbar {
+ 			 width: 0px;
+   			 overflow:   scroll;
+		}
+
+			::-webkit-scrollbar-track {
+  			box-shadow: inset 0 0 5px grey; 
+  			border-radius: 10px;
+		}
+ 
+			::-webkit-scrollbar-thumb {
+  			background: yellow; 
+  			border-radius: 10px;
+		}
+
+			::-webkit-scrollbar-thumb:hover {
+  			background: white; 
+		}
+
+
+	</style>
+
+	<script>
+
+
+
+		fetch("list.tsv").then(function (result){
+			return result.text()
+		}).then(function (data){
+			run(data.trim())
+		})
+
+		function run(txt) {
+			let list = txt.split("\n")	
+
+		
+			let app_count = -1;
+			let app_array = [];
+
+			
+			let day_count = -1;
+			let day_array = [];
+
+			list = list.map(function(el, idx, arr){
+				const line = el.split('\t');
+
+				
+				let app = line[1];
+				if (app_array.includes(app)) {
+				}
+				else {
+					app_array.push(app);
+					app_count += 1;
+				}
+
+				
+				let day = line[0];
+				if (day_array.includes(day)) {
+				}
+				else {
+					day_array.push(day);
+					day_count += 1;
+				}
+
+				return {
+					day: day,
+					app: app,
+					clicks: line[2]				
+				}
+			})
+			console.log(app_count,day_count);
+
+			let container = document.getElementById("container_data");
+			let dati = "";
+
+			dati += "<svg id='container' width='3060' height='630'><g transform='translate(0,0)'>"
+			
+			
+			let y = 0;
+			let x = 0;
+
+			
+			let rect_size = 30;
+			let size = 30;
+
+			
+			let color = "#FBFF02";
+
+
+
+			
+			let opacity;
+
+			
+			function scale(num, in_min, in_max, out_min, out_max) {
+				return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+			}
+
+			
+			dati += "<g transform='translate(0," + ((size*app_count)+1) + ")'>";
+			for (let i=1; i<list.length; i++){
+
+				x_ = Math.ceil(i/app_count);
+				x = x_ * (rect_size+1);
+
+				y_ = Math.ceil(i - (app_count*x_) )
+				y = y_ * (rect_size+1);
+				
+
+				let value = list[i].clicks;
+				opacity = scale(value, 0, 548.31145, 0.18, 1);
+
+				
+				let classe = list[i].day + "_" + list[i].app;
+				let distanza_da_etichette = - 1600;
+				dati += "<g class='box " + classe + "' transform='translate(" + (distanza_da_etichette + (rect_size*day_count)) + "," + y + ")'>";
+
+				
+				dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='0' fill='" + color +"' opacity='" + opacity + "'></rect>"
+
+				
+				dati += "<g class='tooltip'>"
+
+				
+				dati += "<text x='" + (x+10) + "' y='20' text-anchor='middle'>"  + value + "</text> " 
+
+
+
+				
+				dati += "</g>"
+
+				
+				dati += "</g>"
+			}
+			
+			dati += "</g>";
+
+
+		
+			dati += "</g></svg>"
+			container.innerHTML = dati;
+
+
+		}
+
+
+	</script>
+	
+</body>
+</html>
