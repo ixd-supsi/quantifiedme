@@ -1,0 +1,81 @@
+* {
+	font-family: Helvetica;
+	font-weight: bold;
+	margin:0;
+}
+
+.container {
+	margin-top: 25px;
+ 	margin-left: 3%;
+  	width: 94%;
+}
+
+.inline {
+	display: inline-block;
+	width: 43%;
+ 	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.barra {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	padding: 0;
+	margin-bottom: -5px;
+}
+
+
+.calendario {
+	font-size: 13px;
+	text-align: left;
+}
+
+.utilizzo {
+	font-size: 13px;
+	text-align: left;
+}
+
+p {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.testo {
+	width: 70%;
+}
+
+
+p.app {
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+
+
+.bottoni {
+	float: right;
+	margin-right: 5px;
+	background-color: white;
+}
+
+h2 	{
+	display: inline-table;
+	font-size: 24px;
+	opacity: 0.2;
+	margin-left: 30px;
+	cursor: pointer;
+}
+ 
+h2.selected{
+  opacity: 1;
+}
+
+
+
+
