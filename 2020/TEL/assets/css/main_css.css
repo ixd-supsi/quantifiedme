@@ -1,0 +1,138 @@
+body{
+	background-color: #161616;
+	margin: 0px;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.deltagraphs{
+	width: 4000px;
+	margin-left: 0px;
+	padding-top: 130px;
+	position: absolute;
+}
+
+.deltagraphs_second{
+	position: absolute;
+	width: 4000px;
+	top: 130px;
+	margin-left: 0px;
+	display: block;
+	position: fixed;
+	
+
+}
+
+
+
+
+.title{
+
+	color: white;
+	font-size: 70pt;
+	margin-left: 195px;
+	margin-top: 0px;
+	position: absolute;
+	letter-spacing: 0.3em;
+	position: fixed;
+	background-color: #161616;
+}
+
+.text{
+	width: 550px;
+
+	position: absolute;
+	color: white;
+	margin-left: 530px;
+	padding-left: 40px;
+	padding-right: 85px;
+	margin-top: 25px;
+	position: fixed;
+	background-color: #161616;
+	line-height: 1.5em;
+	font-size: 8pt;
+}
+
+.text_2{
+	width: 550px;
+
+	position: absolute;
+	color: white;
+	margin-left: 645px;
+	padding-left: 10px;
+	margin-top: 25px;
+	position: fixed;
+	background-color: #161616;
+	line-height: 1.5em;
+	font-size: 8pt;
+}
+
+.button_text{
+	color: white;
+	position: absolute;
+	font-size: 8pt;
+	left: 1330px;
+	top: 55px;
+	position: fixed;
+	text-align: right;
+	background-color: #161616;
+		line-height: 1.5em;
+}
+.button_text_2{
+	color: white;
+	position: absolute;
+	font-size: 8pt;
+	left: 1313px;
+	top: 55px;
+	position: fixed;
+	text-align: right;
+	background-color: #161616;
+	padding-left: 30px;
+	padding-left: 30px;
+		line-height: 1.5em;
+}
+
+.click{
+	background-color: #161616; 
+}
+.time{
+	background-color: #161616; 
+	position: absolute;
+}
+/*-------
+button{
+	position: relative;
+	margin-left: 1200px;
+	margin-top: 50px;
+
+}
+-----*/
+
+button {
+
+	position: absolute;
+	position: fixed;
+  background-color: #161616; 
+  border: 1px solid #ffffff;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: 14px;
+  right: 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #edff80;
+  color: #161616;
+}
+
+
+
+
+
+

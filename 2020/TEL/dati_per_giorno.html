@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tapper</title>
+</head>
+<body>
+	<pre id="container_data"></pre>
+
+	<script>
+
+		fetch("data.tsv").then(function (result){
+			return result.text()
+		}).then(function (data){
+			run(data.trim())
+		})
+
+		function format_date(date) {
+			let data_string = ""
+
+			data_string += date.getUTCDate().toString().padStart(2, 0)     	+ "/"
+			data_string += (date.getUTCMonth()+1).toString().padStart(2, 0)				
+			// data_string += date.getUTCFullYear().toString()   				+ " "
+			// data_string += date.getUTCHours().toString().padStart(2, 0)   	+ ":"
+			// data_string += date.getUTCMinutes().toString().padStart(2, 0) 	+ ":"
+			// data_string += date.getUTCSeconds().toString().padStart(2, 0)
+			return data_string
+		}
+
+		function run(txt) {
+			let list = txt.split("\n")		
+			// console.log("number of lines: " + list.length)	
+
+			list = list.map(function(el, idx, arr){
+				const line = el.split('\t');
+				let app = line[2];
+				let category;
+				
+					
+			
+
+				// classificazione applicazioni
+				if (app == "Google Chrome" || app == "Safari"){
+					category = "Research"
+				}
+				else if (app == "Adobe Illustrator 2020" || app == "Photoshop" || app == "Lightroom Classic" || app == "Adobe Premiere Pro 2020"|| app == "Adobe After Effects" || app =="InDesign" ) {
+					category = "Design"
+				}
+
+				else if (app == "Skype" || app == "zoom.us" || app == "Microsoft Teams" || app == "Slack") {
+					category = "Comunication"
+				}
+
+				else if (app == "Sublime Text" || app == "XD") {
+					category = "Web Develop"
+				}
+
+				else {
+					category = "other"
+				}
+
+				return {
+					time: Math.floor(line[0] * 1000),
+					type: line[1],
+					app: line[2],
+					clicks: parseInt(line[4]),
+					category: category,
+				}
+			})
+
+
+			// aggiunzione delta// 
+			for (let i=0; i<list.length-1; i++){ // 
+				list[i].delta = list[i+1].time - list[i].time
+				list[i].start_date = format_date(new Date(list[i].time))
+				list[i].end_date = format_date(new Date(list[i+1].time))
+			}
+			// console.log(list);
+			// console.table(Array.from(list.values()))
+
+			// lista dei giorni
+			let day_array = []
+			let day_count = 10
+			let day;
+
+			// conteggio dei giorni
+			for (let i=0; i<list.length-1; i++){
+				let day = list[i].start_date.substring(0, 10)
+
+				if (day_array.includes(day)) {
+					list[i].day_count = day_count;
+					list[i].day = day;
+				}
+				else {
+					day_count += 1
+					day_array.push(day);
+					list[i].day_count = day_count;
+					list[i].day = day;
+				}
+				console.log(day)
+			}
+
+			// selezione contenitore del dataset
+			let container = document.getElementById("container_data");
+			let dati = "";
+			
+			// hearder del dataset
+			dati += "data_inizio" + "\t"
+			dati += "data_fine" + "\t"
+			dati += "giorno" + "\t"
+			dati += "delta" + "\t"
+			dati += "app" + "\t"
+			dati += "click" + "\t"
+			dati += "categoria"
+			dati += "\n" 
+
+			// dati finali
+			for(let i=0; i<list.length-1; i++){
+
+				dati += list[i].start_date + "\t"
+				dati += list[i].end_date + "\t"
+				dati += list[i].day_count + "_" + list[i].day + "\t"
+				dati += list[i].delta + "\t"
+				dati += list[i].app + "\t"
+				dati += list[i].clicks + "\t"
+				dati += list[i].category
+				dati += "\n"
+			}
+			container.innerHTML = dati
+		}
+
+	</script>
+	
+</body>
+</html>

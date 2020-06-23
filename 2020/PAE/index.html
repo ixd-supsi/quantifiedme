@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tapper</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Quantified Me - PAE</title>
+	<meta name="author" content="Paglione Elena">
+	<meta name="copyright" content="©2020">
+	<meta name="description" content="Quantified Me">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<style type="text/css">
+		text {pointer-events: none;}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: helvetica;
+			font-size: 12px;
+		}
+		.tooltip {
+			opacity: 0;
+		}
+		.box:hover .tooltip {
+			opacity: 2;
+		}
+
+
+		h1{
+		padding-left: 160px;
+		padding-top: 45px;
+		}
+
+		p {
+			margin-left: 160px;
+			font-size: 14px;
+			/*padding-right: 70%;
+			padding-bottom: 50px;*/
+		}
+
+		header {
+			position:fixed;
+		}
+
+		header p {
+			width: 35%;
+		}
+
+		/*modifico la posizione delle date*/
+		#timeline {
+			position: relative;
+			margin-left: 155px;
+			top: 610px;
+
+		/*il padding è quello dei testi delle app! non del rettangolo*/
+		}
+		.apps {
+			position:fixed;
+			top: 175px;
+			background-color: white;
+			opacity: 0.7;
+			padding: 13px;
+			list-style: none;
+			line-height: 70px;
+			z-index:2;
+		}
+
+		/*posso modificare la distanza dei quadrati dall'alto*/
+		#container_data {
+			position: relative;
+			top: 150px;
+			left: 0px;
+		}
+
+		#info {
+			position: fixed;
+			font-size: 9px;
+			top: 700px;
+		}
+
+		/*footer {
+			position: fixed;
+			bottom: 715px;
+			padding-left: 820px;		}
+
+		footer p {
+			width: 90%;
+		}*/
+
+
+
+	</style>
+
+	<header>
+		<h1>Heatmap delle abitudini digitali di Elena</h2>
+			<p>Di seguito una rappresentazione del numero di click effettuati giornalmente nel corso di due mesi per ogni gruppo di applicazione. E' quindi stato preso in considerazione un lasso di tempo che ricopre tutto il mese di marzo e aprile, in base al gruppo di applicazioni universitarie.</p> <br>
+	</header>
+
+
+	<main>
+		<ul class="apps">
+			<li>Programmi Adobe</li>
+			<li>Editor di codice</li>
+			<li>App di comunicazione</li>
+			<li>Browser</li>
+			<li>App di Sistema</li>
+			<li>Altro</li>
+		</ul>
+
+		<object id="timeline" data="date.svg" width="1920" height="auto"></object>
+		<div id="container_data"></div>
+	</main>
+
+		<p id=info>
+			Progetto di data vizualisation interattiva - SUPSI - Corso di Interaction Design - A.A 2019-2020 - Docenti: Andreas Gysin, Giovanni Profeta - Studente: Paglione Elena
+		</p>
+
+	<script>
+
+		fetch("list.tsv").then(function (result){
+			return result.text()
+		}).then(function (data){
+			run(data.trim())
+		})
+
+		function run(txt) {
+			let list = txt.split("\n")		
+			// console.log("number of lines: " + list.length)	
+
+			// conto il numero di applicazioni
+			let app_count = -1;
+			let app_array = [];
+
+			// conto il numero di giorni 
+			let day_count = -1;
+			let day_array = [];
+
+			list = list.map(function(el, idx, arr){
+				const line = el.split('\t');
+
+				// app
+				let app = line[1];
+				if (app_array.includes(app)) {
+				}
+				else {
+					app_array.push(app);
+					app_count += 1;
+				}
+
+				// giorni
+				let day = line[0];
+				if (day_array.includes(day)) {
+				}
+				else {
+					day_array.push(day);
+					day_count += 1;
+				}
+
+				return {
+					day: day,
+					app: app,
+					clicks: Math.floor(line[2])				
+				}
+			})
+			console.log(app_count,day_count);
+
+			let container = document.getElementById("container_data");
+			let dati = "";
+
+			dati += "<svg id='container' width='2100' height='570'><g transform='translate(15,130)'>"
+			
+			// posizione di base dei rettangoli
+			let y = 0;
+			let x = 0;
+
+			// lato del quadrato
+			let rect_size = 30;
+			let size = 40;
+
+			// colore
+			let color = "blue"// "black";
+
+			// opacità
+			let opacity;
+
+			// dimensione dei cerchi
+			//let circle_size = 800;
+
+			// inserisco i nomi delle app e il colore o i colori
+			dati += "<g>";
+			let text_color;
+			for (let i=1; i<list.length; i++){
+				if (i < (app_count+1) ) {
+					
+					if(list[i].app == "Browser" || list[i].app == "Browser"){
+						text_color = "grey"
+					}
+					else {
+						text_color = "Black"
+					}
+
+					// dati += "<text x='" + 20 + "' y='" + ((size+1)*i) + "' fill='" + text_color + "'>" + list[i].app + "</text>"
+				}
+			}
+			dati += "</g>";
+
+			// funzione per scalare l'opacità (o la grandezza)
+			function scale(num, in_min, in_max, out_min, out_max) {
+				return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+			}
+
+			// inserisco rettangoli e 0 è per allineare tabella e testo
+			dati += "<g transform='translate(0," + ( ((size*app_count)+1) + 0) + ")'>";
+			for (let i=1; i<list.length; i++){
+
+				x_ = Math.ceil(i/app_count);
+				x = x_ * (rect_size+1);
+
+				y_ = Math.ceil(i - (app_count*x_) )
+				y = y_ * (rect_size+1);
+				// console.log(i,y_,x_);
+
+
+				// da spegnere
+				// if(list[i].app == "InDesign" || list[i].app == "Photoshop"){
+				// 	text_color = "blue"
+				// }
+				// else if (list[i].app == "Anteprima") {
+				// 	text_color = "violet"
+				// }
+				// else {
+				// 	text_color = "orange"
+				// }
+				// da spegnere
+
+
+				let value = list[i].clicks;
+				opacity = scale(value, 0.006666666667, 443.1776667, 0.2, 1);
+				// opacity = 1;
+				hue = scale(value, 0.006666666667, 443.1776667, 77, 271);
+
+				// ratio = atezza quadratini
+				let ratio = 2.2;
+
+				// genero gruppo
+				let classe = list[i].day + "_" + list[i].app;
+				let distanza_da_etichette = -1720;
+				dati += "<g class='box " + classe + "' transform='translate(" + (distanza_da_etichette + (rect_size*day_count)) + "," + (y*ratio) + ")'>";
+
+				// aggiungo i regttangoli
+				dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='7' fill='" + color + "' opacity='" + opacity + "' class='val'></rect>"
+
+				// dati += "<rect width='" + rect_size + "' height='" + rect_size + "' x='" + x + "' y='0' fill='" + text_color + "' opacity='" + opacity + "'></rect>"
+
+
+				
+
+				// tooltip- apro gruppo
+				dati += "<g class='tooltip'>"
+
+				// tooltip - inserisco rettangolo e testo
+				// dati += "<rect x='" + (x) + "' y='0' width='30' height='30' fill='orange'></rect>"
+				dati += "<text x='" + (x+14.7) + "' y='26.5' text-anchor='middle'>" + value + "</text>"
+
+				// tooltip -chiudo gruppo
+				dati += "</g>"
+
+				// chiudo il gruppo con il rettangolo
+				dati += "</g>"
+			}
+			// chiudo il gruppo con tutti i rettangoli
+			dati += "</g>";
+
+
+			// chiudo l'svg
+			dati += "</g></svg>"
+
+			// riporto l'svg dentro al contenitore
+			container.innerHTML = dati;
+		}
+
+
+	</script>
+
+<script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+
+</script>
+
+
+<script src="../common/common.js" type="module"></script>
+	
+</body>
+</html>
