@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Data Visualization</title>
+	
+	<link rel="stylesheet" href="assets/css/main_css.css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+	
+
+
+<div id="click" class="click">
+	
+	<div class="title">
+
+		<h>Click</h>
+		
+	</div>
+
+
+
+	<div class="text_2">
+
+		<p>Rappresentazione grafica di una serie di dati raccolti in relazione al numero di click effettuati all'interno di alcune app. Il perido nel quale sono stati raccolti questi dati è all'incirca tre mesi, dai primi di Marzo alla prima settimana di Giugno. Ogni riga del grafico si riferisce ad una categoria di applicazioni.</p>
+		
+	</div>
+
+	<div class="deltagraphs">
+
+		<img src="assets/img/click_1.svg" alt="">
+		
+	</div>
+
+	<div class="deltagraphs_second">
+
+		<img src="assets/img/click_02.svg" alt="">
+		
+	</div>
+
+	<div class="button_text">
+
+		<p>Passa al grfico<br>sul tempo di utilizzo</p>
+		
+	</div>
+
+</div>
+
+<div id="time" class="time">
+	
+	<div class="title">
+
+		<h>Time</h>
+		
+	</div>
+
+	<div class="text">
+
+		<p>Rappresentazione grafica di una serie di dati raccolti in relazione al tempo di utilizzo di alcune app. Il perido nel quale sono stati raccolti questi dati è all'incirca tre mesi, dai primi di Marzo alla prima settimana di Giugno. Ogni riga del grafico si riferisce ad una categoria di applicazioni. </p>
+		
+	</div>
+
+
+	<div class="deltagraphs">
+
+		<img src="assets/img/minutes_1_ok.svg" alt="">
+		
+	</div>
+
+	<div class="deltagraphs_second">
+
+		<img src="assets/img/minutes_2_ok.svg" alt="">
+		
+	</div>
+	<div class="button_text_2">
+
+		<p>Passa al grfico<br>sul numero di click</p>
+		
+	</div>
+
+</div>
+
+
+<button id="but" data-default-text="Time" data-new-text="Click" onclick="myFunction()">SWITCH</button>
+
+
+<script>
+
+
+function myFunction() {
+  var x = document.getElementById("time");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+  
+}
+
+
+
+
+</script>
+<script src="../common/common.js" type="module"></script>
+</body>
+</html>
